@@ -1,0 +1,8 @@
+it\welf\alfresco\deleter\model\ConfigManager.class
+it\welf\alfresco\deleter\service\CsvService.class
+it\welf\alfresco\deleter\App.class
+it\welf\alfresco\deleter\App$1.class
+it\welf\alfresco\deleter\service\AlfrescoService.class
+it\welf\alfresco\deleter\model\NodeInfo.class
+it\welf\alfresco\deleter\model\ConfigManager$ConnectionConfig.class
+it\welf\alfresco\deleter\Launcher.class

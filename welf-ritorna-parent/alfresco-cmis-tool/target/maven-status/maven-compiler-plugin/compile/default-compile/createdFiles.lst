@@ -1,0 +1,7 @@
+it\welf\alfresco\tool\util\CryptoUtil.class
+it\welf\alfresco\tool\App.class
+it\welf\alfresco\tool\model\NodeInfo.class
+it\welf\alfresco\tool\ui\MainFrame$1.class
+it\welf\alfresco\tool\ui\MainFrame.class
+it\welf\alfresco\tool\util\ConfigManager.class
+it\welf\alfresco\tool\service\CmisService.class
