@@ -1,0 +1,1296 @@
+nodeId;path;principalId;permission
+655b774c-c784-4820-8551-f554acb848fc;/;super;cmis:all
+655b774c-c784-4820-8551-f554acb848fc;/;super;cmis:read
+655b774c-c784-4820-8551-f554acb848fc;/;super;cmis:write
+655b774c-c784-4820-8551-f554acb848fc;/;GROUP_EVERYONE;cmis:read
+3903e6de-6e67-4c7a-9a04-271d635f55b9;/Dizionario dati;GROUP_EVERYONE;cmis:read
+2d31b350-8403-4be1-8177-7c7bb43f04c6;/Dizionario dati/Estensione del client web;GROUP_EVERYONE;cmis:read
+replication_actions_space;/Dizionario dati/Spazio delle azioni di replica;GROUP_EVERYONE;cmis:read
+71f26a62-0149-4681-82bc-7bbb34ccb537;/Dizionario dati/Web Script;GROUP_EVERYONE;cmis:read
+aaa43784-9fd9-4e46-a4d3-6ff00f01b1eb;/Dizionario dati/Web Script/org;GROUP_EVERYONE;cmis:read
+af5199fa-405e-4e58-9c47-08bc525a9626;/Dizionario dati/Web Script/org/alfresco;GROUP_EVERYONE;cmis:read
+459f054f-9e92-46e2-88af-93ba7ab9401d;/Dizionario dati/Web Script/org/alfresco/sample;GROUP_EVERYONE;cmis:read
+a2395e75-a248-4cb2-904a-1be8b54d14ea;/Dizionario dati/Modelli di e-mail;GROUP_EVERYONE;cmis:read
+9beb459b-b90a-441d-9834-be81c8e39f2d;/Dizionario dati/Modelli di e-mail/Invito;GROUP_EVERYONE;cmis:read
+28d1b619-6930-4233-a9f4-819c8e9cc159;/Dizionario dati/Modelli di e-mail/Modelli di e-mail di notifica;GROUP_EVERYONE;cmis:read
+288d554e-57b1-480f-aa62-37141e3ab5c5;/Dizionario dati/Modelli di e-mail/Notifica workflow;GROUP_EVERYONE;cmis:read
+a8f57149-91c5-4d64-a516-0026dbb77e10;/Dizionario dati/Modelli di e-mail/Modelli di e-mail successivi;GROUP_EVERYONE;cmis:read
+5af1a54b-7ef1-46ae-8533-a0e896f49da4;/Dizionario dati/Modelli di e-mail/Attività;GROUP_EVERYONE;cmis:read
+b152bf23-93c5-4ab0-8a5e-7fb828ceec1c;/Dizionario dati/Modelli di e-mail/Modelli di e-mail di invito;GROUP_EVERYONE;cmis:read
+89ee0024-51af-42c7-9ae6-e56338735864;/Dizionario dati/Messaggi;GROUP_EVERYONE;cmis:read
+f929a50c-12ce-44e0-b389-5fe58a8d7861;/Dizionario dati/Download di cartelle intelligenti;GROUP_EVERYONE;cmis:read
+18501da9-f283-44c0-aa48-086b2c55771e;/Dizionario dati/Script;GROUP_EVERYONE;cmis:read
+31a207da-ce30-4ec4-8c14-35014d0decb1;/Dizionario dati/Estensioni dei Web Script;GROUP_EVERYONE;cmis:read
+solr_facets_root_space;/Dizionario dati/Spazio di ricerca Solr;GROUP_EVERYONE;cmis:read
+a9a9f477-5c57-11dc-ad6c-5136d620963c;/Dizionario dati/Modelli;GROUP_EVERYONE;cmis:read
+8e089208-9f4d-4355-b630-ceef13bbf394;/Dizionario dati/Azioni programmate;GROUP_EVERYONE;cmis:read
+e24af0c8-2c65-4273-ab0c-d5ef462c9952;/Dizionario dati/Modelli di nodi;GROUP_EVERYONE;cmis:read
+443439d8-1b8e-479c-b4df-151d11b612e2;/Dizionario dati/Modelli di cartella intelligente;GROUP_EVERYONE;cmis:read
+0e4e19e7-8e98-4a34-a04d-35e5861385bd;/Dizionario dati/Ricerche salvate;GROUP_EVERYONE;cmis:read
+efc5577b-e5d6-432d-96f7-f45cb69d986a;/Dizionario dati/Configurazioni IMAP;GROUP_EVERYONE;cmis:read
+0c3c1bc2-2d95-4a92-adf8-31f81e7725d2;/Dizionario dati/Configurazioni IMAP/Modelli;GROUP_EVERYONE;cmis:read
+6a969574-0c87-4d54-8a65-a065aee0b248;/Dizionario dati/Trasferimenti;GROUP_EVERYONE;cmis:read
+0e1eb49d-c78d-4143-b87d-8c0e99a5cdc4;/Dizionario dati/Trasferimenti/Temp;GROUP_EVERYONE;cmis:read
+88d2080f-2b6e-4d9b-ab8a-27924ef18867;/Dizionario dati/Trasferimenti/Gruppi di destinazioni di trasferimento;GROUP_EVERYONE;cmis:read
+d31bc466-58d8-4f43-a47f-abf4f2529420;/Dizionario dati/Trasferimenti/Gruppi di destinazioni di trasferimento/Gruppo predefinito;GROUP_EVERYONE;cmis:read
+55b7e777-6fa0-4ddd-a6d3-5f453927a651;/Dizionario dati/Trasferimenti/Record di trasferimento in ingresso;GROUP_EVERYONE;cmis:read
+2787fc77-2265-43a7-9fc3-9dc053f6f8e7;/Dizionario dati/Modelli di presentazione;GROUP_EVERYONE;cmis:read
+3dd356d8-a934-4125-8dd2-3f23a0c6f4f0;/Dizionario dati/Modelli di spazio;GROUP_EVERYONE;cmis:read
+01f18aba-efda-4e0d-b413-0df66544c3ea;/Dizionario dati/Modelli di spazio/Progetto di progettazione software;GROUP_EVERYONE;cmis:read
+fedc491a-99f3-47b4-9e0e-89360af162f3;/Dizionario dati/Modelli di spazio/Progetto di progettazione software/Presentazioni;GROUP_EVERYONE;cmis:read
+8c190c66-4c15-4744-bb9e-8ac8b26ae62c;/Dizionario dati/Modelli di spazio/Progetto di progettazione software/Discussioni;GROUP_EVERYONE;cmis:read
+b9949ce0-3a9d-4a99-8051-4aae17da2cdd;/Dizionario dati/Modelli di spazio/Progetto di progettazione software/Progettazione dell'interfaccia utente;GROUP_EVERYONE;cmis:read
+28fd77dd-c50d-4ec5-9c8e-624c3d4e1d0e;/Dizionario dati/Modelli di spazio/Progetto di progettazione software/Controllo qualità;GROUP_EVERYONE;cmis:read
+82df1d2b-d73e-47f1-9288-f57cf21550c7;/Dizionario dati/Modelli di spazio/Progetto di progettazione software/Documentazione;GROUP_EVERYONE;cmis:read
+1d8254d2-6fb5-479c-a927-7f3847713dfe;/Dizionario dati/Modelli di spazio/Progetto di progettazione software/Documentazione/Esempi;GROUP_EVERYONE;cmis:read
+1d65e9df-8932-4d99-9c36-07966a7e7995;/Dizionario dati/Modelli di spazio/Progetto di progettazione software/Documentazione/Approvazione in attesa;GROUP_EVERYONE;cmis:read
+bc4d082c-7566-4900-a91b-9177e6dbcfc9;/Dizionario dati/Modelli di spazio/Progetto di progettazione software/Documentazione/Pubblicato;GROUP_EVERYONE;cmis:read
+eeda59dd-687f-431b-84ef-cb245b2526fe;/Dizionario dati/Modelli di spazio/Progetto di progettazione software/Documentazione/Bozze;GROUP_EVERYONE;cmis:read
+63c4964f-c161-47b6-b8bd-7c0aab2434b2;/Dizionario dati/Modelli RSS;GROUP_EVERYONE;cmis:read
+63c4964f-c161-47b6-b8bd-7c0aab2434b2;/Dizionario dati/Modelli RSS;guest;cmis:read
+05590cd0-607e-11dc-af48-8b100325f217;/Dizionario dati/Definizioni di workflow;GROUP_EVERYONE;cmis:read
+rendering_actions_space;/Dizionario dati/Spazio delle azioni di rendering;GROUP_EVERYONE;cmis:read
+e59befa6-8f67-4dda-b529-3910436f9026;/Home page dell'ospite;GROUP_EVERYONE;cmis:read
+e59befa6-8f67-4dda-b529-3910436f9026;/Home page dell'ospite;guest;cmis:read
+e6ffb06d-e0cc-4b95-a1f9-7f417ccd2ead;/Siti;super;cmis:all
+e6ffb06d-e0cc-4b95-a1f9-7f417ccd2ead;/Siti;super;cmis:read
+e6ffb06d-e0cc-4b95-a1f9-7f417ccd2ead;/Siti;super;cmis:write
+e6ffb06d-e0cc-4b95-a1f9-7f417ccd2ead;/Siti;GROUP_EVERYONE;cmis:read
+51813807-b620-4569-8805-beb25b010602;/Siti/testwe;GROUP_site_testwe_SiteCollaborator;cmis:read
+51813807-b620-4569-8805-beb25b010602;/Siti/testwe;GROUP_site_testwe_SiteCollaborator;cmis:write
+51813807-b620-4569-8805-beb25b010602;/Siti/testwe;GROUP_site_testwe_SiteConsumer;cmis:read
+51813807-b620-4569-8805-beb25b010602;/Siti/testwe;GROUP_site_testwe_SiteContributor;cmis:read
+51813807-b620-4569-8805-beb25b010602;/Siti/testwe;GROUP_site_testwe_SiteManager;cmis:all
+51813807-b620-4569-8805-beb25b010602;/Siti/testwe;GROUP_site_testwe_SiteManager;cmis:read
+51813807-b620-4569-8805-beb25b010602;/Siti/testwe;GROUP_site_testwe_SiteManager;cmis:write
+68c854c3-24b7-41c8-90b2-a81d2c229fd6;/Siti/testwe/documentLibrary;GROUP_site_testwe_SiteCollaborator;cmis:read
+68c854c3-24b7-41c8-90b2-a81d2c229fd6;/Siti/testwe/documentLibrary;GROUP_site_testwe_SiteCollaborator;cmis:write
+68c854c3-24b7-41c8-90b2-a81d2c229fd6;/Siti/testwe/documentLibrary;GROUP_site_testwe_SiteConsumer;cmis:read
+68c854c3-24b7-41c8-90b2-a81d2c229fd6;/Siti/testwe/documentLibrary;GROUP_site_testwe_SiteContributor;cmis:read
+68c854c3-24b7-41c8-90b2-a81d2c229fd6;/Siti/testwe/documentLibrary;GROUP_site_testwe_SiteManager;cmis:all
+68c854c3-24b7-41c8-90b2-a81d2c229fd6;/Siti/testwe/documentLibrary;GROUP_site_testwe_SiteManager;cmis:read
+68c854c3-24b7-41c8-90b2-a81d2c229fd6;/Siti/testwe/documentLibrary;GROUP_site_testwe_SiteManager;cmis:write
+13dd782f-a093-42ce-887a-03a69708989b;/Siti/testwe/documentLibrary/Prova_TC97;GROUP_site_testwe_SiteCollaborator;cmis:read
+13dd782f-a093-42ce-887a-03a69708989b;/Siti/testwe/documentLibrary/Prova_TC97;GROUP_site_testwe_SiteCollaborator;cmis:write
+13dd782f-a093-42ce-887a-03a69708989b;/Siti/testwe/documentLibrary/Prova_TC97;GROUP_site_testwe_SiteConsumer;cmis:read
+13dd782f-a093-42ce-887a-03a69708989b;/Siti/testwe/documentLibrary/Prova_TC97;GROUP_site_testwe_SiteContributor;cmis:read
+13dd782f-a093-42ce-887a-03a69708989b;/Siti/testwe/documentLibrary/Prova_TC97;GROUP_site_testwe_SiteManager;cmis:all
+13dd782f-a093-42ce-887a-03a69708989b;/Siti/testwe/documentLibrary/Prova_TC97;GROUP_site_testwe_SiteManager;cmis:read
+13dd782f-a093-42ce-887a-03a69708989b;/Siti/testwe/documentLibrary/Prova_TC97;GROUP_site_testwe_SiteManager;cmis:write
+2cc2e1e8-a002-4970-80fa-3ae79a765e23;/Siti/testwe/documentLibrary/test_19112024;GROUP_site_testwe_SiteCollaborator;cmis:read
+2cc2e1e8-a002-4970-80fa-3ae79a765e23;/Siti/testwe/documentLibrary/test_19112024;GROUP_site_testwe_SiteCollaborator;cmis:write
+2cc2e1e8-a002-4970-80fa-3ae79a765e23;/Siti/testwe/documentLibrary/test_19112024;GROUP_site_testwe_SiteConsumer;cmis:read
+2cc2e1e8-a002-4970-80fa-3ae79a765e23;/Siti/testwe/documentLibrary/test_19112024;GROUP_site_testwe_SiteContributor;cmis:read
+2cc2e1e8-a002-4970-80fa-3ae79a765e23;/Siti/testwe/documentLibrary/test_19112024;GROUP_site_testwe_SiteManager;cmis:all
+2cc2e1e8-a002-4970-80fa-3ae79a765e23;/Siti/testwe/documentLibrary/test_19112024;GROUP_site_testwe_SiteManager;cmis:read
+2cc2e1e8-a002-4970-80fa-3ae79a765e23;/Siti/testwe/documentLibrary/test_19112024;GROUP_site_testwe_SiteManager;cmis:write
+8e56fc53-e940-4af9-b605-bb0dd1d6552e;/Siti/testwe/documentLibrary/18_03;GROUP_site_testwe_SiteCollaborator;cmis:read
+8e56fc53-e940-4af9-b605-bb0dd1d6552e;/Siti/testwe/documentLibrary/18_03;GROUP_site_testwe_SiteCollaborator;cmis:write
+8e56fc53-e940-4af9-b605-bb0dd1d6552e;/Siti/testwe/documentLibrary/18_03;GROUP_site_testwe_SiteConsumer;cmis:read
+8e56fc53-e940-4af9-b605-bb0dd1d6552e;/Siti/testwe/documentLibrary/18_03;GROUP_site_testwe_SiteContributor;cmis:read
+8e56fc53-e940-4af9-b605-bb0dd1d6552e;/Siti/testwe/documentLibrary/18_03;GROUP_site_testwe_SiteManager;cmis:all
+8e56fc53-e940-4af9-b605-bb0dd1d6552e;/Siti/testwe/documentLibrary/18_03;GROUP_site_testwe_SiteManager;cmis:read
+8e56fc53-e940-4af9-b605-bb0dd1d6552e;/Siti/testwe/documentLibrary/18_03;GROUP_site_testwe_SiteManager;cmis:write
+86f5df43-a4e0-4803-84af-edf2abd8e68e;/Siti/testwe/documentLibrary/creazione_cartella;GROUP_site_testwe_SiteCollaborator;cmis:read
+86f5df43-a4e0-4803-84af-edf2abd8e68e;/Siti/testwe/documentLibrary/creazione_cartella;GROUP_site_testwe_SiteCollaborator;cmis:write
+86f5df43-a4e0-4803-84af-edf2abd8e68e;/Siti/testwe/documentLibrary/creazione_cartella;GROUP_site_testwe_SiteConsumer;cmis:read
+86f5df43-a4e0-4803-84af-edf2abd8e68e;/Siti/testwe/documentLibrary/creazione_cartella;GROUP_site_testwe_SiteContributor;cmis:read
+86f5df43-a4e0-4803-84af-edf2abd8e68e;/Siti/testwe/documentLibrary/creazione_cartella;GROUP_site_testwe_SiteManager;cmis:all
+86f5df43-a4e0-4803-84af-edf2abd8e68e;/Siti/testwe/documentLibrary/creazione_cartella;GROUP_site_testwe_SiteManager;cmis:read
+86f5df43-a4e0-4803-84af-edf2abd8e68e;/Siti/testwe/documentLibrary/creazione_cartella;GROUP_site_testwe_SiteManager;cmis:write
+6c0d1da1-bdc3-401b-92e9-0422c923a1cb;/Siti/testwe/documentLibrary/22072025_test;GROUP_site_testwe_SiteCollaborator;cmis:read
+6c0d1da1-bdc3-401b-92e9-0422c923a1cb;/Siti/testwe/documentLibrary/22072025_test;GROUP_site_testwe_SiteCollaborator;cmis:write
+6c0d1da1-bdc3-401b-92e9-0422c923a1cb;/Siti/testwe/documentLibrary/22072025_test;GROUP_site_testwe_SiteConsumer;cmis:read
+6c0d1da1-bdc3-401b-92e9-0422c923a1cb;/Siti/testwe/documentLibrary/22072025_test;GROUP_site_testwe_SiteContributor;cmis:read
+6c0d1da1-bdc3-401b-92e9-0422c923a1cb;/Siti/testwe/documentLibrary/22072025_test;GROUP_site_testwe_SiteManager;cmis:all
+6c0d1da1-bdc3-401b-92e9-0422c923a1cb;/Siti/testwe/documentLibrary/22072025_test;GROUP_site_testwe_SiteManager;cmis:read
+6c0d1da1-bdc3-401b-92e9-0422c923a1cb;/Siti/testwe/documentLibrary/22072025_test;GROUP_site_testwe_SiteManager;cmis:write
+64b711bd-fff6-49bd-97cd-3e4dbddc13d3;/Siti/testwe/documentLibrary/Test12092024;GROUP_site_testwe_SiteCollaborator;cmis:read
+64b711bd-fff6-49bd-97cd-3e4dbddc13d3;/Siti/testwe/documentLibrary/Test12092024;GROUP_site_testwe_SiteCollaborator;cmis:write
+64b711bd-fff6-49bd-97cd-3e4dbddc13d3;/Siti/testwe/documentLibrary/Test12092024;GROUP_site_testwe_SiteConsumer;cmis:read
+64b711bd-fff6-49bd-97cd-3e4dbddc13d3;/Siti/testwe/documentLibrary/Test12092024;mjackson;cmis:read
+64b711bd-fff6-49bd-97cd-3e4dbddc13d3;/Siti/testwe/documentLibrary/Test12092024;GROUP_site_testwe_SiteContributor;cmis:read
+64b711bd-fff6-49bd-97cd-3e4dbddc13d3;/Siti/testwe/documentLibrary/Test12092024;GROUP_site_testwe_SiteManager;cmis:all
+64b711bd-fff6-49bd-97cd-3e4dbddc13d3;/Siti/testwe/documentLibrary/Test12092024;GROUP_site_testwe_SiteManager;cmis:read
+64b711bd-fff6-49bd-97cd-3e4dbddc13d3;/Siti/testwe/documentLibrary/Test12092024;GROUP_site_testwe_SiteManager;cmis:write
+abde8bf6-e44b-4e25-a705-79f4f921db02;/Siti/testwe/documentLibrary/prova26052025;GROUP_site_testwe_SiteCollaborator;cmis:read
+abde8bf6-e44b-4e25-a705-79f4f921db02;/Siti/testwe/documentLibrary/prova26052025;GROUP_site_testwe_SiteCollaborator;cmis:write
+abde8bf6-e44b-4e25-a705-79f4f921db02;/Siti/testwe/documentLibrary/prova26052025;GROUP_site_testwe_SiteConsumer;cmis:read
+abde8bf6-e44b-4e25-a705-79f4f921db02;/Siti/testwe/documentLibrary/prova26052025;GROUP_site_testwe_SiteContributor;cmis:read
+abde8bf6-e44b-4e25-a705-79f4f921db02;/Siti/testwe/documentLibrary/prova26052025;GROUP_site_testwe_SiteManager;cmis:all
+abde8bf6-e44b-4e25-a705-79f4f921db02;/Siti/testwe/documentLibrary/prova26052025;GROUP_site_testwe_SiteManager;cmis:read
+abde8bf6-e44b-4e25-a705-79f4f921db02;/Siti/testwe/documentLibrary/prova26052025;GROUP_site_testwe_SiteManager;cmis:write
+94bc1c46-9d94-490f-85b6-69e1f38affc9;/Siti/testwe/documentLibrary/Prova_LO;GROUP_site_testwe_SiteCollaborator;cmis:read
+94bc1c46-9d94-490f-85b6-69e1f38affc9;/Siti/testwe/documentLibrary/Prova_LO;GROUP_site_testwe_SiteCollaborator;cmis:write
+94bc1c46-9d94-490f-85b6-69e1f38affc9;/Siti/testwe/documentLibrary/Prova_LO;GROUP_site_testwe_SiteConsumer;cmis:read
+94bc1c46-9d94-490f-85b6-69e1f38affc9;/Siti/testwe/documentLibrary/Prova_LO;GROUP_site_testwe_SiteContributor;cmis:read
+94bc1c46-9d94-490f-85b6-69e1f38affc9;/Siti/testwe/documentLibrary/Prova_LO;GROUP_site_testwe_SiteManager;cmis:all
+94bc1c46-9d94-490f-85b6-69e1f38affc9;/Siti/testwe/documentLibrary/Prova_LO;GROUP_site_testwe_SiteManager;cmis:read
+94bc1c46-9d94-490f-85b6-69e1f38affc9;/Siti/testwe/documentLibrary/Prova_LO;GROUP_site_testwe_SiteManager;cmis:write
+84db6a43-3fe1-47ea-9ee5-41620be587f6;/Siti/testwe/documentLibrary/test_31032025;GROUP_site_testwe_SiteCollaborator;cmis:read
+84db6a43-3fe1-47ea-9ee5-41620be587f6;/Siti/testwe/documentLibrary/test_31032025;GROUP_site_testwe_SiteCollaborator;cmis:write
+84db6a43-3fe1-47ea-9ee5-41620be587f6;/Siti/testwe/documentLibrary/test_31032025;GROUP_site_testwe_SiteConsumer;cmis:read
+84db6a43-3fe1-47ea-9ee5-41620be587f6;/Siti/testwe/documentLibrary/test_31032025;GROUP_site_testwe_SiteContributor;cmis:read
+84db6a43-3fe1-47ea-9ee5-41620be587f6;/Siti/testwe/documentLibrary/test_31032025;GROUP_site_testwe_SiteManager;cmis:all
+84db6a43-3fe1-47ea-9ee5-41620be587f6;/Siti/testwe/documentLibrary/test_31032025;GROUP_site_testwe_SiteManager;cmis:read
+84db6a43-3fe1-47ea-9ee5-41620be587f6;/Siti/testwe/documentLibrary/test_31032025;GROUP_site_testwe_SiteManager;cmis:write
+42639188-70ee-41e9-b74b-b4215ef1bc49;/Siti/testwe/documentLibrary/2025;GROUP_site_testwe_SiteCollaborator;cmis:read
+42639188-70ee-41e9-b74b-b4215ef1bc49;/Siti/testwe/documentLibrary/2025;GROUP_site_testwe_SiteCollaborator;cmis:write
+42639188-70ee-41e9-b74b-b4215ef1bc49;/Siti/testwe/documentLibrary/2025;GROUP_site_testwe_SiteConsumer;cmis:read
+42639188-70ee-41e9-b74b-b4215ef1bc49;/Siti/testwe/documentLibrary/2025;GROUP_site_testwe_SiteContributor;cmis:read
+42639188-70ee-41e9-b74b-b4215ef1bc49;/Siti/testwe/documentLibrary/2025;GROUP_site_testwe_SiteManager;cmis:all
+42639188-70ee-41e9-b74b-b4215ef1bc49;/Siti/testwe/documentLibrary/2025;GROUP_site_testwe_SiteManager;cmis:read
+42639188-70ee-41e9-b74b-b4215ef1bc49;/Siti/testwe/documentLibrary/2025;GROUP_site_testwe_SiteManager;cmis:write
+3ca6506b-ed60-4981-8137-2e2bd9f056f3;/Siti/testwe/documentLibrary/2025/test_1401;GROUP_site_testwe_SiteCollaborator;cmis:read
+3ca6506b-ed60-4981-8137-2e2bd9f056f3;/Siti/testwe/documentLibrary/2025/test_1401;GROUP_site_testwe_SiteCollaborator;cmis:write
+3ca6506b-ed60-4981-8137-2e2bd9f056f3;/Siti/testwe/documentLibrary/2025/test_1401;GROUP_site_testwe_SiteConsumer;cmis:read
+3ca6506b-ed60-4981-8137-2e2bd9f056f3;/Siti/testwe/documentLibrary/2025/test_1401;GROUP_site_testwe_SiteContributor;cmis:read
+3ca6506b-ed60-4981-8137-2e2bd9f056f3;/Siti/testwe/documentLibrary/2025/test_1401;GROUP_site_testwe_SiteManager;cmis:all
+3ca6506b-ed60-4981-8137-2e2bd9f056f3;/Siti/testwe/documentLibrary/2025/test_1401;GROUP_site_testwe_SiteManager;cmis:read
+3ca6506b-ed60-4981-8137-2e2bd9f056f3;/Siti/testwe/documentLibrary/2025/test_1401;GROUP_site_testwe_SiteManager;cmis:write
+0faf86bb-04b7-4967-ba40-1d5477dc4729;/Siti/sitogialli2;GROUP_site_sitogialli2_SiteCollaborator;cmis:read
+0faf86bb-04b7-4967-ba40-1d5477dc4729;/Siti/sitogialli2;GROUP_site_sitogialli2_SiteCollaborator;cmis:write
+0faf86bb-04b7-4967-ba40-1d5477dc4729;/Siti/sitogialli2;GROUP_site_sitogialli2_SiteConsumer;cmis:read
+0faf86bb-04b7-4967-ba40-1d5477dc4729;/Siti/sitogialli2;GROUP_site_sitogialli2_SiteManager;cmis:all
+0faf86bb-04b7-4967-ba40-1d5477dc4729;/Siti/sitogialli2;GROUP_site_sitogialli2_SiteManager;cmis:read
+0faf86bb-04b7-4967-ba40-1d5477dc4729;/Siti/sitogialli2;GROUP_site_sitogialli2_SiteManager;cmis:write
+0faf86bb-04b7-4967-ba40-1d5477dc4729;/Siti/sitogialli2;GROUP_site_sitogialli2_SiteContributor;cmis:read
+9e186f2d-5a61-4915-a2c5-4b158fc4deae;/Siti/sitogialli2/documentLibrary;GROUP_site_sitogialli2_SiteCollaborator;cmis:read
+9e186f2d-5a61-4915-a2c5-4b158fc4deae;/Siti/sitogialli2/documentLibrary;GROUP_site_sitogialli2_SiteCollaborator;cmis:write
+9e186f2d-5a61-4915-a2c5-4b158fc4deae;/Siti/sitogialli2/documentLibrary;GROUP_site_sitogialli2_SiteConsumer;cmis:read
+9e186f2d-5a61-4915-a2c5-4b158fc4deae;/Siti/sitogialli2/documentLibrary;GROUP_site_sitogialli2_SiteManager;cmis:all
+9e186f2d-5a61-4915-a2c5-4b158fc4deae;/Siti/sitogialli2/documentLibrary;GROUP_site_sitogialli2_SiteManager;cmis:read
+9e186f2d-5a61-4915-a2c5-4b158fc4deae;/Siti/sitogialli2/documentLibrary;GROUP_site_sitogialli2_SiteManager;cmis:write
+9e186f2d-5a61-4915-a2c5-4b158fc4deae;/Siti/sitogialli2/documentLibrary;GROUP_site_sitogialli2_SiteContributor;cmis:read
+ade65eb1-8cfd-40f4-b63a-39f2287c1a20;/Siti/sitogialli2/documentLibrary/cartella1;GROUP_site_sitogialli2_SiteCollaborator;cmis:read
+ade65eb1-8cfd-40f4-b63a-39f2287c1a20;/Siti/sitogialli2/documentLibrary/cartella1;GROUP_site_sitogialli2_SiteCollaborator;cmis:write
+ade65eb1-8cfd-40f4-b63a-39f2287c1a20;/Siti/sitogialli2/documentLibrary/cartella1;GROUP_site_sitogialli2_SiteConsumer;cmis:read
+ade65eb1-8cfd-40f4-b63a-39f2287c1a20;/Siti/sitogialli2/documentLibrary/cartella1;GROUP_site_sitogialli2_SiteManager;cmis:all
+ade65eb1-8cfd-40f4-b63a-39f2287c1a20;/Siti/sitogialli2/documentLibrary/cartella1;GROUP_site_sitogialli2_SiteManager;cmis:read
+ade65eb1-8cfd-40f4-b63a-39f2287c1a20;/Siti/sitogialli2/documentLibrary/cartella1;GROUP_site_sitogialli2_SiteManager;cmis:write
+ade65eb1-8cfd-40f4-b63a-39f2287c1a20;/Siti/sitogialli2/documentLibrary/cartella1;GROUP_site_sitogialli2_SiteContributor;cmis:read
+caaef020-30e3-4ef3-bb2b-4b7259325f01;/Siti/sitogialli2/documentLibrary/cartella1/cartella1.1;GROUP_site_sitogialli2_SiteCollaborator;cmis:read
+caaef020-30e3-4ef3-bb2b-4b7259325f01;/Siti/sitogialli2/documentLibrary/cartella1/cartella1.1;GROUP_site_sitogialli2_SiteCollaborator;cmis:write
+caaef020-30e3-4ef3-bb2b-4b7259325f01;/Siti/sitogialli2/documentLibrary/cartella1/cartella1.1;GROUP_site_sitogialli2_SiteConsumer;cmis:read
+caaef020-30e3-4ef3-bb2b-4b7259325f01;/Siti/sitogialli2/documentLibrary/cartella1/cartella1.1;GROUP_site_sitogialli2_SiteManager;cmis:all
+caaef020-30e3-4ef3-bb2b-4b7259325f01;/Siti/sitogialli2/documentLibrary/cartella1/cartella1.1;GROUP_site_sitogialli2_SiteManager;cmis:read
+caaef020-30e3-4ef3-bb2b-4b7259325f01;/Siti/sitogialli2/documentLibrary/cartella1/cartella1.1;GROUP_site_sitogialli2_SiteManager;cmis:write
+caaef020-30e3-4ef3-bb2b-4b7259325f01;/Siti/sitogialli2/documentLibrary/cartella1/cartella1.1;GROUP_site_sitogialli2_SiteContributor;cmis:read
+82453835-8683-4a65-87e4-384ca3191598;/Siti/sitogialli2/documentLibrary/cartella1/cartella1.1/cartella1.1.1;GROUP_site_sitogialli2_SiteCollaborator;cmis:read
+82453835-8683-4a65-87e4-384ca3191598;/Siti/sitogialli2/documentLibrary/cartella1/cartella1.1/cartella1.1.1;GROUP_site_sitogialli2_SiteCollaborator;cmis:write
+82453835-8683-4a65-87e4-384ca3191598;/Siti/sitogialli2/documentLibrary/cartella1/cartella1.1/cartella1.1.1;GROUP_site_sitogialli2_SiteConsumer;cmis:read
+82453835-8683-4a65-87e4-384ca3191598;/Siti/sitogialli2/documentLibrary/cartella1/cartella1.1/cartella1.1.1;GROUP_site_sitogialli2_SiteManager;cmis:all
+82453835-8683-4a65-87e4-384ca3191598;/Siti/sitogialli2/documentLibrary/cartella1/cartella1.1/cartella1.1.1;GROUP_site_sitogialli2_SiteManager;cmis:read
+82453835-8683-4a65-87e4-384ca3191598;/Siti/sitogialli2/documentLibrary/cartella1/cartella1.1/cartella1.1.1;GROUP_site_sitogialli2_SiteManager;cmis:write
+82453835-8683-4a65-87e4-384ca3191598;/Siti/sitogialli2/documentLibrary/cartella1/cartella1.1/cartella1.1.1;GROUP_site_sitogialli2_SiteContributor;cmis:read
+9ef635e3-3cf9-40d1-b19e-3417e1b99cba;/Siti/testmove2;GROUP_EVERYONE;cmis:read
+9ef635e3-3cf9-40d1-b19e-3417e1b99cba;/Siti/testmove2;GROUP_site_testmove2_SiteContributor;cmis:read
+9ef635e3-3cf9-40d1-b19e-3417e1b99cba;/Siti/testmove2;GROUP_site_testmove2_SiteCollaborator;cmis:read
+9ef635e3-3cf9-40d1-b19e-3417e1b99cba;/Siti/testmove2;GROUP_site_testmove2_SiteCollaborator;cmis:write
+9ef635e3-3cf9-40d1-b19e-3417e1b99cba;/Siti/testmove2;GROUP_site_testmove2_SiteManager;cmis:all
+9ef635e3-3cf9-40d1-b19e-3417e1b99cba;/Siti/testmove2;GROUP_site_testmove2_SiteManager;cmis:read
+9ef635e3-3cf9-40d1-b19e-3417e1b99cba;/Siti/testmove2;GROUP_site_testmove2_SiteManager;cmis:write
+9ef635e3-3cf9-40d1-b19e-3417e1b99cba;/Siti/testmove2;GROUP_site_testmove2_SiteConsumer;cmis:read
+6cba1b10-a9bf-4618-8caf-f32ab62407b8;/Siti/testmove2/documentLibrary;GROUP_EVERYONE;cmis:read
+6cba1b10-a9bf-4618-8caf-f32ab62407b8;/Siti/testmove2/documentLibrary;GROUP_site_testmove2_SiteContributor;cmis:read
+6cba1b10-a9bf-4618-8caf-f32ab62407b8;/Siti/testmove2/documentLibrary;GROUP_site_testmove2_SiteCollaborator;cmis:read
+6cba1b10-a9bf-4618-8caf-f32ab62407b8;/Siti/testmove2/documentLibrary;GROUP_site_testmove2_SiteCollaborator;cmis:write
+6cba1b10-a9bf-4618-8caf-f32ab62407b8;/Siti/testmove2/documentLibrary;GROUP_site_testmove2_SiteManager;cmis:all
+6cba1b10-a9bf-4618-8caf-f32ab62407b8;/Siti/testmove2/documentLibrary;GROUP_site_testmove2_SiteManager;cmis:read
+6cba1b10-a9bf-4618-8caf-f32ab62407b8;/Siti/testmove2/documentLibrary;GROUP_site_testmove2_SiteManager;cmis:write
+6cba1b10-a9bf-4618-8caf-f32ab62407b8;/Siti/testmove2/documentLibrary;GROUP_site_testmove2_SiteConsumer;cmis:read
+b4d1b9e9-006e-4d9b-99a2-1d26fe9d00a9;/Siti/testmove2/documentLibrary/Contratti;GROUP_EVERYONE;cmis:read
+b4d1b9e9-006e-4d9b-99a2-1d26fe9d00a9;/Siti/testmove2/documentLibrary/Contratti;GROUP_site_testmove2_SiteContributor;cmis:read
+b4d1b9e9-006e-4d9b-99a2-1d26fe9d00a9;/Siti/testmove2/documentLibrary/Contratti;GROUP_site_testmove2_SiteCollaborator;cmis:read
+b4d1b9e9-006e-4d9b-99a2-1d26fe9d00a9;/Siti/testmove2/documentLibrary/Contratti;GROUP_site_testmove2_SiteCollaborator;cmis:write
+b4d1b9e9-006e-4d9b-99a2-1d26fe9d00a9;/Siti/testmove2/documentLibrary/Contratti;GROUP_site_testmove2_SiteManager;cmis:all
+b4d1b9e9-006e-4d9b-99a2-1d26fe9d00a9;/Siti/testmove2/documentLibrary/Contratti;GROUP_site_testmove2_SiteManager;cmis:read
+b4d1b9e9-006e-4d9b-99a2-1d26fe9d00a9;/Siti/testmove2/documentLibrary/Contratti;GROUP_site_testmove2_SiteManager;cmis:write
+b4d1b9e9-006e-4d9b-99a2-1d26fe9d00a9;/Siti/testmove2/documentLibrary/Contratti;GROUP_site_testmove2_SiteConsumer;cmis:read
+1f0a3f35-70d3-4790-8a7a-b203b8eb4f5f;/Siti/testmove2/documentLibrary/Contratti/2017;GROUP_EVERYONE;cmis:read
+1f0a3f35-70d3-4790-8a7a-b203b8eb4f5f;/Siti/testmove2/documentLibrary/Contratti/2017;GROUP_site_testmove2_SiteContributor;cmis:read
+1f0a3f35-70d3-4790-8a7a-b203b8eb4f5f;/Siti/testmove2/documentLibrary/Contratti/2017;GROUP_site_testmove2_SiteCollaborator;cmis:read
+1f0a3f35-70d3-4790-8a7a-b203b8eb4f5f;/Siti/testmove2/documentLibrary/Contratti/2017;GROUP_site_testmove2_SiteCollaborator;cmis:write
+1f0a3f35-70d3-4790-8a7a-b203b8eb4f5f;/Siti/testmove2/documentLibrary/Contratti/2017;GROUP_site_testmove2_SiteManager;cmis:all
+1f0a3f35-70d3-4790-8a7a-b203b8eb4f5f;/Siti/testmove2/documentLibrary/Contratti/2017;GROUP_site_testmove2_SiteManager;cmis:read
+1f0a3f35-70d3-4790-8a7a-b203b8eb4f5f;/Siti/testmove2/documentLibrary/Contratti/2017;GROUP_site_testmove2_SiteManager;cmis:write
+1f0a3f35-70d3-4790-8a7a-b203b8eb4f5f;/Siti/testmove2/documentLibrary/Contratti/2017;GROUP_site_testmove2_SiteConsumer;cmis:read
+e63267e9-a9ce-496d-8152-077064677fa5;/Siti/gestionesubappalti;GROUP_site_gestionesubappalti_SiteCollaborator;cmis:read
+e63267e9-a9ce-496d-8152-077064677fa5;/Siti/gestionesubappalti;GROUP_site_gestionesubappalti_SiteCollaborator;cmis:write
+e63267e9-a9ce-496d-8152-077064677fa5;/Siti/gestionesubappalti;GROUP_site_gestionesubappalti_SiteManager;cmis:all
+e63267e9-a9ce-496d-8152-077064677fa5;/Siti/gestionesubappalti;GROUP_site_gestionesubappalti_SiteManager;cmis:read
+e63267e9-a9ce-496d-8152-077064677fa5;/Siti/gestionesubappalti;GROUP_site_gestionesubappalti_SiteManager;cmis:write
+e63267e9-a9ce-496d-8152-077064677fa5;/Siti/gestionesubappalti;GROUP_site_gestionesubappalti_SiteContributor;cmis:read
+e63267e9-a9ce-496d-8152-077064677fa5;/Siti/gestionesubappalti;GROUP_site_gestionesubappalti_SiteConsumer;cmis:read
+d21fd9da-491e-417a-b39f-95e0e57dd4d3;/Siti/gestionesubappalti/documentLibrary;GROUP_site_gestionesubappalti_SiteCollaborator;cmis:read
+d21fd9da-491e-417a-b39f-95e0e57dd4d3;/Siti/gestionesubappalti/documentLibrary;GROUP_site_gestionesubappalti_SiteCollaborator;cmis:write
+d21fd9da-491e-417a-b39f-95e0e57dd4d3;/Siti/gestionesubappalti/documentLibrary;GROUP_site_gestionesubappalti_SiteManager;cmis:all
+d21fd9da-491e-417a-b39f-95e0e57dd4d3;/Siti/gestionesubappalti/documentLibrary;GROUP_site_gestionesubappalti_SiteManager;cmis:read
+d21fd9da-491e-417a-b39f-95e0e57dd4d3;/Siti/gestionesubappalti/documentLibrary;GROUP_site_gestionesubappalti_SiteManager;cmis:write
+d21fd9da-491e-417a-b39f-95e0e57dd4d3;/Siti/gestionesubappalti/documentLibrary;GROUP_site_gestionesubappalti_SiteContributor;cmis:read
+d21fd9da-491e-417a-b39f-95e0e57dd4d3;/Siti/gestionesubappalti/documentLibrary;GROUP_site_gestionesubappalti_SiteConsumer;cmis:read
+e7486416-7ce8-4185-be79-dd817f9dced2;/Siti/gestionesubappalti/documentLibrary/prova;GROUP_site_gestionesubappalti_SiteCollaborator;cmis:read
+e7486416-7ce8-4185-be79-dd817f9dced2;/Siti/gestionesubappalti/documentLibrary/prova;GROUP_site_gestionesubappalti_SiteCollaborator;cmis:write
+e7486416-7ce8-4185-be79-dd817f9dced2;/Siti/gestionesubappalti/documentLibrary/prova;GROUP_site_gestionesubappalti_SiteManager;cmis:all
+e7486416-7ce8-4185-be79-dd817f9dced2;/Siti/gestionesubappalti/documentLibrary/prova;GROUP_site_gestionesubappalti_SiteManager;cmis:read
+e7486416-7ce8-4185-be79-dd817f9dced2;/Siti/gestionesubappalti/documentLibrary/prova;GROUP_site_gestionesubappalti_SiteManager;cmis:write
+e7486416-7ce8-4185-be79-dd817f9dced2;/Siti/gestionesubappalti/documentLibrary/prova;GROUP_site_gestionesubappalti_SiteContributor;cmis:read
+e7486416-7ce8-4185-be79-dd817f9dced2;/Siti/gestionesubappalti/documentLibrary/prova;GROUP_site_gestionesubappalti_SiteConsumer;cmis:read
+cf14341d-b6a5-4ae2-9e57-44b4b47e24d7;/Siti/gestionesubappalti/documentLibrary/prova/2;GROUP_site_gestionesubappalti_SiteCollaborator;cmis:read
+cf14341d-b6a5-4ae2-9e57-44b4b47e24d7;/Siti/gestionesubappalti/documentLibrary/prova/2;GROUP_site_gestionesubappalti_SiteCollaborator;cmis:write
+cf14341d-b6a5-4ae2-9e57-44b4b47e24d7;/Siti/gestionesubappalti/documentLibrary/prova/2;GROUP_site_gestionesubappalti_SiteManager;cmis:all
+cf14341d-b6a5-4ae2-9e57-44b4b47e24d7;/Siti/gestionesubappalti/documentLibrary/prova/2;GROUP_site_gestionesubappalti_SiteManager;cmis:read
+cf14341d-b6a5-4ae2-9e57-44b4b47e24d7;/Siti/gestionesubappalti/documentLibrary/prova/2;GROUP_site_gestionesubappalti_SiteManager;cmis:write
+cf14341d-b6a5-4ae2-9e57-44b4b47e24d7;/Siti/gestionesubappalti/documentLibrary/prova/2;GROUP_site_gestionesubappalti_SiteContributor;cmis:read
+cf14341d-b6a5-4ae2-9e57-44b4b47e24d7;/Siti/gestionesubappalti/documentLibrary/prova/2;GROUP_site_gestionesubappalti_SiteConsumer;cmis:read
+b1e567ab-a950-449b-9cf9-61a5ac58bc4f;/Siti/gestionesubappalti/documentLibrary/prova/2/22;GROUP_site_gestionesubappalti_SiteCollaborator;cmis:read
+b1e567ab-a950-449b-9cf9-61a5ac58bc4f;/Siti/gestionesubappalti/documentLibrary/prova/2/22;GROUP_site_gestionesubappalti_SiteCollaborator;cmis:write
+b1e567ab-a950-449b-9cf9-61a5ac58bc4f;/Siti/gestionesubappalti/documentLibrary/prova/2/22;GROUP_site_gestionesubappalti_SiteManager;cmis:all
+b1e567ab-a950-449b-9cf9-61a5ac58bc4f;/Siti/gestionesubappalti/documentLibrary/prova/2/22;GROUP_site_gestionesubappalti_SiteManager;cmis:read
+b1e567ab-a950-449b-9cf9-61a5ac58bc4f;/Siti/gestionesubappalti/documentLibrary/prova/2/22;GROUP_site_gestionesubappalti_SiteManager;cmis:write
+b1e567ab-a950-449b-9cf9-61a5ac58bc4f;/Siti/gestionesubappalti/documentLibrary/prova/2/22;GROUP_site_gestionesubappalti_SiteContributor;cmis:read
+b1e567ab-a950-449b-9cf9-61a5ac58bc4f;/Siti/gestionesubappalti/documentLibrary/prova/2/22;GROUP_site_gestionesubappalti_SiteConsumer;cmis:read
+75fbe673-d5c7-49de-bc53-c6803608525d;/Siti/gestionesubappalti/documentLibrary/prova/1;GROUP_site_gestionesubappalti_SiteCollaborator;cmis:read
+75fbe673-d5c7-49de-bc53-c6803608525d;/Siti/gestionesubappalti/documentLibrary/prova/1;GROUP_site_gestionesubappalti_SiteCollaborator;cmis:write
+75fbe673-d5c7-49de-bc53-c6803608525d;/Siti/gestionesubappalti/documentLibrary/prova/1;GROUP_site_gestionesubappalti_SiteManager;cmis:all
+75fbe673-d5c7-49de-bc53-c6803608525d;/Siti/gestionesubappalti/documentLibrary/prova/1;GROUP_site_gestionesubappalti_SiteManager;cmis:read
+75fbe673-d5c7-49de-bc53-c6803608525d;/Siti/gestionesubappalti/documentLibrary/prova/1;GROUP_site_gestionesubappalti_SiteManager;cmis:write
+75fbe673-d5c7-49de-bc53-c6803608525d;/Siti/gestionesubappalti/documentLibrary/prova/1;GROUP_site_gestionesubappalti_SiteContributor;cmis:read
+75fbe673-d5c7-49de-bc53-c6803608525d;/Siti/gestionesubappalti/documentLibrary/prova/1;GROUP_site_gestionesubappalti_SiteConsumer;cmis:read
+0796b2ef-3398-4b3c-8f60-df60b82c23dd;/Siti/Intranet2;GROUP_site_Intranet2_SiteCollaborator;cmis:read
+0796b2ef-3398-4b3c-8f60-df60b82c23dd;/Siti/Intranet2;GROUP_site_Intranet2_SiteCollaborator;cmis:write
+0796b2ef-3398-4b3c-8f60-df60b82c23dd;/Siti/Intranet2;GROUP_site_Intranet2_SiteConsumer;cmis:read
+0796b2ef-3398-4b3c-8f60-df60b82c23dd;/Siti/Intranet2;GROUP_EVERYONE;cmis:read
+0796b2ef-3398-4b3c-8f60-df60b82c23dd;/Siti/Intranet2;GROUP_site_Intranet2_SiteManager;cmis:all
+0796b2ef-3398-4b3c-8f60-df60b82c23dd;/Siti/Intranet2;GROUP_site_Intranet2_SiteManager;cmis:read
+0796b2ef-3398-4b3c-8f60-df60b82c23dd;/Siti/Intranet2;GROUP_site_Intranet2_SiteManager;cmis:write
+0796b2ef-3398-4b3c-8f60-df60b82c23dd;/Siti/Intranet2;GROUP_site_Intranet2_SiteContributor;cmis:read
+f7adae6a-ea23-4d5f-a26e-16eebe80e5e9;/Siti/Intranet2/documentLibrary;GROUP_site_Intranet2_SiteCollaborator;cmis:read
+f7adae6a-ea23-4d5f-a26e-16eebe80e5e9;/Siti/Intranet2/documentLibrary;GROUP_site_Intranet2_SiteCollaborator;cmis:write
+f7adae6a-ea23-4d5f-a26e-16eebe80e5e9;/Siti/Intranet2/documentLibrary;GROUP_site_Intranet2_SiteConsumer;cmis:read
+f7adae6a-ea23-4d5f-a26e-16eebe80e5e9;/Siti/Intranet2/documentLibrary;GROUP_EVERYONE;cmis:read
+f7adae6a-ea23-4d5f-a26e-16eebe80e5e9;/Siti/Intranet2/documentLibrary;GROUP_site_Intranet2_SiteManager;cmis:all
+f7adae6a-ea23-4d5f-a26e-16eebe80e5e9;/Siti/Intranet2/documentLibrary;GROUP_site_Intranet2_SiteManager;cmis:read
+f7adae6a-ea23-4d5f-a26e-16eebe80e5e9;/Siti/Intranet2/documentLibrary;GROUP_site_Intranet2_SiteManager;cmis:write
+f7adae6a-ea23-4d5f-a26e-16eebe80e5e9;/Siti/Intranet2/documentLibrary;GROUP_site_Intranet2_SiteContributor;cmis:read
+24f64f80-3747-4ccf-9538-00b70e32ad1e;/Siti/anomaL;GROUP_site_anomaL_SiteManager;cmis:all
+24f64f80-3747-4ccf-9538-00b70e32ad1e;/Siti/anomaL;GROUP_site_anomaL_SiteManager;cmis:read
+24f64f80-3747-4ccf-9538-00b70e32ad1e;/Siti/anomaL;GROUP_site_anomaL_SiteManager;cmis:write
+24f64f80-3747-4ccf-9538-00b70e32ad1e;/Siti/anomaL;GROUP_EVERYONE;cmis:read
+24f64f80-3747-4ccf-9538-00b70e32ad1e;/Siti/anomaL;GROUP_site_anomaL_SiteCollaborator;cmis:read
+24f64f80-3747-4ccf-9538-00b70e32ad1e;/Siti/anomaL;GROUP_site_anomaL_SiteCollaborator;cmis:write
+24f64f80-3747-4ccf-9538-00b70e32ad1e;/Siti/anomaL;GROUP_site_anomaL_SiteContributor;cmis:read
+24f64f80-3747-4ccf-9538-00b70e32ad1e;/Siti/anomaL;GROUP_site_anomaL_SiteConsumer;cmis:read
+ae7a9260-8bcf-4394-9608-508ab18e1f8f;/Siti/anomaL/documentLibrary;GROUP_site_anomaL_SiteManager;cmis:all
+ae7a9260-8bcf-4394-9608-508ab18e1f8f;/Siti/anomaL/documentLibrary;GROUP_site_anomaL_SiteManager;cmis:read
+ae7a9260-8bcf-4394-9608-508ab18e1f8f;/Siti/anomaL/documentLibrary;GROUP_site_anomaL_SiteManager;cmis:write
+ae7a9260-8bcf-4394-9608-508ab18e1f8f;/Siti/anomaL/documentLibrary;GROUP_EVERYONE;cmis:read
+ae7a9260-8bcf-4394-9608-508ab18e1f8f;/Siti/anomaL/documentLibrary;GROUP_site_anomaL_SiteCollaborator;cmis:read
+ae7a9260-8bcf-4394-9608-508ab18e1f8f;/Siti/anomaL/documentLibrary;GROUP_site_anomaL_SiteCollaborator;cmis:write
+ae7a9260-8bcf-4394-9608-508ab18e1f8f;/Siti/anomaL/documentLibrary;GROUP_site_anomaL_SiteContributor;cmis:read
+ae7a9260-8bcf-4394-9608-508ab18e1f8f;/Siti/anomaL/documentLibrary;GROUP_site_anomaL_SiteConsumer;cmis:read
+8ece6584-664f-466c-b368-37d2ce5632d5;/Siti/anomaL/documentLibrary/TEST_REGOLE;GROUP_site_anomaL_SiteManager;cmis:all
+8ece6584-664f-466c-b368-37d2ce5632d5;/Siti/anomaL/documentLibrary/TEST_REGOLE;GROUP_site_anomaL_SiteManager;cmis:read
+8ece6584-664f-466c-b368-37d2ce5632d5;/Siti/anomaL/documentLibrary/TEST_REGOLE;GROUP_site_anomaL_SiteManager;cmis:write
+8ece6584-664f-466c-b368-37d2ce5632d5;/Siti/anomaL/documentLibrary/TEST_REGOLE;GROUP_EVERYONE;cmis:read
+8ece6584-664f-466c-b368-37d2ce5632d5;/Siti/anomaL/documentLibrary/TEST_REGOLE;GROUP_site_anomaL_SiteCollaborator;cmis:read
+8ece6584-664f-466c-b368-37d2ce5632d5;/Siti/anomaL/documentLibrary/TEST_REGOLE;GROUP_site_anomaL_SiteCollaborator;cmis:write
+8ece6584-664f-466c-b368-37d2ce5632d5;/Siti/anomaL/documentLibrary/TEST_REGOLE;GROUP_site_anomaL_SiteContributor;cmis:read
+8ece6584-664f-466c-b368-37d2ce5632d5;/Siti/anomaL/documentLibrary/TEST_REGOLE;GROUP_site_anomaL_SiteConsumer;cmis:read
+53b604f3-2c20-4dcd-8a75-d2a8957da3ab;/Siti/arce;GROUP_site_arce_SiteCollaborator;cmis:read
+53b604f3-2c20-4dcd-8a75-d2a8957da3ab;/Siti/arce;GROUP_site_arce_SiteCollaborator;cmis:write
+53b604f3-2c20-4dcd-8a75-d2a8957da3ab;/Siti/arce;GROUP_EVERYONE;cmis:read
+53b604f3-2c20-4dcd-8a75-d2a8957da3ab;/Siti/arce;GROUP_site_arce_SiteContributor;cmis:read
+53b604f3-2c20-4dcd-8a75-d2a8957da3ab;/Siti/arce;GROUP_site_arce_SiteManager;cmis:all
+53b604f3-2c20-4dcd-8a75-d2a8957da3ab;/Siti/arce;GROUP_site_arce_SiteManager;cmis:read
+53b604f3-2c20-4dcd-8a75-d2a8957da3ab;/Siti/arce;GROUP_site_arce_SiteManager;cmis:write
+53b604f3-2c20-4dcd-8a75-d2a8957da3ab;/Siti/arce;GROUP_site_arce_SiteConsumer;cmis:read
+ec74bded-8d15-4593-add2-0b05b8e021a9;/Siti/arce/documentLibrary;GROUP_site_arce_SiteCollaborator;cmis:read
+ec74bded-8d15-4593-add2-0b05b8e021a9;/Siti/arce/documentLibrary;GROUP_site_arce_SiteCollaborator;cmis:write
+ec74bded-8d15-4593-add2-0b05b8e021a9;/Siti/arce/documentLibrary;GROUP_EVERYONE;cmis:read
+ec74bded-8d15-4593-add2-0b05b8e021a9;/Siti/arce/documentLibrary;GROUP_site_arce_SiteContributor;cmis:read
+ec74bded-8d15-4593-add2-0b05b8e021a9;/Siti/arce/documentLibrary;GROUP_site_arce_SiteManager;cmis:all
+ec74bded-8d15-4593-add2-0b05b8e021a9;/Siti/arce/documentLibrary;GROUP_site_arce_SiteManager;cmis:read
+ec74bded-8d15-4593-add2-0b05b8e021a9;/Siti/arce/documentLibrary;GROUP_site_arce_SiteManager;cmis:write
+ec74bded-8d15-4593-add2-0b05b8e021a9;/Siti/arce/documentLibrary;GROUP_site_arce_SiteConsumer;cmis:read
+0d6fbfe5-6377-4fe4-ad83-124bc103a4be;/Siti/arce/documentLibrary/testTomcat9082;GROUP_site_arce_SiteCollaborator;cmis:read
+0d6fbfe5-6377-4fe4-ad83-124bc103a4be;/Siti/arce/documentLibrary/testTomcat9082;GROUP_site_arce_SiteCollaborator;cmis:write
+0d6fbfe5-6377-4fe4-ad83-124bc103a4be;/Siti/arce/documentLibrary/testTomcat9082;GROUP_EVERYONE;cmis:read
+0d6fbfe5-6377-4fe4-ad83-124bc103a4be;/Siti/arce/documentLibrary/testTomcat9082;GROUP_site_arce_SiteContributor;cmis:read
+0d6fbfe5-6377-4fe4-ad83-124bc103a4be;/Siti/arce/documentLibrary/testTomcat9082;GROUP_site_arce_SiteManager;cmis:all
+0d6fbfe5-6377-4fe4-ad83-124bc103a4be;/Siti/arce/documentLibrary/testTomcat9082;GROUP_site_arce_SiteManager;cmis:read
+0d6fbfe5-6377-4fe4-ad83-124bc103a4be;/Siti/arce/documentLibrary/testTomcat9082;GROUP_site_arce_SiteManager;cmis:write
+0d6fbfe5-6377-4fe4-ad83-124bc103a4be;/Siti/arce/documentLibrary/testTomcat9082;GROUP_site_arce_SiteConsumer;cmis:read
+2603c213-38e7-4e0a-9cc0-fbc72f3f542b;/Siti/arce/documentLibrary/testvulnActiveMQ;GROUP_site_arce_SiteCollaborator;cmis:read
+2603c213-38e7-4e0a-9cc0-fbc72f3f542b;/Siti/arce/documentLibrary/testvulnActiveMQ;GROUP_site_arce_SiteCollaborator;cmis:write
+2603c213-38e7-4e0a-9cc0-fbc72f3f542b;/Siti/arce/documentLibrary/testvulnActiveMQ;GROUP_EVERYONE;cmis:read
+2603c213-38e7-4e0a-9cc0-fbc72f3f542b;/Siti/arce/documentLibrary/testvulnActiveMQ;GROUP_site_arce_SiteContributor;cmis:read
+2603c213-38e7-4e0a-9cc0-fbc72f3f542b;/Siti/arce/documentLibrary/testvulnActiveMQ;GROUP_site_arce_SiteManager;cmis:all
+2603c213-38e7-4e0a-9cc0-fbc72f3f542b;/Siti/arce/documentLibrary/testvulnActiveMQ;GROUP_site_arce_SiteManager;cmis:read
+2603c213-38e7-4e0a-9cc0-fbc72f3f542b;/Siti/arce/documentLibrary/testvulnActiveMQ;GROUP_site_arce_SiteManager;cmis:write
+2603c213-38e7-4e0a-9cc0-fbc72f3f542b;/Siti/arce/documentLibrary/testvulnActiveMQ;GROUP_site_arce_SiteConsumer;cmis:read
+66f014a3-cdfa-4fe7-a3dc-1cf988a7f0cc;/Siti/arce/documentLibrary/anoma1;GROUP_site_arce_SiteCollaborator;cmis:read
+66f014a3-cdfa-4fe7-a3dc-1cf988a7f0cc;/Siti/arce/documentLibrary/anoma1;GROUP_site_arce_SiteCollaborator;cmis:write
+66f014a3-cdfa-4fe7-a3dc-1cf988a7f0cc;/Siti/arce/documentLibrary/anoma1;GROUP_EVERYONE;cmis:read
+66f014a3-cdfa-4fe7-a3dc-1cf988a7f0cc;/Siti/arce/documentLibrary/anoma1;GROUP_site_arce_SiteContributor;cmis:read
+66f014a3-cdfa-4fe7-a3dc-1cf988a7f0cc;/Siti/arce/documentLibrary/anoma1;GROUP_site_arce_SiteManager;cmis:all
+66f014a3-cdfa-4fe7-a3dc-1cf988a7f0cc;/Siti/arce/documentLibrary/anoma1;GROUP_site_arce_SiteManager;cmis:read
+66f014a3-cdfa-4fe7-a3dc-1cf988a7f0cc;/Siti/arce/documentLibrary/anoma1;GROUP_site_arce_SiteManager;cmis:write
+66f014a3-cdfa-4fe7-a3dc-1cf988a7f0cc;/Siti/arce/documentLibrary/anoma1;GROUP_site_arce_SiteConsumer;cmis:read
+4a834d19-6d4f-4c2e-a5a9-33d78d72348d;/Siti/arce/documentLibrary/cambioTipo;GROUP_site_arce_SiteCollaborator;cmis:read
+4a834d19-6d4f-4c2e-a5a9-33d78d72348d;/Siti/arce/documentLibrary/cambioTipo;GROUP_site_arce_SiteCollaborator;cmis:write
+4a834d19-6d4f-4c2e-a5a9-33d78d72348d;/Siti/arce/documentLibrary/cambioTipo;GROUP_EVERYONE;cmis:read
+4a834d19-6d4f-4c2e-a5a9-33d78d72348d;/Siti/arce/documentLibrary/cambioTipo;GROUP_site_arce_SiteContributor;cmis:read
+4a834d19-6d4f-4c2e-a5a9-33d78d72348d;/Siti/arce/documentLibrary/cambioTipo;GROUP_site_arce_SiteManager;cmis:all
+4a834d19-6d4f-4c2e-a5a9-33d78d72348d;/Siti/arce/documentLibrary/cambioTipo;GROUP_site_arce_SiteManager;cmis:read
+4a834d19-6d4f-4c2e-a5a9-33d78d72348d;/Siti/arce/documentLibrary/cambioTipo;GROUP_site_arce_SiteManager;cmis:write
+4a834d19-6d4f-4c2e-a5a9-33d78d72348d;/Siti/arce/documentLibrary/cambioTipo;GROUP_site_arce_SiteConsumer;cmis:read
+e815e01e-cb18-4eea-9bc1-962ca5a02358;/Siti/arce/documentLibrary/cambioTipo/testFabio;GROUP_site_arce_SiteCollaborator;cmis:read
+e815e01e-cb18-4eea-9bc1-962ca5a02358;/Siti/arce/documentLibrary/cambioTipo/testFabio;GROUP_site_arce_SiteCollaborator;cmis:write
+e815e01e-cb18-4eea-9bc1-962ca5a02358;/Siti/arce/documentLibrary/cambioTipo/testFabio;GROUP_EVERYONE;cmis:read
+e815e01e-cb18-4eea-9bc1-962ca5a02358;/Siti/arce/documentLibrary/cambioTipo/testFabio;GROUP_site_arce_SiteContributor;cmis:read
+e815e01e-cb18-4eea-9bc1-962ca5a02358;/Siti/arce/documentLibrary/cambioTipo/testFabio;GROUP_site_arce_SiteManager;cmis:all
+e815e01e-cb18-4eea-9bc1-962ca5a02358;/Siti/arce/documentLibrary/cambioTipo/testFabio;GROUP_site_arce_SiteManager;cmis:read
+e815e01e-cb18-4eea-9bc1-962ca5a02358;/Siti/arce/documentLibrary/cambioTipo/testFabio;GROUP_site_arce_SiteManager;cmis:write
+e815e01e-cb18-4eea-9bc1-962ca5a02358;/Siti/arce/documentLibrary/cambioTipo/testFabio;GROUP_site_arce_SiteConsumer;cmis:read
+a2f82979-46fc-43a7-a2a5-ce5a35378cad;/Siti/arce/documentLibrary/anomaliaEstensione;GROUP_site_arce_SiteCollaborator;cmis:read
+a2f82979-46fc-43a7-a2a5-ce5a35378cad;/Siti/arce/documentLibrary/anomaliaEstensione;GROUP_site_arce_SiteCollaborator;cmis:write
+a2f82979-46fc-43a7-a2a5-ce5a35378cad;/Siti/arce/documentLibrary/anomaliaEstensione;GROUP_EVERYONE;cmis:read
+a2f82979-46fc-43a7-a2a5-ce5a35378cad;/Siti/arce/documentLibrary/anomaliaEstensione;GROUP_site_arce_SiteContributor;cmis:read
+a2f82979-46fc-43a7-a2a5-ce5a35378cad;/Siti/arce/documentLibrary/anomaliaEstensione;GROUP_site_arce_SiteManager;cmis:all
+a2f82979-46fc-43a7-a2a5-ce5a35378cad;/Siti/arce/documentLibrary/anomaliaEstensione;GROUP_site_arce_SiteManager;cmis:read
+a2f82979-46fc-43a7-a2a5-ce5a35378cad;/Siti/arce/documentLibrary/anomaliaEstensione;GROUP_site_arce_SiteManager;cmis:write
+a2f82979-46fc-43a7-a2a5-ce5a35378cad;/Siti/arce/documentLibrary/anomaliaEstensione;GROUP_site_arce_SiteConsumer;cmis:read
+68a1ec93-a887-4168-b33e-f289a5d6c3d5;/Siti/arce/documentLibrary/Convenzione1;GROUP_site_arce_SiteCollaborator;cmis:read
+68a1ec93-a887-4168-b33e-f289a5d6c3d5;/Siti/arce/documentLibrary/Convenzione1;GROUP_site_arce_SiteCollaborator;cmis:write
+68a1ec93-a887-4168-b33e-f289a5d6c3d5;/Siti/arce/documentLibrary/Convenzione1;GROUP_EVERYONE;cmis:read
+68a1ec93-a887-4168-b33e-f289a5d6c3d5;/Siti/arce/documentLibrary/Convenzione1;GROUP_site_arce_SiteContributor;cmis:read
+68a1ec93-a887-4168-b33e-f289a5d6c3d5;/Siti/arce/documentLibrary/Convenzione1;GROUP_site_arce_SiteManager;cmis:all
+68a1ec93-a887-4168-b33e-f289a5d6c3d5;/Siti/arce/documentLibrary/Convenzione1;GROUP_site_arce_SiteManager;cmis:read
+68a1ec93-a887-4168-b33e-f289a5d6c3d5;/Siti/arce/documentLibrary/Convenzione1;GROUP_site_arce_SiteManager;cmis:write
+68a1ec93-a887-4168-b33e-f289a5d6c3d5;/Siti/arce/documentLibrary/Convenzione1;GROUP_site_arce_SiteConsumer;cmis:read
+07a8dce8-4a51-4747-a95c-5801ab227ebf;/Siti/arce/documentLibrary/Convenzione1/Contratto1;GROUP_site_arce_SiteCollaborator;cmis:read
+07a8dce8-4a51-4747-a95c-5801ab227ebf;/Siti/arce/documentLibrary/Convenzione1/Contratto1;GROUP_site_arce_SiteCollaborator;cmis:write
+07a8dce8-4a51-4747-a95c-5801ab227ebf;/Siti/arce/documentLibrary/Convenzione1/Contratto1;GROUP_EVERYONE;cmis:read
+07a8dce8-4a51-4747-a95c-5801ab227ebf;/Siti/arce/documentLibrary/Convenzione1/Contratto1;GROUP_site_arce_SiteContributor;cmis:read
+07a8dce8-4a51-4747-a95c-5801ab227ebf;/Siti/arce/documentLibrary/Convenzione1/Contratto1;GROUP_site_arce_SiteManager;cmis:all
+07a8dce8-4a51-4747-a95c-5801ab227ebf;/Siti/arce/documentLibrary/Convenzione1/Contratto1;GROUP_site_arce_SiteManager;cmis:read
+07a8dce8-4a51-4747-a95c-5801ab227ebf;/Siti/arce/documentLibrary/Convenzione1/Contratto1;GROUP_site_arce_SiteManager;cmis:write
+07a8dce8-4a51-4747-a95c-5801ab227ebf;/Siti/arce/documentLibrary/Convenzione1/Contratto1;GROUP_site_arce_SiteConsumer;cmis:read
+c223b08a-7d19-4b20-a031-a329afcd7e41;/Siti/arce/documentLibrary/anomaS;GROUP_site_arce_SiteCollaborator;cmis:read
+c223b08a-7d19-4b20-a031-a329afcd7e41;/Siti/arce/documentLibrary/anomaS;GROUP_site_arce_SiteCollaborator;cmis:write
+c223b08a-7d19-4b20-a031-a329afcd7e41;/Siti/arce/documentLibrary/anomaS;GROUP_EVERYONE;cmis:read
+c223b08a-7d19-4b20-a031-a329afcd7e41;/Siti/arce/documentLibrary/anomaS;GROUP_site_arce_SiteContributor;cmis:read
+c223b08a-7d19-4b20-a031-a329afcd7e41;/Siti/arce/documentLibrary/anomaS;GROUP_site_arce_SiteManager;cmis:all
+c223b08a-7d19-4b20-a031-a329afcd7e41;/Siti/arce/documentLibrary/anomaS;GROUP_site_arce_SiteManager;cmis:read
+c223b08a-7d19-4b20-a031-a329afcd7e41;/Siti/arce/documentLibrary/anomaS;GROUP_site_arce_SiteManager;cmis:write
+c223b08a-7d19-4b20-a031-a329afcd7e41;/Siti/arce/documentLibrary/anomaS;GROUP_site_arce_SiteConsumer;cmis:read
+80b85182-8dc5-4365-9e69-af2d5aee4724;/Siti/arce/documentLibrary/pep;GROUP_site_arce_SiteCollaborator;cmis:read
+80b85182-8dc5-4365-9e69-af2d5aee4724;/Siti/arce/documentLibrary/pep;GROUP_site_arce_SiteCollaborator;cmis:write
+80b85182-8dc5-4365-9e69-af2d5aee4724;/Siti/arce/documentLibrary/pep;GROUP_EVERYONE;cmis:read
+80b85182-8dc5-4365-9e69-af2d5aee4724;/Siti/arce/documentLibrary/pep;GROUP_site_arce_SiteContributor;cmis:read
+80b85182-8dc5-4365-9e69-af2d5aee4724;/Siti/arce/documentLibrary/pep;GROUP_site_arce_SiteManager;cmis:all
+80b85182-8dc5-4365-9e69-af2d5aee4724;/Siti/arce/documentLibrary/pep;GROUP_site_arce_SiteManager;cmis:read
+80b85182-8dc5-4365-9e69-af2d5aee4724;/Siti/arce/documentLibrary/pep;GROUP_site_arce_SiteManager;cmis:write
+80b85182-8dc5-4365-9e69-af2d5aee4724;/Siti/arce/documentLibrary/pep;GROUP_site_arce_SiteConsumer;cmis:read
+7730e4da-021d-4e85-96e4-340576caa57a;/Siti/arce/documentLibrary/aaa;GROUP_site_arce_SiteCollaborator;cmis:read
+7730e4da-021d-4e85-96e4-340576caa57a;/Siti/arce/documentLibrary/aaa;GROUP_site_arce_SiteCollaborator;cmis:write
+7730e4da-021d-4e85-96e4-340576caa57a;/Siti/arce/documentLibrary/aaa;GROUP_EVERYONE;cmis:read
+7730e4da-021d-4e85-96e4-340576caa57a;/Siti/arce/documentLibrary/aaa;GROUP_site_arce_SiteContributor;cmis:read
+7730e4da-021d-4e85-96e4-340576caa57a;/Siti/arce/documentLibrary/aaa;GROUP_site_arce_SiteManager;cmis:all
+7730e4da-021d-4e85-96e4-340576caa57a;/Siti/arce/documentLibrary/aaa;GROUP_site_arce_SiteManager;cmis:read
+7730e4da-021d-4e85-96e4-340576caa57a;/Siti/arce/documentLibrary/aaa;GROUP_site_arce_SiteManager;cmis:write
+7730e4da-021d-4e85-96e4-340576caa57a;/Siti/arce/documentLibrary/aaa;GROUP_site_arce_SiteConsumer;cmis:read
+28d3d492-5c10-4516-831e-c2abd8d011fc;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1;GROUP_site_arce_SiteCollaborator;cmis:read
+28d3d492-5c10-4516-831e-c2abd8d011fc;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1;GROUP_site_arce_SiteCollaborator;cmis:write
+28d3d492-5c10-4516-831e-c2abd8d011fc;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1;GROUP_EVERYONE;cmis:read
+28d3d492-5c10-4516-831e-c2abd8d011fc;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1;GROUP_site_arce_SiteContributor;cmis:read
+28d3d492-5c10-4516-831e-c2abd8d011fc;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1;GROUP_site_arce_SiteManager;cmis:all
+28d3d492-5c10-4516-831e-c2abd8d011fc;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1;GROUP_site_arce_SiteManager;cmis:read
+28d3d492-5c10-4516-831e-c2abd8d011fc;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1;GROUP_site_arce_SiteManager;cmis:write
+28d3d492-5c10-4516-831e-c2abd8d011fc;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1;GROUP_site_arce_SiteConsumer;cmis:read
+777c2560-244d-433b-ac66-627f854fac1d;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Presentazioni;GROUP_site_arce_SiteCollaborator;cmis:read
+777c2560-244d-433b-ac66-627f854fac1d;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Presentazioni;GROUP_site_arce_SiteCollaborator;cmis:write
+777c2560-244d-433b-ac66-627f854fac1d;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Presentazioni;GROUP_EVERYONE;cmis:read
+777c2560-244d-433b-ac66-627f854fac1d;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Presentazioni;GROUP_site_arce_SiteContributor;cmis:read
+777c2560-244d-433b-ac66-627f854fac1d;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Presentazioni;GROUP_site_arce_SiteManager;cmis:all
+777c2560-244d-433b-ac66-627f854fac1d;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Presentazioni;GROUP_site_arce_SiteManager;cmis:read
+777c2560-244d-433b-ac66-627f854fac1d;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Presentazioni;GROUP_site_arce_SiteManager;cmis:write
+777c2560-244d-433b-ac66-627f854fac1d;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Presentazioni;GROUP_site_arce_SiteConsumer;cmis:read
+8cd2e046-ed43-4e9b-9d06-239d31370d5a;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Discussioni;GROUP_site_arce_SiteCollaborator;cmis:read
+8cd2e046-ed43-4e9b-9d06-239d31370d5a;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Discussioni;GROUP_site_arce_SiteCollaborator;cmis:write
+8cd2e046-ed43-4e9b-9d06-239d31370d5a;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Discussioni;GROUP_EVERYONE;cmis:read
+8cd2e046-ed43-4e9b-9d06-239d31370d5a;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Discussioni;GROUP_site_arce_SiteContributor;cmis:read
+8cd2e046-ed43-4e9b-9d06-239d31370d5a;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Discussioni;GROUP_site_arce_SiteManager;cmis:all
+8cd2e046-ed43-4e9b-9d06-239d31370d5a;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Discussioni;GROUP_site_arce_SiteManager;cmis:read
+8cd2e046-ed43-4e9b-9d06-239d31370d5a;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Discussioni;GROUP_site_arce_SiteManager;cmis:write
+8cd2e046-ed43-4e9b-9d06-239d31370d5a;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Discussioni;GROUP_site_arce_SiteConsumer;cmis:read
+0e1161af-a587-4b94-9509-37081ec4fa64;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Progettazione dell'interfaccia utente;GROUP_site_arce_SiteCollaborator;cmis:read
+0e1161af-a587-4b94-9509-37081ec4fa64;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Progettazione dell'interfaccia utente;GROUP_site_arce_SiteCollaborator;cmis:write
+0e1161af-a587-4b94-9509-37081ec4fa64;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Progettazione dell'interfaccia utente;GROUP_EVERYONE;cmis:read
+0e1161af-a587-4b94-9509-37081ec4fa64;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Progettazione dell'interfaccia utente;GROUP_site_arce_SiteContributor;cmis:read
+0e1161af-a587-4b94-9509-37081ec4fa64;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Progettazione dell'interfaccia utente;GROUP_site_arce_SiteManager;cmis:all
+0e1161af-a587-4b94-9509-37081ec4fa64;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Progettazione dell'interfaccia utente;GROUP_site_arce_SiteManager;cmis:read
+0e1161af-a587-4b94-9509-37081ec4fa64;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Progettazione dell'interfaccia utente;GROUP_site_arce_SiteManager;cmis:write
+0e1161af-a587-4b94-9509-37081ec4fa64;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Progettazione dell'interfaccia utente;GROUP_site_arce_SiteConsumer;cmis:read
+85e9bf1e-de00-463f-8014-09f86e8d429a;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Controllo qualità;GROUP_site_arce_SiteCollaborator;cmis:read
+85e9bf1e-de00-463f-8014-09f86e8d429a;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Controllo qualità;GROUP_site_arce_SiteCollaborator;cmis:write
+85e9bf1e-de00-463f-8014-09f86e8d429a;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Controllo qualità;GROUP_EVERYONE;cmis:read
+85e9bf1e-de00-463f-8014-09f86e8d429a;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Controllo qualità;GROUP_site_arce_SiteContributor;cmis:read
+85e9bf1e-de00-463f-8014-09f86e8d429a;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Controllo qualità;GROUP_site_arce_SiteManager;cmis:all
+85e9bf1e-de00-463f-8014-09f86e8d429a;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Controllo qualità;GROUP_site_arce_SiteManager;cmis:read
+85e9bf1e-de00-463f-8014-09f86e8d429a;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Controllo qualità;GROUP_site_arce_SiteManager;cmis:write
+85e9bf1e-de00-463f-8014-09f86e8d429a;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Controllo qualità;GROUP_site_arce_SiteConsumer;cmis:read
+64aaa84e-dee3-4f3a-906c-c0c054c274b1;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Documentazione;GROUP_site_arce_SiteCollaborator;cmis:read
+64aaa84e-dee3-4f3a-906c-c0c054c274b1;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Documentazione;GROUP_site_arce_SiteCollaborator;cmis:write
+64aaa84e-dee3-4f3a-906c-c0c054c274b1;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Documentazione;GROUP_EVERYONE;cmis:read
+64aaa84e-dee3-4f3a-906c-c0c054c274b1;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Documentazione;GROUP_site_arce_SiteContributor;cmis:read
+64aaa84e-dee3-4f3a-906c-c0c054c274b1;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Documentazione;GROUP_site_arce_SiteManager;cmis:all
+64aaa84e-dee3-4f3a-906c-c0c054c274b1;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Documentazione;GROUP_site_arce_SiteManager;cmis:read
+64aaa84e-dee3-4f3a-906c-c0c054c274b1;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Documentazione;GROUP_site_arce_SiteManager;cmis:write
+64aaa84e-dee3-4f3a-906c-c0c054c274b1;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Documentazione;GROUP_site_arce_SiteConsumer;cmis:read
+f72b3f71-f572-47f4-828d-05cac658b5e7;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Documentazione/Esempi;GROUP_site_arce_SiteCollaborator;cmis:read
+f72b3f71-f572-47f4-828d-05cac658b5e7;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Documentazione/Esempi;GROUP_site_arce_SiteCollaborator;cmis:write
+f72b3f71-f572-47f4-828d-05cac658b5e7;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Documentazione/Esempi;GROUP_EVERYONE;cmis:read
+f72b3f71-f572-47f4-828d-05cac658b5e7;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Documentazione/Esempi;GROUP_site_arce_SiteContributor;cmis:read
+f72b3f71-f572-47f4-828d-05cac658b5e7;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Documentazione/Esempi;GROUP_site_arce_SiteManager;cmis:all
+f72b3f71-f572-47f4-828d-05cac658b5e7;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Documentazione/Esempi;GROUP_site_arce_SiteManager;cmis:read
+f72b3f71-f572-47f4-828d-05cac658b5e7;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Documentazione/Esempi;GROUP_site_arce_SiteManager;cmis:write
+f72b3f71-f572-47f4-828d-05cac658b5e7;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Documentazione/Esempi;GROUP_site_arce_SiteConsumer;cmis:read
+ae03e6fa-73d0-4775-9ec0-fc045be015e3;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Documentazione/Approvazione in attesa;GROUP_site_arce_SiteCollaborator;cmis:read
+ae03e6fa-73d0-4775-9ec0-fc045be015e3;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Documentazione/Approvazione in attesa;GROUP_site_arce_SiteCollaborator;cmis:write
+ae03e6fa-73d0-4775-9ec0-fc045be015e3;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Documentazione/Approvazione in attesa;GROUP_EVERYONE;cmis:read
+ae03e6fa-73d0-4775-9ec0-fc045be015e3;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Documentazione/Approvazione in attesa;GROUP_site_arce_SiteContributor;cmis:read
+ae03e6fa-73d0-4775-9ec0-fc045be015e3;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Documentazione/Approvazione in attesa;GROUP_site_arce_SiteManager;cmis:all
+ae03e6fa-73d0-4775-9ec0-fc045be015e3;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Documentazione/Approvazione in attesa;GROUP_site_arce_SiteManager;cmis:read
+ae03e6fa-73d0-4775-9ec0-fc045be015e3;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Documentazione/Approvazione in attesa;GROUP_site_arce_SiteManager;cmis:write
+ae03e6fa-73d0-4775-9ec0-fc045be015e3;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Documentazione/Approvazione in attesa;GROUP_site_arce_SiteConsumer;cmis:read
+f3c0de47-0ed4-4d97-a0a4-440a80ea9033;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Documentazione/Pubblicato;GROUP_site_arce_SiteCollaborator;cmis:read
+f3c0de47-0ed4-4d97-a0a4-440a80ea9033;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Documentazione/Pubblicato;GROUP_site_arce_SiteCollaborator;cmis:write
+f3c0de47-0ed4-4d97-a0a4-440a80ea9033;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Documentazione/Pubblicato;GROUP_EVERYONE;cmis:read
+f3c0de47-0ed4-4d97-a0a4-440a80ea9033;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Documentazione/Pubblicato;GROUP_site_arce_SiteContributor;cmis:read
+f3c0de47-0ed4-4d97-a0a4-440a80ea9033;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Documentazione/Pubblicato;GROUP_site_arce_SiteManager;cmis:all
+f3c0de47-0ed4-4d97-a0a4-440a80ea9033;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Documentazione/Pubblicato;GROUP_site_arce_SiteManager;cmis:read
+f3c0de47-0ed4-4d97-a0a4-440a80ea9033;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Documentazione/Pubblicato;GROUP_site_arce_SiteManager;cmis:write
+f3c0de47-0ed4-4d97-a0a4-440a80ea9033;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Documentazione/Pubblicato;GROUP_site_arce_SiteConsumer;cmis:read
+939a3640-74d4-4db6-95b7-0dc8088df334;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Documentazione/Bozze;GROUP_site_arce_SiteCollaborator;cmis:read
+939a3640-74d4-4db6-95b7-0dc8088df334;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Documentazione/Bozze;GROUP_site_arce_SiteCollaborator;cmis:write
+939a3640-74d4-4db6-95b7-0dc8088df334;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Documentazione/Bozze;GROUP_EVERYONE;cmis:read
+939a3640-74d4-4db6-95b7-0dc8088df334;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Documentazione/Bozze;GROUP_site_arce_SiteContributor;cmis:read
+939a3640-74d4-4db6-95b7-0dc8088df334;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Documentazione/Bozze;GROUP_site_arce_SiteManager;cmis:all
+939a3640-74d4-4db6-95b7-0dc8088df334;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Documentazione/Bozze;GROUP_site_arce_SiteManager;cmis:read
+939a3640-74d4-4db6-95b7-0dc8088df334;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Documentazione/Bozze;GROUP_site_arce_SiteManager;cmis:write
+939a3640-74d4-4db6-95b7-0dc8088df334;/Siti/arce/documentLibrary/aaa/Progetto di progettazione software1/Documentazione/Bozze;GROUP_site_arce_SiteConsumer;cmis:read
+b4cff62a-664d-4d45-9302-98723eac1319;/Siti/swsdp;GROUP_EVERYONE;cmis:read
+b4cff62a-664d-4d45-9302-98723eac1319;/Siti/swsdp;GROUP_site_swsdp_SiteContributor;cmis:read
+b4cff62a-664d-4d45-9302-98723eac1319;/Siti/swsdp;GROUP_site_swsdp_SiteCollaborator;cmis:read
+b4cff62a-664d-4d45-9302-98723eac1319;/Siti/swsdp;GROUP_site_swsdp_SiteCollaborator;cmis:write
+b4cff62a-664d-4d45-9302-98723eac1319;/Siti/swsdp;GROUP_site_swsdp_SiteManager;cmis:all
+b4cff62a-664d-4d45-9302-98723eac1319;/Siti/swsdp;GROUP_site_swsdp_SiteManager;cmis:read
+b4cff62a-664d-4d45-9302-98723eac1319;/Siti/swsdp;GROUP_site_swsdp_SiteManager;cmis:write
+b4cff62a-664d-4d45-9302-98723eac1319;/Siti/swsdp;GROUP_site_swsdp_SiteConsumer;cmis:read
+cdefb3a9-8f55-4771-a9e3-06fa370250f6;/Siti/swsdp/wiki;GROUP_EVERYONE;cmis:read
+cdefb3a9-8f55-4771-a9e3-06fa370250f6;/Siti/swsdp/wiki;GROUP_site_swsdp_SiteContributor;cmis:read
+cdefb3a9-8f55-4771-a9e3-06fa370250f6;/Siti/swsdp/wiki;GROUP_site_swsdp_SiteCollaborator;cmis:read
+cdefb3a9-8f55-4771-a9e3-06fa370250f6;/Siti/swsdp/wiki;GROUP_site_swsdp_SiteCollaborator;cmis:write
+cdefb3a9-8f55-4771-a9e3-06fa370250f6;/Siti/swsdp/wiki;GROUP_site_swsdp_SiteManager;cmis:all
+cdefb3a9-8f55-4771-a9e3-06fa370250f6;/Siti/swsdp/wiki;GROUP_site_swsdp_SiteManager;cmis:read
+cdefb3a9-8f55-4771-a9e3-06fa370250f6;/Siti/swsdp/wiki;GROUP_site_swsdp_SiteManager;cmis:write
+cdefb3a9-8f55-4771-a9e3-06fa370250f6;/Siti/swsdp/wiki;GROUP_site_swsdp_SiteConsumer;cmis:read
+059c5bc7-2d38-4dc5-96b8-d09cd3c69b4c;/Siti/swsdp/discussions;GROUP_EVERYONE;cmis:read
+059c5bc7-2d38-4dc5-96b8-d09cd3c69b4c;/Siti/swsdp/discussions;GROUP_site_swsdp_SiteContributor;cmis:read
+059c5bc7-2d38-4dc5-96b8-d09cd3c69b4c;/Siti/swsdp/discussions;GROUP_site_swsdp_SiteCollaborator;cmis:read
+059c5bc7-2d38-4dc5-96b8-d09cd3c69b4c;/Siti/swsdp/discussions;GROUP_site_swsdp_SiteCollaborator;cmis:write
+059c5bc7-2d38-4dc5-96b8-d09cd3c69b4c;/Siti/swsdp/discussions;GROUP_site_swsdp_SiteManager;cmis:all
+059c5bc7-2d38-4dc5-96b8-d09cd3c69b4c;/Siti/swsdp/discussions;GROUP_site_swsdp_SiteManager;cmis:read
+059c5bc7-2d38-4dc5-96b8-d09cd3c69b4c;/Siti/swsdp/discussions;GROUP_site_swsdp_SiteManager;cmis:write
+059c5bc7-2d38-4dc5-96b8-d09cd3c69b4c;/Siti/swsdp/discussions;GROUP_site_swsdp_SiteConsumer;cmis:read
+53e8664e-e1fb-40d0-9104-019d57f06bee;/Siti/swsdp/discussions/post-1297807546884_964;GROUP_EVERYONE;cmis:read
+53e8664e-e1fb-40d0-9104-019d57f06bee;/Siti/swsdp/discussions/post-1297807546884_964;GROUP_site_swsdp_SiteContributor;cmis:read
+53e8664e-e1fb-40d0-9104-019d57f06bee;/Siti/swsdp/discussions/post-1297807546884_964;GROUP_site_swsdp_SiteCollaborator;cmis:read
+53e8664e-e1fb-40d0-9104-019d57f06bee;/Siti/swsdp/discussions/post-1297807546884_964;GROUP_site_swsdp_SiteCollaborator;cmis:write
+53e8664e-e1fb-40d0-9104-019d57f06bee;/Siti/swsdp/discussions/post-1297807546884_964;GROUP_site_swsdp_SiteManager;cmis:all
+53e8664e-e1fb-40d0-9104-019d57f06bee;/Siti/swsdp/discussions/post-1297807546884_964;GROUP_site_swsdp_SiteManager;cmis:read
+53e8664e-e1fb-40d0-9104-019d57f06bee;/Siti/swsdp/discussions/post-1297807546884_964;GROUP_site_swsdp_SiteManager;cmis:write
+53e8664e-e1fb-40d0-9104-019d57f06bee;/Siti/swsdp/discussions/post-1297807546884_964;GROUP_site_swsdp_SiteConsumer;cmis:read
+700ef542-9e3c-44dd-b7ea-027934010656;/Siti/swsdp/discussions/post-1297807581026_873;GROUP_EVERYONE;cmis:read
+700ef542-9e3c-44dd-b7ea-027934010656;/Siti/swsdp/discussions/post-1297807581026_873;GROUP_site_swsdp_SiteContributor;cmis:read
+700ef542-9e3c-44dd-b7ea-027934010656;/Siti/swsdp/discussions/post-1297807581026_873;GROUP_site_swsdp_SiteCollaborator;cmis:read
+700ef542-9e3c-44dd-b7ea-027934010656;/Siti/swsdp/discussions/post-1297807581026_873;GROUP_site_swsdp_SiteCollaborator;cmis:write
+700ef542-9e3c-44dd-b7ea-027934010656;/Siti/swsdp/discussions/post-1297807581026_873;GROUP_site_swsdp_SiteManager;cmis:all
+700ef542-9e3c-44dd-b7ea-027934010656;/Siti/swsdp/discussions/post-1297807581026_873;GROUP_site_swsdp_SiteManager;cmis:read
+700ef542-9e3c-44dd-b7ea-027934010656;/Siti/swsdp/discussions/post-1297807581026_873;GROUP_site_swsdp_SiteManager;cmis:write
+700ef542-9e3c-44dd-b7ea-027934010656;/Siti/swsdp/discussions/post-1297807581026_873;GROUP_site_swsdp_SiteConsumer;cmis:read
+0e24b99c-41f0-43e1-a55e-fb9f50d73820;/Siti/swsdp/links;GROUP_EVERYONE;cmis:read
+0e24b99c-41f0-43e1-a55e-fb9f50d73820;/Siti/swsdp/links;GROUP_site_swsdp_SiteContributor;cmis:read
+0e24b99c-41f0-43e1-a55e-fb9f50d73820;/Siti/swsdp/links;GROUP_site_swsdp_SiteCollaborator;cmis:read
+0e24b99c-41f0-43e1-a55e-fb9f50d73820;/Siti/swsdp/links;GROUP_site_swsdp_SiteCollaborator;cmis:write
+0e24b99c-41f0-43e1-a55e-fb9f50d73820;/Siti/swsdp/links;GROUP_site_swsdp_SiteManager;cmis:all
+0e24b99c-41f0-43e1-a55e-fb9f50d73820;/Siti/swsdp/links;GROUP_site_swsdp_SiteManager;cmis:read
+0e24b99c-41f0-43e1-a55e-fb9f50d73820;/Siti/swsdp/links;GROUP_site_swsdp_SiteManager;cmis:write
+0e24b99c-41f0-43e1-a55e-fb9f50d73820;/Siti/swsdp/links;GROUP_site_swsdp_SiteConsumer;cmis:read
+8f2105b4-daaf-4874-9e8a-2152569d109b;/Siti/swsdp/documentLibrary;GROUP_EVERYONE;cmis:read
+8f2105b4-daaf-4874-9e8a-2152569d109b;/Siti/swsdp/documentLibrary;GROUP_site_swsdp_SiteContributor;cmis:read
+8f2105b4-daaf-4874-9e8a-2152569d109b;/Siti/swsdp/documentLibrary;GROUP_site_swsdp_SiteCollaborator;cmis:read
+8f2105b4-daaf-4874-9e8a-2152569d109b;/Siti/swsdp/documentLibrary;GROUP_site_swsdp_SiteCollaborator;cmis:write
+8f2105b4-daaf-4874-9e8a-2152569d109b;/Siti/swsdp/documentLibrary;GROUP_site_swsdp_SiteManager;cmis:all
+8f2105b4-daaf-4874-9e8a-2152569d109b;/Siti/swsdp/documentLibrary;GROUP_site_swsdp_SiteManager;cmis:read
+8f2105b4-daaf-4874-9e8a-2152569d109b;/Siti/swsdp/documentLibrary;GROUP_site_swsdp_SiteManager;cmis:write
+8f2105b4-daaf-4874-9e8a-2152569d109b;/Siti/swsdp/documentLibrary;GROUP_site_swsdp_SiteConsumer;cmis:read
+38745585-816a-403f-8005-0a55c0aec813;/Siti/swsdp/documentLibrary/Presentations;GROUP_EVERYONE;cmis:read
+38745585-816a-403f-8005-0a55c0aec813;/Siti/swsdp/documentLibrary/Presentations;GROUP_site_swsdp_SiteContributor;cmis:read
+38745585-816a-403f-8005-0a55c0aec813;/Siti/swsdp/documentLibrary/Presentations;GROUP_site_swsdp_SiteCollaborator;cmis:read
+38745585-816a-403f-8005-0a55c0aec813;/Siti/swsdp/documentLibrary/Presentations;GROUP_site_swsdp_SiteCollaborator;cmis:write
+38745585-816a-403f-8005-0a55c0aec813;/Siti/swsdp/documentLibrary/Presentations;GROUP_site_swsdp_SiteManager;cmis:all
+38745585-816a-403f-8005-0a55c0aec813;/Siti/swsdp/documentLibrary/Presentations;GROUP_site_swsdp_SiteManager;cmis:read
+38745585-816a-403f-8005-0a55c0aec813;/Siti/swsdp/documentLibrary/Presentations;GROUP_site_swsdp_SiteManager;cmis:write
+38745585-816a-403f-8005-0a55c0aec813;/Siti/swsdp/documentLibrary/Presentations;GROUP_site_swsdp_SiteConsumer;cmis:read
+a211774d-ba6d-4a35-b97f-dacfaac7bde3;/Siti/swsdp/documentLibrary/Meeting Notes;GROUP_EVERYONE;cmis:read
+a211774d-ba6d-4a35-b97f-dacfaac7bde3;/Siti/swsdp/documentLibrary/Meeting Notes;GROUP_site_swsdp_SiteContributor;cmis:read
+a211774d-ba6d-4a35-b97f-dacfaac7bde3;/Siti/swsdp/documentLibrary/Meeting Notes;GROUP_site_swsdp_SiteCollaborator;cmis:read
+a211774d-ba6d-4a35-b97f-dacfaac7bde3;/Siti/swsdp/documentLibrary/Meeting Notes;GROUP_site_swsdp_SiteCollaborator;cmis:write
+a211774d-ba6d-4a35-b97f-dacfaac7bde3;/Siti/swsdp/documentLibrary/Meeting Notes;GROUP_site_swsdp_SiteManager;cmis:all
+a211774d-ba6d-4a35-b97f-dacfaac7bde3;/Siti/swsdp/documentLibrary/Meeting Notes;GROUP_site_swsdp_SiteManager;cmis:read
+a211774d-ba6d-4a35-b97f-dacfaac7bde3;/Siti/swsdp/documentLibrary/Meeting Notes;GROUP_site_swsdp_SiteManager;cmis:write
+a211774d-ba6d-4a35-b97f-dacfaac7bde3;/Siti/swsdp/documentLibrary/Meeting Notes;GROUP_site_swsdp_SiteConsumer;cmis:read
+8ab12916-4897-47fb-94eb-1ab699822ecb;/Siti/swsdp/documentLibrary/Budget Files;GROUP_EVERYONE;cmis:read
+8ab12916-4897-47fb-94eb-1ab699822ecb;/Siti/swsdp/documentLibrary/Budget Files;GROUP_site_swsdp_SiteContributor;cmis:read
+8ab12916-4897-47fb-94eb-1ab699822ecb;/Siti/swsdp/documentLibrary/Budget Files;GROUP_site_swsdp_SiteCollaborator;cmis:read
+8ab12916-4897-47fb-94eb-1ab699822ecb;/Siti/swsdp/documentLibrary/Budget Files;GROUP_site_swsdp_SiteCollaborator;cmis:write
+8ab12916-4897-47fb-94eb-1ab699822ecb;/Siti/swsdp/documentLibrary/Budget Files;GROUP_site_swsdp_SiteManager;cmis:all
+8ab12916-4897-47fb-94eb-1ab699822ecb;/Siti/swsdp/documentLibrary/Budget Files;GROUP_site_swsdp_SiteManager;cmis:read
+8ab12916-4897-47fb-94eb-1ab699822ecb;/Siti/swsdp/documentLibrary/Budget Files;GROUP_site_swsdp_SiteManager;cmis:write
+8ab12916-4897-47fb-94eb-1ab699822ecb;/Siti/swsdp/documentLibrary/Budget Files;GROUP_site_swsdp_SiteConsumer;cmis:read
+d56afdc3-0174-4f8c-bce8-977cafd712ab;/Siti/swsdp/documentLibrary/Budget Files/Invoices;GROUP_EVERYONE;cmis:read
+d56afdc3-0174-4f8c-bce8-977cafd712ab;/Siti/swsdp/documentLibrary/Budget Files/Invoices;GROUP_site_swsdp_SiteContributor;cmis:read
+d56afdc3-0174-4f8c-bce8-977cafd712ab;/Siti/swsdp/documentLibrary/Budget Files/Invoices;GROUP_site_swsdp_SiteCollaborator;cmis:read
+d56afdc3-0174-4f8c-bce8-977cafd712ab;/Siti/swsdp/documentLibrary/Budget Files/Invoices;GROUP_site_swsdp_SiteCollaborator;cmis:write
+d56afdc3-0174-4f8c-bce8-977cafd712ab;/Siti/swsdp/documentLibrary/Budget Files/Invoices;GROUP_site_swsdp_SiteManager;cmis:all
+d56afdc3-0174-4f8c-bce8-977cafd712ab;/Siti/swsdp/documentLibrary/Budget Files/Invoices;GROUP_site_swsdp_SiteManager;cmis:read
+d56afdc3-0174-4f8c-bce8-977cafd712ab;/Siti/swsdp/documentLibrary/Budget Files/Invoices;GROUP_site_swsdp_SiteManager;cmis:write
+d56afdc3-0174-4f8c-bce8-977cafd712ab;/Siti/swsdp/documentLibrary/Budget Files/Invoices;GROUP_site_swsdp_SiteConsumer;cmis:read
+8bb36efb-c26d-4d2b-9199-ab6922f53c28;/Siti/swsdp/documentLibrary/Agency Files;GROUP_EVERYONE;cmis:read
+8bb36efb-c26d-4d2b-9199-ab6922f53c28;/Siti/swsdp/documentLibrary/Agency Files;GROUP_site_swsdp_SiteContributor;cmis:read
+8bb36efb-c26d-4d2b-9199-ab6922f53c28;/Siti/swsdp/documentLibrary/Agency Files;GROUP_site_swsdp_SiteCollaborator;cmis:read
+8bb36efb-c26d-4d2b-9199-ab6922f53c28;/Siti/swsdp/documentLibrary/Agency Files;GROUP_site_swsdp_SiteCollaborator;cmis:write
+8bb36efb-c26d-4d2b-9199-ab6922f53c28;/Siti/swsdp/documentLibrary/Agency Files;GROUP_site_swsdp_SiteManager;cmis:all
+8bb36efb-c26d-4d2b-9199-ab6922f53c28;/Siti/swsdp/documentLibrary/Agency Files;GROUP_site_swsdp_SiteManager;cmis:read
+8bb36efb-c26d-4d2b-9199-ab6922f53c28;/Siti/swsdp/documentLibrary/Agency Files;GROUP_site_swsdp_SiteManager;cmis:write
+8bb36efb-c26d-4d2b-9199-ab6922f53c28;/Siti/swsdp/documentLibrary/Agency Files;GROUP_site_swsdp_SiteConsumer;cmis:read
+e0856836-ed5e-4eee-b8e5-bd7e8fb9384c;/Siti/swsdp/documentLibrary/Agency Files/Contracts;GROUP_EVERYONE;cmis:read
+e0856836-ed5e-4eee-b8e5-bd7e8fb9384c;/Siti/swsdp/documentLibrary/Agency Files/Contracts;GROUP_site_swsdp_SiteContributor;cmis:read
+e0856836-ed5e-4eee-b8e5-bd7e8fb9384c;/Siti/swsdp/documentLibrary/Agency Files/Contracts;GROUP_site_swsdp_SiteCollaborator;cmis:read
+e0856836-ed5e-4eee-b8e5-bd7e8fb9384c;/Siti/swsdp/documentLibrary/Agency Files/Contracts;GROUP_site_swsdp_SiteCollaborator;cmis:write
+e0856836-ed5e-4eee-b8e5-bd7e8fb9384c;/Siti/swsdp/documentLibrary/Agency Files/Contracts;GROUP_site_swsdp_SiteManager;cmis:all
+e0856836-ed5e-4eee-b8e5-bd7e8fb9384c;/Siti/swsdp/documentLibrary/Agency Files/Contracts;GROUP_site_swsdp_SiteManager;cmis:read
+e0856836-ed5e-4eee-b8e5-bd7e8fb9384c;/Siti/swsdp/documentLibrary/Agency Files/Contracts;GROUP_site_swsdp_SiteManager;cmis:write
+e0856836-ed5e-4eee-b8e5-bd7e8fb9384c;/Siti/swsdp/documentLibrary/Agency Files/Contracts;GROUP_site_swsdp_SiteConsumer;cmis:read
+1d26e465-dea3-42f3-b415-faa8364b9692;/Siti/swsdp/documentLibrary/Agency Files/Video Files;GROUP_EVERYONE;cmis:read
+1d26e465-dea3-42f3-b415-faa8364b9692;/Siti/swsdp/documentLibrary/Agency Files/Video Files;GROUP_site_swsdp_SiteContributor;cmis:read
+1d26e465-dea3-42f3-b415-faa8364b9692;/Siti/swsdp/documentLibrary/Agency Files/Video Files;GROUP_site_swsdp_SiteCollaborator;cmis:read
+1d26e465-dea3-42f3-b415-faa8364b9692;/Siti/swsdp/documentLibrary/Agency Files/Video Files;GROUP_site_swsdp_SiteCollaborator;cmis:write
+1d26e465-dea3-42f3-b415-faa8364b9692;/Siti/swsdp/documentLibrary/Agency Files/Video Files;GROUP_site_swsdp_SiteManager;cmis:all
+1d26e465-dea3-42f3-b415-faa8364b9692;/Siti/swsdp/documentLibrary/Agency Files/Video Files;GROUP_site_swsdp_SiteManager;cmis:read
+1d26e465-dea3-42f3-b415-faa8364b9692;/Siti/swsdp/documentLibrary/Agency Files/Video Files;GROUP_site_swsdp_SiteManager;cmis:write
+1d26e465-dea3-42f3-b415-faa8364b9692;/Siti/swsdp/documentLibrary/Agency Files/Video Files;GROUP_site_swsdp_SiteConsumer;cmis:read
+b1a98357-4f7a-470d-bf4c-327501158689;/Siti/swsdp/documentLibrary/Agency Files/Logo Files;GROUP_EVERYONE;cmis:read
+b1a98357-4f7a-470d-bf4c-327501158689;/Siti/swsdp/documentLibrary/Agency Files/Logo Files;GROUP_site_swsdp_SiteContributor;cmis:read
+b1a98357-4f7a-470d-bf4c-327501158689;/Siti/swsdp/documentLibrary/Agency Files/Logo Files;GROUP_site_swsdp_SiteCollaborator;cmis:read
+b1a98357-4f7a-470d-bf4c-327501158689;/Siti/swsdp/documentLibrary/Agency Files/Logo Files;GROUP_site_swsdp_SiteCollaborator;cmis:write
+b1a98357-4f7a-470d-bf4c-327501158689;/Siti/swsdp/documentLibrary/Agency Files/Logo Files;GROUP_site_swsdp_SiteManager;cmis:all
+b1a98357-4f7a-470d-bf4c-327501158689;/Siti/swsdp/documentLibrary/Agency Files/Logo Files;GROUP_site_swsdp_SiteManager;cmis:read
+b1a98357-4f7a-470d-bf4c-327501158689;/Siti/swsdp/documentLibrary/Agency Files/Logo Files;GROUP_site_swsdp_SiteManager;cmis:write
+b1a98357-4f7a-470d-bf4c-327501158689;/Siti/swsdp/documentLibrary/Agency Files/Logo Files;GROUP_site_swsdp_SiteConsumer;cmis:read
+610771be-4d82-479a-a2d7-796adf498084;/Siti/swsdp/documentLibrary/Agency Files/Mock-Ups;GROUP_EVERYONE;cmis:read
+610771be-4d82-479a-a2d7-796adf498084;/Siti/swsdp/documentLibrary/Agency Files/Mock-Ups;GROUP_site_swsdp_SiteContributor;cmis:read
+610771be-4d82-479a-a2d7-796adf498084;/Siti/swsdp/documentLibrary/Agency Files/Mock-Ups;GROUP_site_swsdp_SiteCollaborator;cmis:read
+610771be-4d82-479a-a2d7-796adf498084;/Siti/swsdp/documentLibrary/Agency Files/Mock-Ups;GROUP_site_swsdp_SiteCollaborator;cmis:write
+610771be-4d82-479a-a2d7-796adf498084;/Siti/swsdp/documentLibrary/Agency Files/Mock-Ups;GROUP_site_swsdp_SiteManager;cmis:all
+610771be-4d82-479a-a2d7-796adf498084;/Siti/swsdp/documentLibrary/Agency Files/Mock-Ups;GROUP_site_swsdp_SiteManager;cmis:read
+610771be-4d82-479a-a2d7-796adf498084;/Siti/swsdp/documentLibrary/Agency Files/Mock-Ups;GROUP_site_swsdp_SiteManager;cmis:write
+610771be-4d82-479a-a2d7-796adf498084;/Siti/swsdp/documentLibrary/Agency Files/Mock-Ups;GROUP_site_swsdp_SiteConsumer;cmis:read
+880a0f47-31b1-4101-b20b-4d325e54e8b1;/Siti/swsdp/documentLibrary/Agency Files/Images;GROUP_EVERYONE;cmis:read
+880a0f47-31b1-4101-b20b-4d325e54e8b1;/Siti/swsdp/documentLibrary/Agency Files/Images;GROUP_site_swsdp_SiteContributor;cmis:read
+880a0f47-31b1-4101-b20b-4d325e54e8b1;/Siti/swsdp/documentLibrary/Agency Files/Images;GROUP_site_swsdp_SiteCollaborator;cmis:read
+880a0f47-31b1-4101-b20b-4d325e54e8b1;/Siti/swsdp/documentLibrary/Agency Files/Images;GROUP_site_swsdp_SiteCollaborator;cmis:write
+880a0f47-31b1-4101-b20b-4d325e54e8b1;/Siti/swsdp/documentLibrary/Agency Files/Images;GROUP_site_swsdp_SiteManager;cmis:all
+880a0f47-31b1-4101-b20b-4d325e54e8b1;/Siti/swsdp/documentLibrary/Agency Files/Images;GROUP_site_swsdp_SiteManager;cmis:read
+880a0f47-31b1-4101-b20b-4d325e54e8b1;/Siti/swsdp/documentLibrary/Agency Files/Images;GROUP_site_swsdp_SiteManager;cmis:write
+880a0f47-31b1-4101-b20b-4d325e54e8b1;/Siti/swsdp/documentLibrary/Agency Files/Images;GROUP_site_swsdp_SiteConsumer;cmis:read
+64f69e69-f61e-42a3-8697-95eea1f2bda2;/Siti/swsdp/dataLists;GROUP_EVERYONE;cmis:read
+64f69e69-f61e-42a3-8697-95eea1f2bda2;/Siti/swsdp/dataLists;GROUP_site_swsdp_SiteContributor;cmis:read
+64f69e69-f61e-42a3-8697-95eea1f2bda2;/Siti/swsdp/dataLists;GROUP_site_swsdp_SiteCollaborator;cmis:read
+64f69e69-f61e-42a3-8697-95eea1f2bda2;/Siti/swsdp/dataLists;GROUP_site_swsdp_SiteCollaborator;cmis:write
+64f69e69-f61e-42a3-8697-95eea1f2bda2;/Siti/swsdp/dataLists;GROUP_site_swsdp_SiteManager;cmis:all
+64f69e69-f61e-42a3-8697-95eea1f2bda2;/Siti/swsdp/dataLists;GROUP_site_swsdp_SiteManager;cmis:read
+64f69e69-f61e-42a3-8697-95eea1f2bda2;/Siti/swsdp/dataLists;GROUP_site_swsdp_SiteManager;cmis:write
+64f69e69-f61e-42a3-8697-95eea1f2bda2;/Siti/swsdp/dataLists;GROUP_site_swsdp_SiteConsumer;cmis:read
+a534356f-8dd6-4d9a-8ffb-dc1adb140c01;/Siti/swsdp/dataLists/71824d77-9cd8-44c3-b3e4-dbca7e17dc49;GROUP_EVERYONE;cmis:read
+a534356f-8dd6-4d9a-8ffb-dc1adb140c01;/Siti/swsdp/dataLists/71824d77-9cd8-44c3-b3e4-dbca7e17dc49;GROUP_site_swsdp_SiteContributor;cmis:read
+a534356f-8dd6-4d9a-8ffb-dc1adb140c01;/Siti/swsdp/dataLists/71824d77-9cd8-44c3-b3e4-dbca7e17dc49;GROUP_site_swsdp_SiteCollaborator;cmis:read
+a534356f-8dd6-4d9a-8ffb-dc1adb140c01;/Siti/swsdp/dataLists/71824d77-9cd8-44c3-b3e4-dbca7e17dc49;GROUP_site_swsdp_SiteCollaborator;cmis:write
+a534356f-8dd6-4d9a-8ffb-dc1adb140c01;/Siti/swsdp/dataLists/71824d77-9cd8-44c3-b3e4-dbca7e17dc49;GROUP_site_swsdp_SiteManager;cmis:all
+a534356f-8dd6-4d9a-8ffb-dc1adb140c01;/Siti/swsdp/dataLists/71824d77-9cd8-44c3-b3e4-dbca7e17dc49;GROUP_site_swsdp_SiteManager;cmis:read
+a534356f-8dd6-4d9a-8ffb-dc1adb140c01;/Siti/swsdp/dataLists/71824d77-9cd8-44c3-b3e4-dbca7e17dc49;GROUP_site_swsdp_SiteManager;cmis:write
+a534356f-8dd6-4d9a-8ffb-dc1adb140c01;/Siti/swsdp/dataLists/71824d77-9cd8-44c3-b3e4-dbca7e17dc49;GROUP_site_swsdp_SiteConsumer;cmis:read
+fc50d8a0-1bac-430e-b13d-3ac271c6578e;/Siti/swsdp/dataLists/aea88103-517e-4aa0-a3be-de258d0e6465;GROUP_EVERYONE;cmis:read
+fc50d8a0-1bac-430e-b13d-3ac271c6578e;/Siti/swsdp/dataLists/aea88103-517e-4aa0-a3be-de258d0e6465;GROUP_site_swsdp_SiteContributor;cmis:read
+fc50d8a0-1bac-430e-b13d-3ac271c6578e;/Siti/swsdp/dataLists/aea88103-517e-4aa0-a3be-de258d0e6465;GROUP_site_swsdp_SiteCollaborator;cmis:read
+fc50d8a0-1bac-430e-b13d-3ac271c6578e;/Siti/swsdp/dataLists/aea88103-517e-4aa0-a3be-de258d0e6465;GROUP_site_swsdp_SiteCollaborator;cmis:write
+fc50d8a0-1bac-430e-b13d-3ac271c6578e;/Siti/swsdp/dataLists/aea88103-517e-4aa0-a3be-de258d0e6465;GROUP_site_swsdp_SiteManager;cmis:all
+fc50d8a0-1bac-430e-b13d-3ac271c6578e;/Siti/swsdp/dataLists/aea88103-517e-4aa0-a3be-de258d0e6465;GROUP_site_swsdp_SiteManager;cmis:read
+fc50d8a0-1bac-430e-b13d-3ac271c6578e;/Siti/swsdp/dataLists/aea88103-517e-4aa0-a3be-de258d0e6465;GROUP_site_swsdp_SiteManager;cmis:write
+fc50d8a0-1bac-430e-b13d-3ac271c6578e;/Siti/swsdp/dataLists/aea88103-517e-4aa0-a3be-de258d0e6465;GROUP_site_swsdp_SiteConsumer;cmis:read
+424b211b-55f6-410d-8993-f9c68d3918bc;/Siti/Processi-e-Procedure;GROUP_EVERYONE;cmis:read
+424b211b-55f6-410d-8993-f9c68d3918bc;/Siti/Processi-e-Procedure;GROUP_site_Processi-e-Procedure_SiteManager;cmis:all
+424b211b-55f6-410d-8993-f9c68d3918bc;/Siti/Processi-e-Procedure;GROUP_site_Processi-e-Procedure_SiteManager;cmis:read
+424b211b-55f6-410d-8993-f9c68d3918bc;/Siti/Processi-e-Procedure;GROUP_site_Processi-e-Procedure_SiteManager;cmis:write
+424b211b-55f6-410d-8993-f9c68d3918bc;/Siti/Processi-e-Procedure;GROUP_site_Processi-e-Procedure_SiteCollaborator;cmis:read
+424b211b-55f6-410d-8993-f9c68d3918bc;/Siti/Processi-e-Procedure;GROUP_site_Processi-e-Procedure_SiteCollaborator;cmis:write
+424b211b-55f6-410d-8993-f9c68d3918bc;/Siti/Processi-e-Procedure;GROUP_site_Processi-e-Procedure_SiteConsumer;cmis:read
+424b211b-55f6-410d-8993-f9c68d3918bc;/Siti/Processi-e-Procedure;GROUP_site_Processi-e-Procedure_SiteContributor;cmis:read
+b8299d19-0c75-4363-abe8-d7784ae27c89;/Siti/Processi-e-Procedure/documentLibrary;GROUP_EVERYONE;cmis:read
+b8299d19-0c75-4363-abe8-d7784ae27c89;/Siti/Processi-e-Procedure/documentLibrary;GROUP_site_Processi-e-Procedure_SiteManager;cmis:all
+b8299d19-0c75-4363-abe8-d7784ae27c89;/Siti/Processi-e-Procedure/documentLibrary;GROUP_site_Processi-e-Procedure_SiteManager;cmis:read
+b8299d19-0c75-4363-abe8-d7784ae27c89;/Siti/Processi-e-Procedure/documentLibrary;GROUP_site_Processi-e-Procedure_SiteManager;cmis:write
+b8299d19-0c75-4363-abe8-d7784ae27c89;/Siti/Processi-e-Procedure/documentLibrary;GROUP_site_Processi-e-Procedure_SiteCollaborator;cmis:read
+b8299d19-0c75-4363-abe8-d7784ae27c89;/Siti/Processi-e-Procedure/documentLibrary;GROUP_site_Processi-e-Procedure_SiteCollaborator;cmis:write
+b8299d19-0c75-4363-abe8-d7784ae27c89;/Siti/Processi-e-Procedure/documentLibrary;GROUP_site_Processi-e-Procedure_SiteConsumer;cmis:read
+b8299d19-0c75-4363-abe8-d7784ae27c89;/Siti/Processi-e-Procedure/documentLibrary;GROUP_site_Processi-e-Procedure_SiteContributor;cmis:read
+993576b7-b778-4fcb-ae03-e92539c25839;/Siti/Processi-e-Procedure/documentLibrary/Procedure Aziendali;GROUP_EVERYONE;cmis:read
+993576b7-b778-4fcb-ae03-e92539c25839;/Siti/Processi-e-Procedure/documentLibrary/Procedure Aziendali;GROUP_site_Processi-e-Procedure_SiteManager;cmis:all
+993576b7-b778-4fcb-ae03-e92539c25839;/Siti/Processi-e-Procedure/documentLibrary/Procedure Aziendali;GROUP_site_Processi-e-Procedure_SiteManager;cmis:read
+993576b7-b778-4fcb-ae03-e92539c25839;/Siti/Processi-e-Procedure/documentLibrary/Procedure Aziendali;GROUP_site_Processi-e-Procedure_SiteManager;cmis:write
+993576b7-b778-4fcb-ae03-e92539c25839;/Siti/Processi-e-Procedure/documentLibrary/Procedure Aziendali;GROUP_site_Processi-e-Procedure_SiteCollaborator;cmis:read
+993576b7-b778-4fcb-ae03-e92539c25839;/Siti/Processi-e-Procedure/documentLibrary/Procedure Aziendali;GROUP_site_Processi-e-Procedure_SiteCollaborator;cmis:write
+993576b7-b778-4fcb-ae03-e92539c25839;/Siti/Processi-e-Procedure/documentLibrary/Procedure Aziendali;GROUP_site_Processi-e-Procedure_SiteConsumer;cmis:read
+993576b7-b778-4fcb-ae03-e92539c25839;/Siti/Processi-e-Procedure/documentLibrary/Procedure Aziendali;GROUP_site_Processi-e-Procedure_SiteContributor;cmis:read
+927f16f9-39ac-45da-a08f-5d0f8834d18c;/Siti/Processi-e-Procedure/documentLibrary/Procedure Aziendali/1;GROUP_EVERYONE;cmis:read
+927f16f9-39ac-45da-a08f-5d0f8834d18c;/Siti/Processi-e-Procedure/documentLibrary/Procedure Aziendali/1;GROUP_site_Processi-e-Procedure_SiteManager;cmis:all
+927f16f9-39ac-45da-a08f-5d0f8834d18c;/Siti/Processi-e-Procedure/documentLibrary/Procedure Aziendali/1;GROUP_site_Processi-e-Procedure_SiteManager;cmis:read
+927f16f9-39ac-45da-a08f-5d0f8834d18c;/Siti/Processi-e-Procedure/documentLibrary/Procedure Aziendali/1;GROUP_site_Processi-e-Procedure_SiteManager;cmis:write
+927f16f9-39ac-45da-a08f-5d0f8834d18c;/Siti/Processi-e-Procedure/documentLibrary/Procedure Aziendali/1;GROUP_site_Processi-e-Procedure_SiteCollaborator;cmis:read
+927f16f9-39ac-45da-a08f-5d0f8834d18c;/Siti/Processi-e-Procedure/documentLibrary/Procedure Aziendali/1;GROUP_site_Processi-e-Procedure_SiteCollaborator;cmis:write
+927f16f9-39ac-45da-a08f-5d0f8834d18c;/Siti/Processi-e-Procedure/documentLibrary/Procedure Aziendali/1;GROUP_site_Processi-e-Procedure_SiteConsumer;cmis:read
+927f16f9-39ac-45da-a08f-5d0f8834d18c;/Siti/Processi-e-Procedure/documentLibrary/Procedure Aziendali/1;GROUP_site_Processi-e-Procedure_SiteContributor;cmis:read
+64a5f054-04d1-4eee-b0e0-442b3e2f514f;/Siti/Processi-e-Procedure/documentLibrary/Procedure Aziendali/1/altro;GROUP_EVERYONE;cmis:read
+64a5f054-04d1-4eee-b0e0-442b3e2f514f;/Siti/Processi-e-Procedure/documentLibrary/Procedure Aziendali/1/altro;GROUP_site_Processi-e-Procedure_SiteManager;cmis:all
+64a5f054-04d1-4eee-b0e0-442b3e2f514f;/Siti/Processi-e-Procedure/documentLibrary/Procedure Aziendali/1/altro;GROUP_site_Processi-e-Procedure_SiteManager;cmis:read
+64a5f054-04d1-4eee-b0e0-442b3e2f514f;/Siti/Processi-e-Procedure/documentLibrary/Procedure Aziendali/1/altro;GROUP_site_Processi-e-Procedure_SiteManager;cmis:write
+64a5f054-04d1-4eee-b0e0-442b3e2f514f;/Siti/Processi-e-Procedure/documentLibrary/Procedure Aziendali/1/altro;GROUP_site_Processi-e-Procedure_SiteCollaborator;cmis:read
+64a5f054-04d1-4eee-b0e0-442b3e2f514f;/Siti/Processi-e-Procedure/documentLibrary/Procedure Aziendali/1/altro;GROUP_site_Processi-e-Procedure_SiteCollaborator;cmis:write
+64a5f054-04d1-4eee-b0e0-442b3e2f514f;/Siti/Processi-e-Procedure/documentLibrary/Procedure Aziendali/1/altro;GROUP_site_Processi-e-Procedure_SiteConsumer;cmis:read
+64a5f054-04d1-4eee-b0e0-442b3e2f514f;/Siti/Processi-e-Procedure/documentLibrary/Procedure Aziendali/1/altro;GROUP_site_Processi-e-Procedure_SiteContributor;cmis:read
+ce1fb6cc-a6c0-4b72-9574-04d51be34610;/Siti/Processi-e-Procedure/documentLibrary/Procedure Aziendali/1/11;GROUP_EVERYONE;cmis:read
+ce1fb6cc-a6c0-4b72-9574-04d51be34610;/Siti/Processi-e-Procedure/documentLibrary/Procedure Aziendali/1/11;GROUP_site_Processi-e-Procedure_SiteManager;cmis:all
+ce1fb6cc-a6c0-4b72-9574-04d51be34610;/Siti/Processi-e-Procedure/documentLibrary/Procedure Aziendali/1/11;GROUP_site_Processi-e-Procedure_SiteManager;cmis:read
+ce1fb6cc-a6c0-4b72-9574-04d51be34610;/Siti/Processi-e-Procedure/documentLibrary/Procedure Aziendali/1/11;GROUP_site_Processi-e-Procedure_SiteManager;cmis:write
+ce1fb6cc-a6c0-4b72-9574-04d51be34610;/Siti/Processi-e-Procedure/documentLibrary/Procedure Aziendali/1/11;GROUP_site_Processi-e-Procedure_SiteCollaborator;cmis:read
+ce1fb6cc-a6c0-4b72-9574-04d51be34610;/Siti/Processi-e-Procedure/documentLibrary/Procedure Aziendali/1/11;GROUP_site_Processi-e-Procedure_SiteCollaborator;cmis:write
+ce1fb6cc-a6c0-4b72-9574-04d51be34610;/Siti/Processi-e-Procedure/documentLibrary/Procedure Aziendali/1/11;GROUP_site_Processi-e-Procedure_SiteConsumer;cmis:read
+ce1fb6cc-a6c0-4b72-9574-04d51be34610;/Siti/Processi-e-Procedure/documentLibrary/Procedure Aziendali/1/11;GROUP_site_Processi-e-Procedure_SiteContributor;cmis:read
+beb8b133-35db-44f1-bc60-a3559257f89b;/Siti/Processi-e-Procedure/documentLibrary/Procedure Aziendali/2024-01-18;GROUP_EVERYONE;cmis:read
+beb8b133-35db-44f1-bc60-a3559257f89b;/Siti/Processi-e-Procedure/documentLibrary/Procedure Aziendali/2024-01-18;GROUP_site_Processi-e-Procedure_SiteManager;cmis:all
+beb8b133-35db-44f1-bc60-a3559257f89b;/Siti/Processi-e-Procedure/documentLibrary/Procedure Aziendali/2024-01-18;GROUP_site_Processi-e-Procedure_SiteManager;cmis:read
+beb8b133-35db-44f1-bc60-a3559257f89b;/Siti/Processi-e-Procedure/documentLibrary/Procedure Aziendali/2024-01-18;GROUP_site_Processi-e-Procedure_SiteManager;cmis:write
+beb8b133-35db-44f1-bc60-a3559257f89b;/Siti/Processi-e-Procedure/documentLibrary/Procedure Aziendali/2024-01-18;GROUP_site_Processi-e-Procedure_SiteCollaborator;cmis:read
+beb8b133-35db-44f1-bc60-a3559257f89b;/Siti/Processi-e-Procedure/documentLibrary/Procedure Aziendali/2024-01-18;GROUP_site_Processi-e-Procedure_SiteCollaborator;cmis:write
+beb8b133-35db-44f1-bc60-a3559257f89b;/Siti/Processi-e-Procedure/documentLibrary/Procedure Aziendali/2024-01-18;GROUP_site_Processi-e-Procedure_SiteConsumer;cmis:read
+beb8b133-35db-44f1-bc60-a3559257f89b;/Siti/Processi-e-Procedure/documentLibrary/Procedure Aziendali/2024-01-18;GROUP_site_Processi-e-Procedure_SiteContributor;cmis:read
+d24b0f15-856a-4d34-8045-c80db4f3193c;/Siti/Processi-e-Procedure/documentLibrary/old;GROUP_EVERYONE;cmis:read
+d24b0f15-856a-4d34-8045-c80db4f3193c;/Siti/Processi-e-Procedure/documentLibrary/old;GROUP_site_Processi-e-Procedure_SiteManager;cmis:all
+d24b0f15-856a-4d34-8045-c80db4f3193c;/Siti/Processi-e-Procedure/documentLibrary/old;GROUP_site_Processi-e-Procedure_SiteManager;cmis:read
+d24b0f15-856a-4d34-8045-c80db4f3193c;/Siti/Processi-e-Procedure/documentLibrary/old;GROUP_site_Processi-e-Procedure_SiteManager;cmis:write
+d24b0f15-856a-4d34-8045-c80db4f3193c;/Siti/Processi-e-Procedure/documentLibrary/old;GROUP_site_Processi-e-Procedure_SiteCollaborator;cmis:read
+d24b0f15-856a-4d34-8045-c80db4f3193c;/Siti/Processi-e-Procedure/documentLibrary/old;GROUP_site_Processi-e-Procedure_SiteCollaborator;cmis:write
+d24b0f15-856a-4d34-8045-c80db4f3193c;/Siti/Processi-e-Procedure/documentLibrary/old;GROUP_site_Processi-e-Procedure_SiteConsumer;cmis:read
+d24b0f15-856a-4d34-8045-c80db4f3193c;/Siti/Processi-e-Procedure/documentLibrary/old;GROUP_site_Processi-e-Procedure_SiteContributor;cmis:read
+460137ed-6918-4fdf-8233-3d65e13f5a7a;/Siti/Processi-e-Procedure/documentLibrary/Prova_regola;GROUP_EVERYONE;cmis:read
+460137ed-6918-4fdf-8233-3d65e13f5a7a;/Siti/Processi-e-Procedure/documentLibrary/Prova_regola;GROUP_site_Processi-e-Procedure_SiteManager;cmis:all
+460137ed-6918-4fdf-8233-3d65e13f5a7a;/Siti/Processi-e-Procedure/documentLibrary/Prova_regola;GROUP_site_Processi-e-Procedure_SiteManager;cmis:read
+460137ed-6918-4fdf-8233-3d65e13f5a7a;/Siti/Processi-e-Procedure/documentLibrary/Prova_regola;GROUP_site_Processi-e-Procedure_SiteManager;cmis:write
+460137ed-6918-4fdf-8233-3d65e13f5a7a;/Siti/Processi-e-Procedure/documentLibrary/Prova_regola;GROUP_site_Processi-e-Procedure_SiteCollaborator;cmis:read
+460137ed-6918-4fdf-8233-3d65e13f5a7a;/Siti/Processi-e-Procedure/documentLibrary/Prova_regola;GROUP_site_Processi-e-Procedure_SiteCollaborator;cmis:write
+460137ed-6918-4fdf-8233-3d65e13f5a7a;/Siti/Processi-e-Procedure/documentLibrary/Prova_regola;GROUP_site_Processi-e-Procedure_SiteConsumer;cmis:read
+460137ed-6918-4fdf-8233-3d65e13f5a7a;/Siti/Processi-e-Procedure/documentLibrary/Prova_regola;GROUP_site_Processi-e-Procedure_SiteContributor;cmis:read
+297ea3c3-ab16-4fba-8001-68cbfd5a9686;/Siti/Processi-e-Procedure/documentLibrary/Prova_regola/firma1;GROUP_EVERYONE;cmis:read
+297ea3c3-ab16-4fba-8001-68cbfd5a9686;/Siti/Processi-e-Procedure/documentLibrary/Prova_regola/firma1;GROUP_site_Processi-e-Procedure_SiteManager;cmis:all
+297ea3c3-ab16-4fba-8001-68cbfd5a9686;/Siti/Processi-e-Procedure/documentLibrary/Prova_regola/firma1;GROUP_site_Processi-e-Procedure_SiteManager;cmis:read
+297ea3c3-ab16-4fba-8001-68cbfd5a9686;/Siti/Processi-e-Procedure/documentLibrary/Prova_regola/firma1;GROUP_site_Processi-e-Procedure_SiteManager;cmis:write
+297ea3c3-ab16-4fba-8001-68cbfd5a9686;/Siti/Processi-e-Procedure/documentLibrary/Prova_regola/firma1;GROUP_site_Processi-e-Procedure_SiteCollaborator;cmis:read
+297ea3c3-ab16-4fba-8001-68cbfd5a9686;/Siti/Processi-e-Procedure/documentLibrary/Prova_regola/firma1;GROUP_site_Processi-e-Procedure_SiteCollaborator;cmis:write
+297ea3c3-ab16-4fba-8001-68cbfd5a9686;/Siti/Processi-e-Procedure/documentLibrary/Prova_regola/firma1;GROUP_site_Processi-e-Procedure_SiteConsumer;cmis:read
+297ea3c3-ab16-4fba-8001-68cbfd5a9686;/Siti/Processi-e-Procedure/documentLibrary/Prova_regola/firma1;GROUP_site_Processi-e-Procedure_SiteContributor;cmis:read
+a43d92fc-e6a1-4185-a544-90b192377fa4;/Siti/Processi-e-Procedure/documentLibrary/Prova_regola/gestione_gare;GROUP_EVERYONE;cmis:read
+a43d92fc-e6a1-4185-a544-90b192377fa4;/Siti/Processi-e-Procedure/documentLibrary/Prova_regola/gestione_gare;GROUP_site_Processi-e-Procedure_SiteManager;cmis:all
+a43d92fc-e6a1-4185-a544-90b192377fa4;/Siti/Processi-e-Procedure/documentLibrary/Prova_regola/gestione_gare;GROUP_site_Processi-e-Procedure_SiteManager;cmis:read
+a43d92fc-e6a1-4185-a544-90b192377fa4;/Siti/Processi-e-Procedure/documentLibrary/Prova_regola/gestione_gare;GROUP_site_Processi-e-Procedure_SiteManager;cmis:write
+a43d92fc-e6a1-4185-a544-90b192377fa4;/Siti/Processi-e-Procedure/documentLibrary/Prova_regola/gestione_gare;GROUP_site_Processi-e-Procedure_SiteCollaborator;cmis:read
+a43d92fc-e6a1-4185-a544-90b192377fa4;/Siti/Processi-e-Procedure/documentLibrary/Prova_regola/gestione_gare;GROUP_site_Processi-e-Procedure_SiteCollaborator;cmis:write
+a43d92fc-e6a1-4185-a544-90b192377fa4;/Siti/Processi-e-Procedure/documentLibrary/Prova_regola/gestione_gare;GROUP_site_Processi-e-Procedure_SiteConsumer;cmis:read
+a43d92fc-e6a1-4185-a544-90b192377fa4;/Siti/Processi-e-Procedure/documentLibrary/Prova_regola/gestione_gare;GROUP_site_Processi-e-Procedure_SiteContributor;cmis:read
+b4bc309b-22c8-4c85-845a-3aaef5b8f4e6;/Siti/test;GROUP_site_test_SiteConsumer;cmis:read
+b4bc309b-22c8-4c85-845a-3aaef5b8f4e6;/Siti/test;GROUP_EVERYONE;cmis:read
+b4bc309b-22c8-4c85-845a-3aaef5b8f4e6;/Siti/test;GROUP_site_test_SiteCollaborator;cmis:read
+b4bc309b-22c8-4c85-845a-3aaef5b8f4e6;/Siti/test;GROUP_site_test_SiteCollaborator;cmis:write
+b4bc309b-22c8-4c85-845a-3aaef5b8f4e6;/Siti/test;GROUP_site_test_SiteContributor;cmis:read
+b4bc309b-22c8-4c85-845a-3aaef5b8f4e6;/Siti/test;GROUP_site_test_SiteManager;cmis:all
+b4bc309b-22c8-4c85-845a-3aaef5b8f4e6;/Siti/test;GROUP_site_test_SiteManager;cmis:read
+b4bc309b-22c8-4c85-845a-3aaef5b8f4e6;/Siti/test;GROUP_site_test_SiteManager;cmis:write
+398ab336-5908-43f3-87e4-6874b117ec7f;/Siti/test/documentLibrary;GROUP_site_test_SiteConsumer;cmis:read
+398ab336-5908-43f3-87e4-6874b117ec7f;/Siti/test/documentLibrary;GROUP_EVERYONE;cmis:read
+398ab336-5908-43f3-87e4-6874b117ec7f;/Siti/test/documentLibrary;GROUP_site_test_SiteCollaborator;cmis:read
+398ab336-5908-43f3-87e4-6874b117ec7f;/Siti/test/documentLibrary;GROUP_site_test_SiteCollaborator;cmis:write
+398ab336-5908-43f3-87e4-6874b117ec7f;/Siti/test/documentLibrary;GROUP_Dipendenti_Consip;cmis:read
+398ab336-5908-43f3-87e4-6874b117ec7f;/Siti/test/documentLibrary;GROUP_site_test_SiteContributor;cmis:read
+398ab336-5908-43f3-87e4-6874b117ec7f;/Siti/test/documentLibrary;GROUP_site_test_SiteManager;cmis:all
+398ab336-5908-43f3-87e4-6874b117ec7f;/Siti/test/documentLibrary;GROUP_site_test_SiteManager;cmis:read
+398ab336-5908-43f3-87e4-6874b117ec7f;/Siti/test/documentLibrary;GROUP_site_test_SiteManager;cmis:write
+f3e41c2e-4883-44c0-a7bf-2ffd8b7027c1;/Siti/test/documentLibrary/cartella24nov2023;GROUP_site_test_SiteConsumer;cmis:read
+f3e41c2e-4883-44c0-a7bf-2ffd8b7027c1;/Siti/test/documentLibrary/cartella24nov2023;GROUP_EVERYONE;cmis:read
+f3e41c2e-4883-44c0-a7bf-2ffd8b7027c1;/Siti/test/documentLibrary/cartella24nov2023;GROUP_site_test_SiteCollaborator;cmis:read
+f3e41c2e-4883-44c0-a7bf-2ffd8b7027c1;/Siti/test/documentLibrary/cartella24nov2023;GROUP_site_test_SiteCollaborator;cmis:write
+f3e41c2e-4883-44c0-a7bf-2ffd8b7027c1;/Siti/test/documentLibrary/cartella24nov2023;GROUP_Dipendenti_Consip;cmis:read
+f3e41c2e-4883-44c0-a7bf-2ffd8b7027c1;/Siti/test/documentLibrary/cartella24nov2023;GROUP_site_test_SiteContributor;cmis:read
+f3e41c2e-4883-44c0-a7bf-2ffd8b7027c1;/Siti/test/documentLibrary/cartella24nov2023;GROUP_site_test_SiteManager;cmis:all
+f3e41c2e-4883-44c0-a7bf-2ffd8b7027c1;/Siti/test/documentLibrary/cartella24nov2023;GROUP_site_test_SiteManager;cmis:read
+f3e41c2e-4883-44c0-a7bf-2ffd8b7027c1;/Siti/test/documentLibrary/cartella24nov2023;GROUP_site_test_SiteManager;cmis:write
+85deafdf-18ba-4b2b-b819-5652f3babb31;/Siti/test/documentLibrary/WETEST;GROUP_site_test_SiteConsumer;cmis:read
+85deafdf-18ba-4b2b-b819-5652f3babb31;/Siti/test/documentLibrary/WETEST;GROUP_EVERYONE;cmis:read
+85deafdf-18ba-4b2b-b819-5652f3babb31;/Siti/test/documentLibrary/WETEST;GROUP_site_test_SiteCollaborator;cmis:read
+85deafdf-18ba-4b2b-b819-5652f3babb31;/Siti/test/documentLibrary/WETEST;GROUP_site_test_SiteCollaborator;cmis:write
+85deafdf-18ba-4b2b-b819-5652f3babb31;/Siti/test/documentLibrary/WETEST;GROUP_Dipendenti_Consip;cmis:read
+85deafdf-18ba-4b2b-b819-5652f3babb31;/Siti/test/documentLibrary/WETEST;GROUP_site_test_SiteContributor;cmis:read
+85deafdf-18ba-4b2b-b819-5652f3babb31;/Siti/test/documentLibrary/WETEST;GROUP_site_test_SiteManager;cmis:all
+85deafdf-18ba-4b2b-b819-5652f3babb31;/Siti/test/documentLibrary/WETEST;GROUP_site_test_SiteManager;cmis:read
+85deafdf-18ba-4b2b-b819-5652f3babb31;/Siti/test/documentLibrary/WETEST;GROUP_site_test_SiteManager;cmis:write
+f8f1ef2d-7923-423b-a7c5-e215779d6951;/Siti/test/documentLibrary/WETEST/2;GROUP_site_test_SiteConsumer;cmis:read
+f8f1ef2d-7923-423b-a7c5-e215779d6951;/Siti/test/documentLibrary/WETEST/2;GROUP_EVERYONE;cmis:read
+f8f1ef2d-7923-423b-a7c5-e215779d6951;/Siti/test/documentLibrary/WETEST/2;GROUP_site_test_SiteCollaborator;cmis:read
+f8f1ef2d-7923-423b-a7c5-e215779d6951;/Siti/test/documentLibrary/WETEST/2;GROUP_site_test_SiteCollaborator;cmis:write
+f8f1ef2d-7923-423b-a7c5-e215779d6951;/Siti/test/documentLibrary/WETEST/2;GROUP_Dipendenti_Consip;cmis:read
+f8f1ef2d-7923-423b-a7c5-e215779d6951;/Siti/test/documentLibrary/WETEST/2;GROUP_site_test_SiteContributor;cmis:read
+f8f1ef2d-7923-423b-a7c5-e215779d6951;/Siti/test/documentLibrary/WETEST/2;GROUP_site_test_SiteManager;cmis:all
+f8f1ef2d-7923-423b-a7c5-e215779d6951;/Siti/test/documentLibrary/WETEST/2;GROUP_site_test_SiteManager;cmis:read
+f8f1ef2d-7923-423b-a7c5-e215779d6951;/Siti/test/documentLibrary/WETEST/2;GROUP_site_test_SiteManager;cmis:write
+c8c45e43-de58-4832-ac2b-1c5b96af03ef;/Siti/test/documentLibrary/WETEST/3;GROUP_site_test_SiteConsumer;cmis:read
+c8c45e43-de58-4832-ac2b-1c5b96af03ef;/Siti/test/documentLibrary/WETEST/3;GROUP_EVERYONE;cmis:read
+c8c45e43-de58-4832-ac2b-1c5b96af03ef;/Siti/test/documentLibrary/WETEST/3;GROUP_site_test_SiteCollaborator;cmis:read
+c8c45e43-de58-4832-ac2b-1c5b96af03ef;/Siti/test/documentLibrary/WETEST/3;GROUP_site_test_SiteCollaborator;cmis:write
+c8c45e43-de58-4832-ac2b-1c5b96af03ef;/Siti/test/documentLibrary/WETEST/3;GROUP_Dipendenti_Consip;cmis:read
+c8c45e43-de58-4832-ac2b-1c5b96af03ef;/Siti/test/documentLibrary/WETEST/3;GROUP_site_test_SiteContributor;cmis:read
+c8c45e43-de58-4832-ac2b-1c5b96af03ef;/Siti/test/documentLibrary/WETEST/3;GROUP_site_test_SiteManager;cmis:all
+c8c45e43-de58-4832-ac2b-1c5b96af03ef;/Siti/test/documentLibrary/WETEST/3;GROUP_site_test_SiteManager;cmis:read
+c8c45e43-de58-4832-ac2b-1c5b96af03ef;/Siti/test/documentLibrary/WETEST/3;GROUP_site_test_SiteManager;cmis:write
+fd9226ac-eee6-4b92-a917-c2418d74e610;/Siti/test/documentLibrary/20250718;GROUP_site_test_SiteConsumer;cmis:read
+fd9226ac-eee6-4b92-a917-c2418d74e610;/Siti/test/documentLibrary/20250718;GROUP_EVERYONE;cmis:read
+fd9226ac-eee6-4b92-a917-c2418d74e610;/Siti/test/documentLibrary/20250718;GROUP_site_test_SiteCollaborator;cmis:read
+fd9226ac-eee6-4b92-a917-c2418d74e610;/Siti/test/documentLibrary/20250718;GROUP_site_test_SiteCollaborator;cmis:write
+fd9226ac-eee6-4b92-a917-c2418d74e610;/Siti/test/documentLibrary/20250718;GROUP_Dipendenti_Consip;cmis:read
+fd9226ac-eee6-4b92-a917-c2418d74e610;/Siti/test/documentLibrary/20250718;GROUP_site_test_SiteContributor;cmis:read
+fd9226ac-eee6-4b92-a917-c2418d74e610;/Siti/test/documentLibrary/20250718;GROUP_site_test_SiteManager;cmis:all
+fd9226ac-eee6-4b92-a917-c2418d74e610;/Siti/test/documentLibrary/20250718;GROUP_site_test_SiteManager;cmis:read
+fd9226ac-eee6-4b92-a917-c2418d74e610;/Siti/test/documentLibrary/20250718;GROUP_site_test_SiteManager;cmis:write
+854876b8-9544-44e4-be78-dfa847325e5c;/Siti/test/documentLibrary/Contratti test;GROUP_site_test_SiteConsumer;cmis:read
+854876b8-9544-44e4-be78-dfa847325e5c;/Siti/test/documentLibrary/Contratti test;GROUP_EVERYONE;cmis:read
+854876b8-9544-44e4-be78-dfa847325e5c;/Siti/test/documentLibrary/Contratti test;GROUP_site_test_SiteCollaborator;cmis:read
+854876b8-9544-44e4-be78-dfa847325e5c;/Siti/test/documentLibrary/Contratti test;GROUP_site_test_SiteCollaborator;cmis:write
+854876b8-9544-44e4-be78-dfa847325e5c;/Siti/test/documentLibrary/Contratti test;GROUP_CONSULENTI_ESTERNI;cmis:read
+854876b8-9544-44e4-be78-dfa847325e5c;/Siti/test/documentLibrary/Contratti test;GROUP_UPLOAD_CONTRATTI;cmis:read
+854876b8-9544-44e4-be78-dfa847325e5c;/Siti/test/documentLibrary/Contratti test;GROUP_Dipendenti_Consip;cmis:read
+854876b8-9544-44e4-be78-dfa847325e5c;/Siti/test/documentLibrary/Contratti test;GROUP_site_test_SiteContributor;cmis:read
+854876b8-9544-44e4-be78-dfa847325e5c;/Siti/test/documentLibrary/Contratti test;GROUP_site_test_SiteManager;cmis:all
+854876b8-9544-44e4-be78-dfa847325e5c;/Siti/test/documentLibrary/Contratti test;GROUP_site_test_SiteManager;cmis:read
+854876b8-9544-44e4-be78-dfa847325e5c;/Siti/test/documentLibrary/Contratti test;GROUP_site_test_SiteManager;cmis:write
+84921b51-dfca-4b4e-9e03-8ea88a253919;/Siti/test/documentLibrary/Contratti test/2020;GROUP_site_test_SiteConsumer;cmis:read
+84921b51-dfca-4b4e-9e03-8ea88a253919;/Siti/test/documentLibrary/Contratti test/2020;GROUP_EVERYONE;cmis:read
+84921b51-dfca-4b4e-9e03-8ea88a253919;/Siti/test/documentLibrary/Contratti test/2020;GROUP_site_test_SiteCollaborator;cmis:read
+84921b51-dfca-4b4e-9e03-8ea88a253919;/Siti/test/documentLibrary/Contratti test/2020;GROUP_site_test_SiteCollaborator;cmis:write
+84921b51-dfca-4b4e-9e03-8ea88a253919;/Siti/test/documentLibrary/Contratti test/2020;GROUP_CONSULENTI_ESTERNI;cmis:read
+84921b51-dfca-4b4e-9e03-8ea88a253919;/Siti/test/documentLibrary/Contratti test/2020;GROUP_UPLOAD_CONTRATTI;cmis:read
+84921b51-dfca-4b4e-9e03-8ea88a253919;/Siti/test/documentLibrary/Contratti test/2020;GROUP_Dipendenti_Consip;cmis:read
+84921b51-dfca-4b4e-9e03-8ea88a253919;/Siti/test/documentLibrary/Contratti test/2020;GROUP_site_test_SiteContributor;cmis:read
+84921b51-dfca-4b4e-9e03-8ea88a253919;/Siti/test/documentLibrary/Contratti test/2020;GROUP_site_test_SiteManager;cmis:all
+84921b51-dfca-4b4e-9e03-8ea88a253919;/Siti/test/documentLibrary/Contratti test/2020;GROUP_site_test_SiteManager;cmis:read
+84921b51-dfca-4b4e-9e03-8ea88a253919;/Siti/test/documentLibrary/Contratti test/2020;GROUP_site_test_SiteManager;cmis:write
+20f2813a-fa5a-4a2a-9091-fdbada7ac3af;/Siti/test/documentLibrary/cartella8nov2023;GROUP_site_test_SiteConsumer;cmis:read
+20f2813a-fa5a-4a2a-9091-fdbada7ac3af;/Siti/test/documentLibrary/cartella8nov2023;GROUP_EVERYONE;cmis:read
+20f2813a-fa5a-4a2a-9091-fdbada7ac3af;/Siti/test/documentLibrary/cartella8nov2023;GROUP_site_test_SiteCollaborator;cmis:read
+20f2813a-fa5a-4a2a-9091-fdbada7ac3af;/Siti/test/documentLibrary/cartella8nov2023;GROUP_site_test_SiteCollaborator;cmis:write
+20f2813a-fa5a-4a2a-9091-fdbada7ac3af;/Siti/test/documentLibrary/cartella8nov2023;GROUP_Dipendenti_Consip;cmis:read
+20f2813a-fa5a-4a2a-9091-fdbada7ac3af;/Siti/test/documentLibrary/cartella8nov2023;GROUP_site_test_SiteContributor;cmis:read
+20f2813a-fa5a-4a2a-9091-fdbada7ac3af;/Siti/test/documentLibrary/cartella8nov2023;GROUP_site_test_SiteManager;cmis:all
+20f2813a-fa5a-4a2a-9091-fdbada7ac3af;/Siti/test/documentLibrary/cartella8nov2023;GROUP_site_test_SiteManager;cmis:read
+20f2813a-fa5a-4a2a-9091-fdbada7ac3af;/Siti/test/documentLibrary/cartella8nov2023;GROUP_site_test_SiteManager;cmis:write
+05690132-0f78-453c-91de-85c29ec04e0e;/Siti/test/documentLibrary/cartella1;GROUP_site_test_SiteConsumer;cmis:read
+05690132-0f78-453c-91de-85c29ec04e0e;/Siti/test/documentLibrary/cartella1;GROUP_EVERYONE;cmis:read
+05690132-0f78-453c-91de-85c29ec04e0e;/Siti/test/documentLibrary/cartella1;GROUP_site_test_SiteCollaborator;cmis:read
+05690132-0f78-453c-91de-85c29ec04e0e;/Siti/test/documentLibrary/cartella1;GROUP_site_test_SiteCollaborator;cmis:write
+05690132-0f78-453c-91de-85c29ec04e0e;/Siti/test/documentLibrary/cartella1;GROUP_Dipendenti_Consip;cmis:read
+05690132-0f78-453c-91de-85c29ec04e0e;/Siti/test/documentLibrary/cartella1;GROUP_site_test_SiteContributor;cmis:read
+05690132-0f78-453c-91de-85c29ec04e0e;/Siti/test/documentLibrary/cartella1;GROUP_site_test_SiteManager;cmis:all
+05690132-0f78-453c-91de-85c29ec04e0e;/Siti/test/documentLibrary/cartella1;GROUP_site_test_SiteManager;cmis:read
+05690132-0f78-453c-91de-85c29ec04e0e;/Siti/test/documentLibrary/cartella1;GROUP_site_test_SiteManager;cmis:write
+b0f581ae-1174-4016-8682-32ed21915ea7;/Siti/test/documentLibrary/20240423;GROUP_site_test_SiteConsumer;cmis:read
+b0f581ae-1174-4016-8682-32ed21915ea7;/Siti/test/documentLibrary/20240423;GROUP_EVERYONE;cmis:read
+b0f581ae-1174-4016-8682-32ed21915ea7;/Siti/test/documentLibrary/20240423;GROUP_site_test_SiteCollaborator;cmis:read
+b0f581ae-1174-4016-8682-32ed21915ea7;/Siti/test/documentLibrary/20240423;GROUP_site_test_SiteCollaborator;cmis:write
+b0f581ae-1174-4016-8682-32ed21915ea7;/Siti/test/documentLibrary/20240423;GROUP_Dipendenti_Consip;cmis:read
+b0f581ae-1174-4016-8682-32ed21915ea7;/Siti/test/documentLibrary/20240423;GROUP_site_test_SiteContributor;cmis:read
+b0f581ae-1174-4016-8682-32ed21915ea7;/Siti/test/documentLibrary/20240423;GROUP_site_test_SiteManager;cmis:all
+b0f581ae-1174-4016-8682-32ed21915ea7;/Siti/test/documentLibrary/20240423;GROUP_site_test_SiteManager;cmis:read
+b0f581ae-1174-4016-8682-32ed21915ea7;/Siti/test/documentLibrary/20240423;GROUP_site_test_SiteManager;cmis:write
+66c4e30f-edd8-4bde-bd32-5c91ee06aa86;/Siti/test/documentLibrary/20241114;GROUP_site_test_SiteConsumer;cmis:read
+66c4e30f-edd8-4bde-bd32-5c91ee06aa86;/Siti/test/documentLibrary/20241114;GROUP_EVERYONE;cmis:read
+66c4e30f-edd8-4bde-bd32-5c91ee06aa86;/Siti/test/documentLibrary/20241114;GROUP_site_test_SiteCollaborator;cmis:read
+66c4e30f-edd8-4bde-bd32-5c91ee06aa86;/Siti/test/documentLibrary/20241114;GROUP_site_test_SiteCollaborator;cmis:write
+66c4e30f-edd8-4bde-bd32-5c91ee06aa86;/Siti/test/documentLibrary/20241114;GROUP_Dipendenti_Consip;cmis:read
+66c4e30f-edd8-4bde-bd32-5c91ee06aa86;/Siti/test/documentLibrary/20241114;GROUP_site_test_SiteContributor;cmis:read
+66c4e30f-edd8-4bde-bd32-5c91ee06aa86;/Siti/test/documentLibrary/20241114;GROUP_site_test_SiteManager;cmis:all
+66c4e30f-edd8-4bde-bd32-5c91ee06aa86;/Siti/test/documentLibrary/20241114;GROUP_site_test_SiteManager;cmis:read
+66c4e30f-edd8-4bde-bd32-5c91ee06aa86;/Siti/test/documentLibrary/20241114;GROUP_site_test_SiteManager;cmis:write
+313a55f2-ac72-4f29-9b97-1d94943c4f12;/Siti/test/documentLibrary/cartella2;GROUP_site_test_SiteConsumer;cmis:read
+313a55f2-ac72-4f29-9b97-1d94943c4f12;/Siti/test/documentLibrary/cartella2;GROUP_EVERYONE;cmis:read
+313a55f2-ac72-4f29-9b97-1d94943c4f12;/Siti/test/documentLibrary/cartella2;GROUP_site_test_SiteCollaborator;cmis:read
+313a55f2-ac72-4f29-9b97-1d94943c4f12;/Siti/test/documentLibrary/cartella2;GROUP_site_test_SiteCollaborator;cmis:write
+313a55f2-ac72-4f29-9b97-1d94943c4f12;/Siti/test/documentLibrary/cartella2;GROUP_Dipendenti_Consip;cmis:read
+313a55f2-ac72-4f29-9b97-1d94943c4f12;/Siti/test/documentLibrary/cartella2;GROUP_site_test_SiteContributor;cmis:read
+313a55f2-ac72-4f29-9b97-1d94943c4f12;/Siti/test/documentLibrary/cartella2;GROUP_site_test_SiteManager;cmis:all
+313a55f2-ac72-4f29-9b97-1d94943c4f12;/Siti/test/documentLibrary/cartella2;GROUP_site_test_SiteManager;cmis:read
+313a55f2-ac72-4f29-9b97-1d94943c4f12;/Siti/test/documentLibrary/cartella2;GROUP_site_test_SiteManager;cmis:write
+18ab454f-8fe3-4d4b-9166-e03acdf350e4;/Siti/test/documentLibrary/cartella22apr2024;GROUP_site_test_SiteConsumer;cmis:read
+18ab454f-8fe3-4d4b-9166-e03acdf350e4;/Siti/test/documentLibrary/cartella22apr2024;GROUP_EVERYONE;cmis:read
+18ab454f-8fe3-4d4b-9166-e03acdf350e4;/Siti/test/documentLibrary/cartella22apr2024;GROUP_site_test_SiteCollaborator;cmis:read
+18ab454f-8fe3-4d4b-9166-e03acdf350e4;/Siti/test/documentLibrary/cartella22apr2024;GROUP_site_test_SiteCollaborator;cmis:write
+18ab454f-8fe3-4d4b-9166-e03acdf350e4;/Siti/test/documentLibrary/cartella22apr2024;GROUP_Dipendenti_Consip;cmis:read
+18ab454f-8fe3-4d4b-9166-e03acdf350e4;/Siti/test/documentLibrary/cartella22apr2024;GROUP_site_test_SiteContributor;cmis:read
+18ab454f-8fe3-4d4b-9166-e03acdf350e4;/Siti/test/documentLibrary/cartella22apr2024;GROUP_site_test_SiteManager;cmis:all
+18ab454f-8fe3-4d4b-9166-e03acdf350e4;/Siti/test/documentLibrary/cartella22apr2024;GROUP_site_test_SiteManager;cmis:read
+18ab454f-8fe3-4d4b-9166-e03acdf350e4;/Siti/test/documentLibrary/cartella22apr2024;GROUP_site_test_SiteManager;cmis:write
+8f76c3a7-23e6-4c88-9929-954cc6363194;/Siti/test/documentLibrary/Pratiche;GROUP_site_test_SiteConsumer;cmis:read
+8f76c3a7-23e6-4c88-9929-954cc6363194;/Siti/test/documentLibrary/Pratiche;GROUP_EVERYONE;cmis:read
+8f76c3a7-23e6-4c88-9929-954cc6363194;/Siti/test/documentLibrary/Pratiche;GROUP_site_test_SiteCollaborator;cmis:read
+8f76c3a7-23e6-4c88-9929-954cc6363194;/Siti/test/documentLibrary/Pratiche;GROUP_site_test_SiteCollaborator;cmis:write
+8f76c3a7-23e6-4c88-9929-954cc6363194;/Siti/test/documentLibrary/Pratiche;GROUP_Dipendenti_Consip;cmis:read
+8f76c3a7-23e6-4c88-9929-954cc6363194;/Siti/test/documentLibrary/Pratiche;GROUP_site_test_SiteContributor;cmis:read
+8f76c3a7-23e6-4c88-9929-954cc6363194;/Siti/test/documentLibrary/Pratiche;GROUP_site_test_SiteManager;cmis:all
+8f76c3a7-23e6-4c88-9929-954cc6363194;/Siti/test/documentLibrary/Pratiche;GROUP_site_test_SiteManager;cmis:read
+8f76c3a7-23e6-4c88-9929-954cc6363194;/Siti/test/documentLibrary/Pratiche;GROUP_site_test_SiteManager;cmis:write
+4359328b-aa30-4b02-930a-3794c4b90c38;/Siti/test/documentLibrary/Pratiche/123_123;GROUP_site_test_SiteConsumer;cmis:read
+4359328b-aa30-4b02-930a-3794c4b90c38;/Siti/test/documentLibrary/Pratiche/123_123;GROUP_EVERYONE;cmis:read
+4359328b-aa30-4b02-930a-3794c4b90c38;/Siti/test/documentLibrary/Pratiche/123_123;GROUP_site_test_SiteCollaborator;cmis:read
+4359328b-aa30-4b02-930a-3794c4b90c38;/Siti/test/documentLibrary/Pratiche/123_123;GROUP_site_test_SiteCollaborator;cmis:write
+4359328b-aa30-4b02-930a-3794c4b90c38;/Siti/test/documentLibrary/Pratiche/123_123;GROUP_Dipendenti_Consip;cmis:read
+4359328b-aa30-4b02-930a-3794c4b90c38;/Siti/test/documentLibrary/Pratiche/123_123;GROUP_site_test_SiteContributor;cmis:read
+4359328b-aa30-4b02-930a-3794c4b90c38;/Siti/test/documentLibrary/Pratiche/123_123;GROUP_site_test_SiteManager;cmis:all
+4359328b-aa30-4b02-930a-3794c4b90c38;/Siti/test/documentLibrary/Pratiche/123_123;GROUP_site_test_SiteManager;cmis:read
+4359328b-aa30-4b02-930a-3794c4b90c38;/Siti/test/documentLibrary/Pratiche/123_123;GROUP_site_test_SiteManager;cmis:write
+e65edddb-24d5-40c6-a059-889b3b6145e5;/Siti/test/documentLibrary/20240422;GROUP_site_test_SiteConsumer;cmis:read
+e65edddb-24d5-40c6-a059-889b3b6145e5;/Siti/test/documentLibrary/20240422;GROUP_EVERYONE;cmis:read
+e65edddb-24d5-40c6-a059-889b3b6145e5;/Siti/test/documentLibrary/20240422;GROUP_site_test_SiteCollaborator;cmis:read
+e65edddb-24d5-40c6-a059-889b3b6145e5;/Siti/test/documentLibrary/20240422;GROUP_site_test_SiteCollaborator;cmis:write
+e65edddb-24d5-40c6-a059-889b3b6145e5;/Siti/test/documentLibrary/20240422;GROUP_Dipendenti_Consip;cmis:read
+e65edddb-24d5-40c6-a059-889b3b6145e5;/Siti/test/documentLibrary/20240422;GROUP_site_test_SiteContributor;cmis:read
+e65edddb-24d5-40c6-a059-889b3b6145e5;/Siti/test/documentLibrary/20240422;GROUP_site_test_SiteManager;cmis:all
+e65edddb-24d5-40c6-a059-889b3b6145e5;/Siti/test/documentLibrary/20240422;GROUP_site_test_SiteManager;cmis:read
+e65edddb-24d5-40c6-a059-889b3b6145e5;/Siti/test/documentLibrary/20240422;GROUP_site_test_SiteManager;cmis:write
+851a0137-6d21-4b70-a328-36b4f8579be6;/Siti/test/documentLibrary/Contratti;GROUP_site_test_SiteConsumer;cmis:read
+851a0137-6d21-4b70-a328-36b4f8579be6;/Siti/test/documentLibrary/Contratti;GROUP_EVERYONE;cmis:read
+851a0137-6d21-4b70-a328-36b4f8579be6;/Siti/test/documentLibrary/Contratti;GROUP_site_test_SiteCollaborator;cmis:read
+851a0137-6d21-4b70-a328-36b4f8579be6;/Siti/test/documentLibrary/Contratti;GROUP_site_test_SiteCollaborator;cmis:write
+851a0137-6d21-4b70-a328-36b4f8579be6;/Siti/test/documentLibrary/Contratti;GROUP_Dipendenti_Consip;cmis:read
+851a0137-6d21-4b70-a328-36b4f8579be6;/Siti/test/documentLibrary/Contratti;GROUP_site_test_SiteContributor;cmis:read
+851a0137-6d21-4b70-a328-36b4f8579be6;/Siti/test/documentLibrary/Contratti;GROUP_site_test_SiteManager;cmis:all
+851a0137-6d21-4b70-a328-36b4f8579be6;/Siti/test/documentLibrary/Contratti;GROUP_site_test_SiteManager;cmis:read
+851a0137-6d21-4b70-a328-36b4f8579be6;/Siti/test/documentLibrary/Contratti;GROUP_site_test_SiteManager;cmis:write
+754ed5b1-a2e8-4a46-a686-8d0603461a68;/Siti/test/documentLibrary/Contratti/2023;GROUP_site_test_SiteConsumer;cmis:read
+754ed5b1-a2e8-4a46-a686-8d0603461a68;/Siti/test/documentLibrary/Contratti/2023;GROUP_EVERYONE;cmis:read
+754ed5b1-a2e8-4a46-a686-8d0603461a68;/Siti/test/documentLibrary/Contratti/2023;GROUP_site_test_SiteCollaborator;cmis:read
+754ed5b1-a2e8-4a46-a686-8d0603461a68;/Siti/test/documentLibrary/Contratti/2023;GROUP_site_test_SiteCollaborator;cmis:write
+754ed5b1-a2e8-4a46-a686-8d0603461a68;/Siti/test/documentLibrary/Contratti/2023;GROUP_Dipendenti_Consip;cmis:read
+754ed5b1-a2e8-4a46-a686-8d0603461a68;/Siti/test/documentLibrary/Contratti/2023;GROUP_site_test_SiteContributor;cmis:read
+754ed5b1-a2e8-4a46-a686-8d0603461a68;/Siti/test/documentLibrary/Contratti/2023;GROUP_site_test_SiteManager;cmis:all
+754ed5b1-a2e8-4a46-a686-8d0603461a68;/Siti/test/documentLibrary/Contratti/2023;GROUP_site_test_SiteManager;cmis:read
+754ed5b1-a2e8-4a46-a686-8d0603461a68;/Siti/test/documentLibrary/Contratti/2023;GROUP_site_test_SiteManager;cmis:write
+a64108ac-8a1e-4f16-9fbe-0f5b3125b25a;/Siti/test/documentLibrary/Contratti/2022;GROUP_site_test_SiteConsumer;cmis:read
+a64108ac-8a1e-4f16-9fbe-0f5b3125b25a;/Siti/test/documentLibrary/Contratti/2022;GROUP_EVERYONE;cmis:read
+a64108ac-8a1e-4f16-9fbe-0f5b3125b25a;/Siti/test/documentLibrary/Contratti/2022;GROUP_site_test_SiteCollaborator;cmis:read
+a64108ac-8a1e-4f16-9fbe-0f5b3125b25a;/Siti/test/documentLibrary/Contratti/2022;GROUP_site_test_SiteCollaborator;cmis:write
+a64108ac-8a1e-4f16-9fbe-0f5b3125b25a;/Siti/test/documentLibrary/Contratti/2022;GROUP_Dipendenti_Consip;cmis:read
+a64108ac-8a1e-4f16-9fbe-0f5b3125b25a;/Siti/test/documentLibrary/Contratti/2022;GROUP_site_test_SiteContributor;cmis:read
+a64108ac-8a1e-4f16-9fbe-0f5b3125b25a;/Siti/test/documentLibrary/Contratti/2022;GROUP_site_test_SiteManager;cmis:all
+a64108ac-8a1e-4f16-9fbe-0f5b3125b25a;/Siti/test/documentLibrary/Contratti/2022;GROUP_site_test_SiteManager;cmis:read
+a64108ac-8a1e-4f16-9fbe-0f5b3125b25a;/Siti/test/documentLibrary/Contratti/2022;GROUP_site_test_SiteManager;cmis:write
+7fac5887-6144-4674-abe4-7385476caa64;/Siti/test/documentLibrary/Contratti/2020;GROUP_site_test_SiteConsumer;cmis:read
+7fac5887-6144-4674-abe4-7385476caa64;/Siti/test/documentLibrary/Contratti/2020;GROUP_EVERYONE;cmis:read
+7fac5887-6144-4674-abe4-7385476caa64;/Siti/test/documentLibrary/Contratti/2020;GROUP_site_test_SiteCollaborator;cmis:read
+7fac5887-6144-4674-abe4-7385476caa64;/Siti/test/documentLibrary/Contratti/2020;GROUP_site_test_SiteCollaborator;cmis:write
+7fac5887-6144-4674-abe4-7385476caa64;/Siti/test/documentLibrary/Contratti/2020;GROUP_Dipendenti_Consip;cmis:read
+7fac5887-6144-4674-abe4-7385476caa64;/Siti/test/documentLibrary/Contratti/2020;GROUP_site_test_SiteContributor;cmis:read
+7fac5887-6144-4674-abe4-7385476caa64;/Siti/test/documentLibrary/Contratti/2020;GROUP_site_test_SiteManager;cmis:all
+7fac5887-6144-4674-abe4-7385476caa64;/Siti/test/documentLibrary/Contratti/2020;GROUP_site_test_SiteManager;cmis:read
+7fac5887-6144-4674-abe4-7385476caa64;/Siti/test/documentLibrary/Contratti/2020;GROUP_site_test_SiteManager;cmis:write
+d05338a9-1367-4c11-b545-1c4c93c62911;/Siti/test/documentLibrary/Contratti/2021;GROUP_site_test_SiteConsumer;cmis:read
+d05338a9-1367-4c11-b545-1c4c93c62911;/Siti/test/documentLibrary/Contratti/2021;GROUP_EVERYONE;cmis:read
+d05338a9-1367-4c11-b545-1c4c93c62911;/Siti/test/documentLibrary/Contratti/2021;GROUP_site_test_SiteCollaborator;cmis:read
+d05338a9-1367-4c11-b545-1c4c93c62911;/Siti/test/documentLibrary/Contratti/2021;GROUP_site_test_SiteCollaborator;cmis:write
+d05338a9-1367-4c11-b545-1c4c93c62911;/Siti/test/documentLibrary/Contratti/2021;GROUP_Dipendenti_Consip;cmis:read
+d05338a9-1367-4c11-b545-1c4c93c62911;/Siti/test/documentLibrary/Contratti/2021;GROUP_site_test_SiteContributor;cmis:read
+d05338a9-1367-4c11-b545-1c4c93c62911;/Siti/test/documentLibrary/Contratti/2021;GROUP_site_test_SiteManager;cmis:all
+d05338a9-1367-4c11-b545-1c4c93c62911;/Siti/test/documentLibrary/Contratti/2021;GROUP_site_test_SiteManager;cmis:read
+d05338a9-1367-4c11-b545-1c4c93c62911;/Siti/test/documentLibrary/Contratti/2021;GROUP_site_test_SiteManager;cmis:write
+d75fdfe2-3804-481f-b476-50cbe2c8c2cc;/Siti/test/documentLibrary/Contratti New;GROUP_site_test_SiteConsumer;cmis:read
+d75fdfe2-3804-481f-b476-50cbe2c8c2cc;/Siti/test/documentLibrary/Contratti New;GROUP_EVERYONE;cmis:read
+d75fdfe2-3804-481f-b476-50cbe2c8c2cc;/Siti/test/documentLibrary/Contratti New;GROUP_site_test_SiteCollaborator;cmis:read
+d75fdfe2-3804-481f-b476-50cbe2c8c2cc;/Siti/test/documentLibrary/Contratti New;GROUP_site_test_SiteCollaborator;cmis:write
+d75fdfe2-3804-481f-b476-50cbe2c8c2cc;/Siti/test/documentLibrary/Contratti New;GROUP_CONSULENTI_ESTERNI;cmis:read
+d75fdfe2-3804-481f-b476-50cbe2c8c2cc;/Siti/test/documentLibrary/Contratti New;GROUP_UPLOAD_CONTRATTI;cmis:read
+d75fdfe2-3804-481f-b476-50cbe2c8c2cc;/Siti/test/documentLibrary/Contratti New;GROUP_Dipendenti_Consip;cmis:read
+d75fdfe2-3804-481f-b476-50cbe2c8c2cc;/Siti/test/documentLibrary/Contratti New;GROUP_site_test_SiteContributor;cmis:read
+d75fdfe2-3804-481f-b476-50cbe2c8c2cc;/Siti/test/documentLibrary/Contratti New;GROUP_site_test_SiteManager;cmis:all
+d75fdfe2-3804-481f-b476-50cbe2c8c2cc;/Siti/test/documentLibrary/Contratti New;GROUP_site_test_SiteManager;cmis:read
+d75fdfe2-3804-481f-b476-50cbe2c8c2cc;/Siti/test/documentLibrary/Contratti New;GROUP_site_test_SiteManager;cmis:write
+f858f8e3-546e-4abd-a5d8-2e92b529ec26;/Siti/test/documentLibrary/Contratti New/2023;GROUP_site_test_SiteConsumer;cmis:read
+f858f8e3-546e-4abd-a5d8-2e92b529ec26;/Siti/test/documentLibrary/Contratti New/2023;GROUP_EVERYONE;cmis:read
+f858f8e3-546e-4abd-a5d8-2e92b529ec26;/Siti/test/documentLibrary/Contratti New/2023;GROUP_site_test_SiteCollaborator;cmis:read
+f858f8e3-546e-4abd-a5d8-2e92b529ec26;/Siti/test/documentLibrary/Contratti New/2023;GROUP_site_test_SiteCollaborator;cmis:write
+f858f8e3-546e-4abd-a5d8-2e92b529ec26;/Siti/test/documentLibrary/Contratti New/2023;GROUP_CONSULENTI_ESTERNI;cmis:read
+f858f8e3-546e-4abd-a5d8-2e92b529ec26;/Siti/test/documentLibrary/Contratti New/2023;GROUP_UPLOAD_CONTRATTI;cmis:read
+f858f8e3-546e-4abd-a5d8-2e92b529ec26;/Siti/test/documentLibrary/Contratti New/2023;GROUP_Dipendenti_Consip;cmis:read
+f858f8e3-546e-4abd-a5d8-2e92b529ec26;/Siti/test/documentLibrary/Contratti New/2023;GROUP_site_test_SiteContributor;cmis:read
+f858f8e3-546e-4abd-a5d8-2e92b529ec26;/Siti/test/documentLibrary/Contratti New/2023;GROUP_site_test_SiteManager;cmis:all
+f858f8e3-546e-4abd-a5d8-2e92b529ec26;/Siti/test/documentLibrary/Contratti New/2023;GROUP_site_test_SiteManager;cmis:read
+f858f8e3-546e-4abd-a5d8-2e92b529ec26;/Siti/test/documentLibrary/Contratti New/2023;GROUP_site_test_SiteManager;cmis:write
+34bc12e4-6aef-4dbb-908f-f0711b76ec23;/Siti/test/documentLibrary/Contratti New/2022;GROUP_site_test_SiteConsumer;cmis:read
+34bc12e4-6aef-4dbb-908f-f0711b76ec23;/Siti/test/documentLibrary/Contratti New/2022;GROUP_EVERYONE;cmis:read
+34bc12e4-6aef-4dbb-908f-f0711b76ec23;/Siti/test/documentLibrary/Contratti New/2022;GROUP_site_test_SiteCollaborator;cmis:read
+34bc12e4-6aef-4dbb-908f-f0711b76ec23;/Siti/test/documentLibrary/Contratti New/2022;GROUP_site_test_SiteCollaborator;cmis:write
+34bc12e4-6aef-4dbb-908f-f0711b76ec23;/Siti/test/documentLibrary/Contratti New/2022;GROUP_CONSULENTI_ESTERNI;cmis:read
+34bc12e4-6aef-4dbb-908f-f0711b76ec23;/Siti/test/documentLibrary/Contratti New/2022;GROUP_UPLOAD_CONTRATTI;cmis:read
+34bc12e4-6aef-4dbb-908f-f0711b76ec23;/Siti/test/documentLibrary/Contratti New/2022;GROUP_Dipendenti_Consip;cmis:read
+34bc12e4-6aef-4dbb-908f-f0711b76ec23;/Siti/test/documentLibrary/Contratti New/2022;GROUP_site_test_SiteContributor;cmis:read
+34bc12e4-6aef-4dbb-908f-f0711b76ec23;/Siti/test/documentLibrary/Contratti New/2022;GROUP_site_test_SiteManager;cmis:all
+34bc12e4-6aef-4dbb-908f-f0711b76ec23;/Siti/test/documentLibrary/Contratti New/2022;GROUP_site_test_SiteManager;cmis:read
+34bc12e4-6aef-4dbb-908f-f0711b76ec23;/Siti/test/documentLibrary/Contratti New/2022;GROUP_site_test_SiteManager;cmis:write
+c635563b-1035-45f7-9898-d5ebf1aa07a8;/Siti/test/documentLibrary/Contratti New/2020;GROUP_site_test_SiteConsumer;cmis:read
+c635563b-1035-45f7-9898-d5ebf1aa07a8;/Siti/test/documentLibrary/Contratti New/2020;GROUP_EVERYONE;cmis:read
+c635563b-1035-45f7-9898-d5ebf1aa07a8;/Siti/test/documentLibrary/Contratti New/2020;GROUP_site_test_SiteCollaborator;cmis:read
+c635563b-1035-45f7-9898-d5ebf1aa07a8;/Siti/test/documentLibrary/Contratti New/2020;GROUP_site_test_SiteCollaborator;cmis:write
+c635563b-1035-45f7-9898-d5ebf1aa07a8;/Siti/test/documentLibrary/Contratti New/2020;GROUP_CONSULENTI_ESTERNI;cmis:read
+c635563b-1035-45f7-9898-d5ebf1aa07a8;/Siti/test/documentLibrary/Contratti New/2020;GROUP_UPLOAD_CONTRATTI;cmis:read
+c635563b-1035-45f7-9898-d5ebf1aa07a8;/Siti/test/documentLibrary/Contratti New/2020;GROUP_Dipendenti_Consip;cmis:read
+c635563b-1035-45f7-9898-d5ebf1aa07a8;/Siti/test/documentLibrary/Contratti New/2020;GROUP_site_test_SiteContributor;cmis:read
+c635563b-1035-45f7-9898-d5ebf1aa07a8;/Siti/test/documentLibrary/Contratti New/2020;GROUP_site_test_SiteManager;cmis:all
+c635563b-1035-45f7-9898-d5ebf1aa07a8;/Siti/test/documentLibrary/Contratti New/2020;GROUP_site_test_SiteManager;cmis:read
+c635563b-1035-45f7-9898-d5ebf1aa07a8;/Siti/test/documentLibrary/Contratti New/2020;GROUP_site_test_SiteManager;cmis:write
+208f1900-92bd-4fd2-ad70-a288c56a3ad9;/Siti/test/documentLibrary/Contratti New/2021;GROUP_site_test_SiteConsumer;cmis:read
+208f1900-92bd-4fd2-ad70-a288c56a3ad9;/Siti/test/documentLibrary/Contratti New/2021;GROUP_EVERYONE;cmis:read
+208f1900-92bd-4fd2-ad70-a288c56a3ad9;/Siti/test/documentLibrary/Contratti New/2021;GROUP_site_test_SiteCollaborator;cmis:read
+208f1900-92bd-4fd2-ad70-a288c56a3ad9;/Siti/test/documentLibrary/Contratti New/2021;GROUP_site_test_SiteCollaborator;cmis:write
+208f1900-92bd-4fd2-ad70-a288c56a3ad9;/Siti/test/documentLibrary/Contratti New/2021;GROUP_CONSULENTI_ESTERNI;cmis:read
+208f1900-92bd-4fd2-ad70-a288c56a3ad9;/Siti/test/documentLibrary/Contratti New/2021;GROUP_UPLOAD_CONTRATTI;cmis:read
+208f1900-92bd-4fd2-ad70-a288c56a3ad9;/Siti/test/documentLibrary/Contratti New/2021;GROUP_Dipendenti_Consip;cmis:read
+208f1900-92bd-4fd2-ad70-a288c56a3ad9;/Siti/test/documentLibrary/Contratti New/2021;GROUP_site_test_SiteContributor;cmis:read
+208f1900-92bd-4fd2-ad70-a288c56a3ad9;/Siti/test/documentLibrary/Contratti New/2021;GROUP_site_test_SiteManager;cmis:all
+208f1900-92bd-4fd2-ad70-a288c56a3ad9;/Siti/test/documentLibrary/Contratti New/2021;GROUP_site_test_SiteManager;cmis:read
+208f1900-92bd-4fd2-ad70-a288c56a3ad9;/Siti/test/documentLibrary/Contratti New/2021;GROUP_site_test_SiteManager;cmis:write
+41008075-4003-4d7e-9cb8-3ffe4fb03cc7;/Siti/sito1;gialli;cmis:all
+41008075-4003-4d7e-9cb8-3ffe4fb03cc7;/Siti/sito1;gialli;cmis:read
+41008075-4003-4d7e-9cb8-3ffe4fb03cc7;/Siti/sito1;gialli;cmis:write
+41008075-4003-4d7e-9cb8-3ffe4fb03cc7;/Siti/sito1;GROUP_site_sito1_SiteManager;cmis:all
+41008075-4003-4d7e-9cb8-3ffe4fb03cc7;/Siti/sito1;GROUP_site_sito1_SiteManager;cmis:read
+41008075-4003-4d7e-9cb8-3ffe4fb03cc7;/Siti/sito1;GROUP_site_sito1_SiteManager;cmis:write
+41008075-4003-4d7e-9cb8-3ffe4fb03cc7;/Siti/sito1;GROUP_site_sito1_SiteCollaborator;cmis:read
+41008075-4003-4d7e-9cb8-3ffe4fb03cc7;/Siti/sito1;GROUP_site_sito1_SiteCollaborator;cmis:write
+41008075-4003-4d7e-9cb8-3ffe4fb03cc7;/Siti/sito1;GROUP_site_sito1_SiteConsumer;cmis:read
+41008075-4003-4d7e-9cb8-3ffe4fb03cc7;/Siti/sito1;blu;cmis:all
+41008075-4003-4d7e-9cb8-3ffe4fb03cc7;/Siti/sito1;blu;cmis:read
+41008075-4003-4d7e-9cb8-3ffe4fb03cc7;/Siti/sito1;blu;cmis:write
+41008075-4003-4d7e-9cb8-3ffe4fb03cc7;/Siti/sito1;GROUP_site_sito1_SiteContributor;cmis:read
+70ec4383-d346-4ed5-95f2-6df62998406d;/Siti/sito1/documentLibrary;gialli;cmis:all
+70ec4383-d346-4ed5-95f2-6df62998406d;/Siti/sito1/documentLibrary;gialli;cmis:read
+70ec4383-d346-4ed5-95f2-6df62998406d;/Siti/sito1/documentLibrary;gialli;cmis:write
+70ec4383-d346-4ed5-95f2-6df62998406d;/Siti/sito1/documentLibrary;GROUP_site_sito1_SiteManager;cmis:all
+70ec4383-d346-4ed5-95f2-6df62998406d;/Siti/sito1/documentLibrary;GROUP_site_sito1_SiteManager;cmis:read
+70ec4383-d346-4ed5-95f2-6df62998406d;/Siti/sito1/documentLibrary;GROUP_site_sito1_SiteManager;cmis:write
+70ec4383-d346-4ed5-95f2-6df62998406d;/Siti/sito1/documentLibrary;GROUP_site_sito1_SiteCollaborator;cmis:read
+70ec4383-d346-4ed5-95f2-6df62998406d;/Siti/sito1/documentLibrary;GROUP_site_sito1_SiteCollaborator;cmis:write
+70ec4383-d346-4ed5-95f2-6df62998406d;/Siti/sito1/documentLibrary;GROUP_site_sito1_SiteConsumer;cmis:read
+70ec4383-d346-4ed5-95f2-6df62998406d;/Siti/sito1/documentLibrary;blu;cmis:all
+70ec4383-d346-4ed5-95f2-6df62998406d;/Siti/sito1/documentLibrary;blu;cmis:read
+70ec4383-d346-4ed5-95f2-6df62998406d;/Siti/sito1/documentLibrary;blu;cmis:write
+70ec4383-d346-4ed5-95f2-6df62998406d;/Siti/sito1/documentLibrary;GROUP_site_sito1_SiteContributor;cmis:read
+4a731126-187c-451a-bd10-40c7bfdd3e36;/Siti/sito1/documentLibrary/cartella1;gialli;cmis:all
+4a731126-187c-451a-bd10-40c7bfdd3e36;/Siti/sito1/documentLibrary/cartella1;gialli;cmis:read
+4a731126-187c-451a-bd10-40c7bfdd3e36;/Siti/sito1/documentLibrary/cartella1;gialli;cmis:write
+4a731126-187c-451a-bd10-40c7bfdd3e36;/Siti/sito1/documentLibrary/cartella1;GROUP_site_sito1_SiteManager;cmis:all
+4a731126-187c-451a-bd10-40c7bfdd3e36;/Siti/sito1/documentLibrary/cartella1;GROUP_site_sito1_SiteManager;cmis:read
+4a731126-187c-451a-bd10-40c7bfdd3e36;/Siti/sito1/documentLibrary/cartella1;GROUP_site_sito1_SiteManager;cmis:write
+4a731126-187c-451a-bd10-40c7bfdd3e36;/Siti/sito1/documentLibrary/cartella1;GROUP_site_sito1_SiteCollaborator;cmis:read
+4a731126-187c-451a-bd10-40c7bfdd3e36;/Siti/sito1/documentLibrary/cartella1;GROUP_site_sito1_SiteCollaborator;cmis:write
+4a731126-187c-451a-bd10-40c7bfdd3e36;/Siti/sito1/documentLibrary/cartella1;GROUP_site_sito1_SiteConsumer;cmis:read
+4a731126-187c-451a-bd10-40c7bfdd3e36;/Siti/sito1/documentLibrary/cartella1;blu;cmis:all
+4a731126-187c-451a-bd10-40c7bfdd3e36;/Siti/sito1/documentLibrary/cartella1;blu;cmis:read
+4a731126-187c-451a-bd10-40c7bfdd3e36;/Siti/sito1/documentLibrary/cartella1;blu;cmis:write
+4a731126-187c-451a-bd10-40c7bfdd3e36;/Siti/sito1/documentLibrary/cartella1;GROUP_site_sito1_SiteContributor;cmis:read
+bb5e05b3-eae6-466d-845e-3a346b302ef1;/Siti/sitogialli;GROUP_EVERYONE;cmis:read
+bb5e05b3-eae6-466d-845e-3a346b302ef1;/Siti/sitogialli;GROUP_site_sitogialli_SiteContributor;cmis:read
+bb5e05b3-eae6-466d-845e-3a346b302ef1;/Siti/sitogialli;GROUP_site_sitogialli_SiteCollaborator;cmis:read
+bb5e05b3-eae6-466d-845e-3a346b302ef1;/Siti/sitogialli;GROUP_site_sitogialli_SiteCollaborator;cmis:write
+bb5e05b3-eae6-466d-845e-3a346b302ef1;/Siti/sitogialli;GROUP_site_sitogialli_SiteConsumer;cmis:read
+bb5e05b3-eae6-466d-845e-3a346b302ef1;/Siti/sitogialli;GROUP_site_sitogialli_SiteManager;cmis:all
+bb5e05b3-eae6-466d-845e-3a346b302ef1;/Siti/sitogialli;GROUP_site_sitogialli_SiteManager;cmis:read
+bb5e05b3-eae6-466d-845e-3a346b302ef1;/Siti/sitogialli;GROUP_site_sitogialli_SiteManager;cmis:write
+9169d485-281d-4c6e-ba14-0cd930ebcb07;/Siti/sitogialli/documentLibrary;GROUP_site_sitogialli_SiteContributor;cmis:read
+9169d485-281d-4c6e-ba14-0cd930ebcb07;/Siti/sitogialli/documentLibrary;GROUP_site_sitogialli_SiteCollaborator;cmis:read
+9169d485-281d-4c6e-ba14-0cd930ebcb07;/Siti/sitogialli/documentLibrary;GROUP_site_sitogialli_SiteCollaborator;cmis:write
+9169d485-281d-4c6e-ba14-0cd930ebcb07;/Siti/sitogialli/documentLibrary;GROUP_site_sitogialli_SiteConsumer;cmis:read
+9169d485-281d-4c6e-ba14-0cd930ebcb07;/Siti/sitogialli/documentLibrary;GROUP_site_sitogialli_SiteManager;cmis:all
+9169d485-281d-4c6e-ba14-0cd930ebcb07;/Siti/sitogialli/documentLibrary;GROUP_site_sitogialli_SiteManager;cmis:read
+9169d485-281d-4c6e-ba14-0cd930ebcb07;/Siti/sitogialli/documentLibrary;GROUP_site_sitogialli_SiteManager;cmis:write
+f8ec4e54-57fa-4ac8-9071-3cb1ea8419e5;/Siti/Intranet;GROUP_EVERYONE;cmis:read
+f8ec4e54-57fa-4ac8-9071-3cb1ea8419e5;/Siti/Intranet;GROUP_site_Intranet_SiteCollaborator;cmis:read
+f8ec4e54-57fa-4ac8-9071-3cb1ea8419e5;/Siti/Intranet;GROUP_site_Intranet_SiteCollaborator;cmis:write
+f8ec4e54-57fa-4ac8-9071-3cb1ea8419e5;/Siti/Intranet;GROUP_site_Intranet_SiteContributor;cmis:read
+f8ec4e54-57fa-4ac8-9071-3cb1ea8419e5;/Siti/Intranet;GROUP_site_Intranet_SiteConsumer;cmis:read
+f8ec4e54-57fa-4ac8-9071-3cb1ea8419e5;/Siti/Intranet;GROUP_site_Intranet_SiteManager;cmis:all
+f8ec4e54-57fa-4ac8-9071-3cb1ea8419e5;/Siti/Intranet;GROUP_site_Intranet_SiteManager;cmis:read
+f8ec4e54-57fa-4ac8-9071-3cb1ea8419e5;/Siti/Intranet;GROUP_site_Intranet_SiteManager;cmis:write
+a9ff4096-7bcc-4072-889c-3cfcea2d79d9;/Siti/Intranet/documentLibrary;GROUP_EVERYONE;cmis:read
+a9ff4096-7bcc-4072-889c-3cfcea2d79d9;/Siti/Intranet/documentLibrary;GROUP_site_Intranet_SiteCollaborator;cmis:read
+a9ff4096-7bcc-4072-889c-3cfcea2d79d9;/Siti/Intranet/documentLibrary;GROUP_site_Intranet_SiteCollaborator;cmis:write
+a9ff4096-7bcc-4072-889c-3cfcea2d79d9;/Siti/Intranet/documentLibrary;GROUP_site_Intranet_SiteContributor;cmis:read
+a9ff4096-7bcc-4072-889c-3cfcea2d79d9;/Siti/Intranet/documentLibrary;GROUP_site_Intranet_SiteConsumer;cmis:read
+a9ff4096-7bcc-4072-889c-3cfcea2d79d9;/Siti/Intranet/documentLibrary;GROUP_site_Intranet_SiteManager;cmis:all
+a9ff4096-7bcc-4072-889c-3cfcea2d79d9;/Siti/Intranet/documentLibrary;GROUP_site_Intranet_SiteManager;cmis:read
+a9ff4096-7bcc-4072-889c-3cfcea2d79d9;/Siti/Intranet/documentLibrary;GROUP_site_Intranet_SiteManager;cmis:write
+2df07481-9bfe-4249-bec2-f8dec9a147bd;/Siti/Intranet/documentLibrary/Processi e Procedure;GROUP_EVERYONE;cmis:read
+2df07481-9bfe-4249-bec2-f8dec9a147bd;/Siti/Intranet/documentLibrary/Processi e Procedure;GROUP_site_Intranet_SiteCollaborator;cmis:read
+2df07481-9bfe-4249-bec2-f8dec9a147bd;/Siti/Intranet/documentLibrary/Processi e Procedure;GROUP_site_Intranet_SiteCollaborator;cmis:write
+2df07481-9bfe-4249-bec2-f8dec9a147bd;/Siti/Intranet/documentLibrary/Processi e Procedure;GROUP_site_Intranet_SiteContributor;cmis:read
+2df07481-9bfe-4249-bec2-f8dec9a147bd;/Siti/Intranet/documentLibrary/Processi e Procedure;GROUP_site_Intranet_SiteConsumer;cmis:read
+2df07481-9bfe-4249-bec2-f8dec9a147bd;/Siti/Intranet/documentLibrary/Processi e Procedure;GROUP_site_Intranet_SiteManager;cmis:all
+2df07481-9bfe-4249-bec2-f8dec9a147bd;/Siti/Intranet/documentLibrary/Processi e Procedure;GROUP_site_Intranet_SiteManager;cmis:read
+2df07481-9bfe-4249-bec2-f8dec9a147bd;/Siti/Intranet/documentLibrary/Processi e Procedure;GROUP_site_Intranet_SiteManager;cmis:write
+12e252c4-394f-4e35-b0b4-ca994f676314;/Siti/myshare1;GROUP_site_myshare1_SiteCollaborator;cmis:read
+12e252c4-394f-4e35-b0b4-ca994f676314;/Siti/myshare1;GROUP_site_myshare1_SiteCollaborator;cmis:write
+12e252c4-394f-4e35-b0b4-ca994f676314;/Siti/myshare1;GROUP_EVERYONE;cmis:read
+12e252c4-394f-4e35-b0b4-ca994f676314;/Siti/myshare1;GROUP_site_myshare1_SiteConsumer;cmis:read
+12e252c4-394f-4e35-b0b4-ca994f676314;/Siti/myshare1;GROUP_site_myshare1_SiteContributor;cmis:read
+12e252c4-394f-4e35-b0b4-ca994f676314;/Siti/myshare1;GROUP_site_myshare1_SiteManager;cmis:all
+12e252c4-394f-4e35-b0b4-ca994f676314;/Siti/myshare1;GROUP_site_myshare1_SiteManager;cmis:read
+12e252c4-394f-4e35-b0b4-ca994f676314;/Siti/myshare1;GROUP_site_myshare1_SiteManager;cmis:write
+2f4f9002-a0f5-4a63-b283-a51e7d8abb53;/Siti/myshare1/documentLibrary;GROUP_site_myshare1_SiteCollaborator;cmis:read
+2f4f9002-a0f5-4a63-b283-a51e7d8abb53;/Siti/myshare1/documentLibrary;GROUP_site_myshare1_SiteCollaborator;cmis:write
+2f4f9002-a0f5-4a63-b283-a51e7d8abb53;/Siti/myshare1/documentLibrary;GROUP_EVERYONE;cmis:read
+2f4f9002-a0f5-4a63-b283-a51e7d8abb53;/Siti/myshare1/documentLibrary;GROUP_site_myshare1_SiteConsumer;cmis:read
+2f4f9002-a0f5-4a63-b283-a51e7d8abb53;/Siti/myshare1/documentLibrary;GROUP_site_myshare1_SiteContributor;cmis:read
+2f4f9002-a0f5-4a63-b283-a51e7d8abb53;/Siti/myshare1/documentLibrary;GROUP_site_myshare1_SiteManager;cmis:all
+2f4f9002-a0f5-4a63-b283-a51e7d8abb53;/Siti/myshare1/documentLibrary;GROUP_site_myshare1_SiteManager;cmis:read
+2f4f9002-a0f5-4a63-b283-a51e7d8abb53;/Siti/myshare1/documentLibrary;GROUP_site_myshare1_SiteManager;cmis:write
+6c860a99-4bd3-4556-8da7-69d5e614da96;/Home page dell'utente;super;cmis:all
+6c860a99-4bd3-4556-8da7-69d5e614da96;/Home page dell'utente;super;cmis:read
+6c860a99-4bd3-4556-8da7-69d5e614da96;/Home page dell'utente;super;cmis:write
+6c860a99-4bd3-4556-8da7-69d5e614da96;/Home page dell'utente;GROUP_EVERYONE;cmis:read
+8e20479f-16a4-4351-b4c8-df1669a2c7e3;/Home page dell'utente/bianchi;ROLE_OWNER;cmis:all
+8e20479f-16a4-4351-b4c8-df1669a2c7e3;/Home page dell'utente/bianchi;bianchi;cmis:all
+9f21aa3c-86c8-431d-a3ad-2f0e59262fb3;/Home page dell'utente/qwerty;ROLE_OWNER;cmis:all
+9f21aa3c-86c8-431d-a3ad-2f0e59262fb3;/Home page dell'utente/qwerty;qwerty;cmis:all
+c68807a7-4166-4cfa-b5f7-0875cd432770;/Home page dell'utente/gialli;ROLE_OWNER;cmis:all
+c68807a7-4166-4cfa-b5f7-0875cd432770;/Home page dell'utente/gialli;gialli;cmis:all
+3691cf22-8761-4667-b7ae-902219ff96b5;/Home page dell'utente/user2;ROLE_OWNER;cmis:all
+3691cf22-8761-4667-b7ae-902219ff96b5;/Home page dell'utente/user2;user2;cmis:all
+61a4f493-45ef-4036-b657-8f8027fe7de6;/Home page dell'utente/ocra;ROLE_OWNER;cmis:all
+61a4f493-45ef-4036-b657-8f8027fe7de6;/Home page dell'utente/ocra;ocra;cmis:all
+cddbbe72-dd8c-41f3-88b3-399f5485665d;/Home page dell'utente/rossi;ROLE_OWNER;cmis:all
+cddbbe72-dd8c-41f3-88b3-399f5485665d;/Home page dell'utente/rossi;rossi;cmis:all
+bc43a197-0c95-4b8c-915e-6479496e45c4;/Home page dell'utente/grigio;ROLE_OWNER;cmis:all
+bc43a197-0c95-4b8c-915e-6479496e45c4;/Home page dell'utente/grigio;grigio;cmis:all
+a5dec6be-d9ef-4256-9350-df0a1102c5f7;/Home page dell'utente/blu;ROLE_OWNER;cmis:all
+a5dec6be-d9ef-4256-9350-df0a1102c5f7;/Home page dell'utente/blu;blu;cmis:all
+18111837-543a-42c0-b6cb-b074c2a1a669;/Home page dell'utente/azzurro;ROLE_OWNER;cmis:all
+18111837-543a-42c0-b6cb-b074c2a1a669;/Home page dell'utente/azzurro;azzurro;cmis:all
+ba3eb4f1-e6a9-46f8-bb35-9e34f984f91b;/Home page dell'utente/beige;ROLE_OWNER;cmis:all
+ba3eb4f1-e6a9-46f8-bb35-9e34f984f91b;/Home page dell'utente/beige;beige;cmis:all
+e1c74a36-2da8-4d0c-99ae-95f365f526c5;/Home page dell'utente/oro;ROLE_OWNER;cmis:all
+e1c74a36-2da8-4d0c-99ae-95f365f526c5;/Home page dell'utente/oro;oro;cmis:all
+32078ae0-1aff-4989-a030-48988c4a1352;/Home page dell'utente/arce;ROLE_OWNER;cmis:all
+32078ae0-1aff-4989-a030-48988c4a1352;/Home page dell'utente/arce;arce;cmis:all
+f189ae6b-e177-49ae-90dd-c4442c42fb91;/Home page dell'utente/user1;ROLE_OWNER;cmis:all
+f189ae6b-e177-49ae-90dd-c4442c42fb91;/Home page dell'utente/user1;user1;cmis:all
+2181dbd9-935b-4ff6-944c-f3c80432927c;/Home page dell'utente/neri;ROLE_OWNER;cmis:all
+2181dbd9-935b-4ff6-944c-f3c80432927c;/Home page dell'utente/neri;neri;cmis:all
+90547d35-6018-4f96-b903-e8fc15f99dee;/Home page dell'utente/magenta;ROLE_OWNER;cmis:all
+90547d35-6018-4f96-b903-e8fc15f99dee;/Home page dell'utente/magenta;magenta;cmis:all
+7a3b1fdc-e631-4cbc-b4d2-be9ade1c04b0;/Home page dell'utente/magenta/cartella_magenta;ROLE_OWNER;cmis:all
+7a3b1fdc-e631-4cbc-b4d2-be9ade1c04b0;/Home page dell'utente/magenta/cartella_magenta;magenta;cmis:all
+d5d2b030-ab47-46d5-9456-65b40d4d0221;/Home page dell'utente/magenta/cartella_magenta/cartella_magenta_2;ROLE_OWNER;cmis:all
+d5d2b030-ab47-46d5-9456-65b40d4d0221;/Home page dell'utente/magenta/cartella_magenta/cartella_magenta_2;magenta;cmis:all
+5013c605-f042-417c-acd4-a36368827ddf;/Home page dell'utente/admin2;ROLE_OWNER;cmis:all
+5013c605-f042-417c-acd4-a36368827ddf;/Home page dell'utente/admin2;admin2;cmis:all
+7e73c0a8-d4ca-48f3-a4da-0010e332f521;/Home page dell'utente/abeecher;ROLE_OWNER;cmis:all
+7e73c0a8-d4ca-48f3-a4da-0010e332f521;/Home page dell'utente/abeecher;abeecher;cmis:all
+43fd57ce-02cb-41ed-9f74-ddb34a8a031c;/Home page dell'utente/super;ROLE_OWNER;cmis:all
+43fd57ce-02cb-41ed-9f74-ddb34a8a031c;/Home page dell'utente/super;super;cmis:all
+42352d5d-8bed-49af-b5b7-cf99f53f716c;/Home page dell'utente/verdi;ROLE_OWNER;cmis:all
+42352d5d-8bed-49af-b5b7-cf99f53f716c;/Home page dell'utente/verdi;verdi;cmis:all
+f65f1c21-0944-4b74-a88b-1ced142a5599;/Home page dell'utente/tecnica;ROLE_OWNER;cmis:all
+f65f1c21-0944-4b74-a88b-1ced142a5599;/Home page dell'utente/tecnica;tecnica;cmis:all
+032d13b2-4a2d-419c-965b-6a8fefa92dd9;/Home page dell'utente/intranet;ROLE_OWNER;cmis:all
+032d13b2-4a2d-419c-965b-6a8fefa92dd9;/Home page dell'utente/intranet;intranet;cmis:all
+ed3c3760-48c9-4bcd-8475-d7934d2bdf7e;/Home page dell'utente/mjackson;ROLE_OWNER;cmis:all
+ed3c3760-48c9-4bcd-8475-d7934d2bdf7e;/Home page dell'utente/mjackson;mjackson;cmis:all
+13251962-0a70-4118-a27c-f4ccca2e71dd;/Condiviso;super;cmis:all
+13251962-0a70-4118-a27c-f4ccca2e71dd;/Condiviso;super;cmis:read
+13251962-0a70-4118-a27c-f4ccca2e71dd;/Condiviso;super;cmis:write
+13251962-0a70-4118-a27c-f4ccca2e71dd;/Condiviso;GROUP_EVERYONE;cmis:read
+4bd07c11-8dae-41f7-a7e9-1c4ab923c0b1;/Condiviso/Archivio Contratti TEST092023;GROUP_Siac_ReadContratti;cmis:read
+4bd07c11-8dae-41f7-a7e9-1c4ab923c0b1;/Condiviso/Archivio Contratti TEST092023;GROUP_Dipendenti_Consip;cmis:read
+b5ddf769-c379-405b-b271-f41ffa654e67;/Condiviso/Archivio Contratti TEST092023/Contratti e Convenzioni;GROUP_Siac_ReadContratti;cmis:read
+b5ddf769-c379-405b-b271-f41ffa654e67;/Condiviso/Archivio Contratti TEST092023/Contratti e Convenzioni;GROUP_DSO-UTG;cmis:read
+b5ddf769-c379-405b-b271-f41ffa654e67;/Condiviso/Archivio Contratti TEST092023/Contratti e Convenzioni;GROUP_Consulenti_Intranet;cmis:read
+b5ddf769-c379-405b-b271-f41ffa654e67;/Condiviso/Archivio Contratti TEST092023/Contratti e Convenzioni;GROUP_Dipendenti_Consip;cmis:read
+69551e2e-e0c7-42f8-83fe-1cf8e9f38730;/Condiviso/Archivio Contratti TEST092023/Contratti e Convenzioni/2022;GROUP_Siac_ReadContratti;cmis:read
+69551e2e-e0c7-42f8-83fe-1cf8e9f38730;/Condiviso/Archivio Contratti TEST092023/Contratti e Convenzioni/2022;GROUP_DSO-UTG;cmis:read
+69551e2e-e0c7-42f8-83fe-1cf8e9f38730;/Condiviso/Archivio Contratti TEST092023/Contratti e Convenzioni/2022;GROUP_Consulenti_Intranet;cmis:read
+69551e2e-e0c7-42f8-83fe-1cf8e9f38730;/Condiviso/Archivio Contratti TEST092023/Contratti e Convenzioni/2022;GROUP_Dipendenti_Consip;cmis:read
+cca8d2c6-0f69-4188-a9f7-d0add403cba3;/Condiviso/Archivio Contratti TEST092023/Contratti e Convenzioni/2020;GROUP_Siac_ReadContratti;cmis:read
+cca8d2c6-0f69-4188-a9f7-d0add403cba3;/Condiviso/Archivio Contratti TEST092023/Contratti e Convenzioni/2020;GROUP_DSO-UTG;cmis:read
+cca8d2c6-0f69-4188-a9f7-d0add403cba3;/Condiviso/Archivio Contratti TEST092023/Contratti e Convenzioni/2020;GROUP_Consulenti_Intranet;cmis:read
+cca8d2c6-0f69-4188-a9f7-d0add403cba3;/Condiviso/Archivio Contratti TEST092023/Contratti e Convenzioni/2020;GROUP_Dipendenti_Consip;cmis:read
+e4909234-de27-42ed-a003-cabe4d03ebf2;/Condiviso/Archivio Contratti TEST092023/Contratti e Convenzioni/2021;GROUP_Siac_ReadContratti;cmis:read
+e4909234-de27-42ed-a003-cabe4d03ebf2;/Condiviso/Archivio Contratti TEST092023/Contratti e Convenzioni/2021;GROUP_DSO-UTG;cmis:read
+e4909234-de27-42ed-a003-cabe4d03ebf2;/Condiviso/Archivio Contratti TEST092023/Contratti e Convenzioni/2021;GROUP_Consulenti_Intranet;cmis:read
+e4909234-de27-42ed-a003-cabe4d03ebf2;/Condiviso/Archivio Contratti TEST092023/Contratti e Convenzioni/2021;GROUP_Dipendenti_Consip;cmis:read
+fbf8c065-2dea-46ef-b860-5a07f3929395;/Condiviso/Cartella Archivio Contratti;super;cmis:all
+fbf8c065-2dea-46ef-b860-5a07f3929395;/Condiviso/Cartella Archivio Contratti;super;cmis:read
+fbf8c065-2dea-46ef-b860-5a07f3929395;/Condiviso/Cartella Archivio Contratti;super;cmis:write
+fbf8c065-2dea-46ef-b860-5a07f3929395;/Condiviso/Cartella Archivio Contratti;GROUP_EVERYONE;cmis:read
+fbf8c065-2dea-46ef-b860-5a07f3929395;/Condiviso/Cartella Archivio Contratti;GROUP_Dipendenti_Consip;cmis:read
+4e1aeaa3-b505-4916-a4f3-b33bb8364bd1;/Condiviso/Cartella Archivio Contratti/Contratti e Convenzioni;super;cmis:all
+4e1aeaa3-b505-4916-a4f3-b33bb8364bd1;/Condiviso/Cartella Archivio Contratti/Contratti e Convenzioni;super;cmis:read
+4e1aeaa3-b505-4916-a4f3-b33bb8364bd1;/Condiviso/Cartella Archivio Contratti/Contratti e Convenzioni;super;cmis:write
+4e1aeaa3-b505-4916-a4f3-b33bb8364bd1;/Condiviso/Cartella Archivio Contratti/Contratti e Convenzioni;GROUP_EVERYONE;cmis:read
+4e1aeaa3-b505-4916-a4f3-b33bb8364bd1;/Condiviso/Cartella Archivio Contratti/Contratti e Convenzioni;GROUP_CONSULENTI_ESTERNI;cmis:read
+4e1aeaa3-b505-4916-a4f3-b33bb8364bd1;/Condiviso/Cartella Archivio Contratti/Contratti e Convenzioni;admin;cmis:read
+4e1aeaa3-b505-4916-a4f3-b33bb8364bd1;/Condiviso/Cartella Archivio Contratti/Contratti e Convenzioni;admin;cmis:write
+4e1aeaa3-b505-4916-a4f3-b33bb8364bd1;/Condiviso/Cartella Archivio Contratti/Contratti e Convenzioni;GROUP_UPLOAD_CONTRATTI;cmis:read
+4e1aeaa3-b505-4916-a4f3-b33bb8364bd1;/Condiviso/Cartella Archivio Contratti/Contratti e Convenzioni;GROUP_Dipendenti_Consip;cmis:read
+370bcb1d-15d0-4395-b86b-79d71784f039;/Condiviso/Cartella Archivio Contratti/Contratti e Convenzioni/2022;super;cmis:all
+370bcb1d-15d0-4395-b86b-79d71784f039;/Condiviso/Cartella Archivio Contratti/Contratti e Convenzioni/2022;super;cmis:read
+370bcb1d-15d0-4395-b86b-79d71784f039;/Condiviso/Cartella Archivio Contratti/Contratti e Convenzioni/2022;super;cmis:write
+370bcb1d-15d0-4395-b86b-79d71784f039;/Condiviso/Cartella Archivio Contratti/Contratti e Convenzioni/2022;GROUP_EVERYONE;cmis:read
+370bcb1d-15d0-4395-b86b-79d71784f039;/Condiviso/Cartella Archivio Contratti/Contratti e Convenzioni/2022;GROUP_CONSULENTI_ESTERNI;cmis:read
+370bcb1d-15d0-4395-b86b-79d71784f039;/Condiviso/Cartella Archivio Contratti/Contratti e Convenzioni/2022;admin;cmis:read
+370bcb1d-15d0-4395-b86b-79d71784f039;/Condiviso/Cartella Archivio Contratti/Contratti e Convenzioni/2022;admin;cmis:write
+370bcb1d-15d0-4395-b86b-79d71784f039;/Condiviso/Cartella Archivio Contratti/Contratti e Convenzioni/2022;GROUP_UPLOAD_CONTRATTI;cmis:read
+370bcb1d-15d0-4395-b86b-79d71784f039;/Condiviso/Cartella Archivio Contratti/Contratti e Convenzioni/2022;GROUP_Dipendenti_Consip;cmis:read
+567c6128-395e-4b53-9b76-bcca57d357f9;/Condiviso/Cartella Archivio Contratti/Contratti e Convenzioni/2020;super;cmis:all
+567c6128-395e-4b53-9b76-bcca57d357f9;/Condiviso/Cartella Archivio Contratti/Contratti e Convenzioni/2020;super;cmis:read
+567c6128-395e-4b53-9b76-bcca57d357f9;/Condiviso/Cartella Archivio Contratti/Contratti e Convenzioni/2020;super;cmis:write
+567c6128-395e-4b53-9b76-bcca57d357f9;/Condiviso/Cartella Archivio Contratti/Contratti e Convenzioni/2020;GROUP_EVERYONE;cmis:read
+567c6128-395e-4b53-9b76-bcca57d357f9;/Condiviso/Cartella Archivio Contratti/Contratti e Convenzioni/2020;GROUP_CONSULENTI_ESTERNI;cmis:read
+567c6128-395e-4b53-9b76-bcca57d357f9;/Condiviso/Cartella Archivio Contratti/Contratti e Convenzioni/2020;admin;cmis:read
+567c6128-395e-4b53-9b76-bcca57d357f9;/Condiviso/Cartella Archivio Contratti/Contratti e Convenzioni/2020;admin;cmis:write
+567c6128-395e-4b53-9b76-bcca57d357f9;/Condiviso/Cartella Archivio Contratti/Contratti e Convenzioni/2020;GROUP_UPLOAD_CONTRATTI;cmis:read
+567c6128-395e-4b53-9b76-bcca57d357f9;/Condiviso/Cartella Archivio Contratti/Contratti e Convenzioni/2020;GROUP_Dipendenti_Consip;cmis:read
+5f787e6f-1d8c-45bf-b402-8879315037f9;/Condiviso/Cartella Archivio Contratti/Contratti e Convenzioni/2021;super;cmis:all
+5f787e6f-1d8c-45bf-b402-8879315037f9;/Condiviso/Cartella Archivio Contratti/Contratti e Convenzioni/2021;super;cmis:read
+5f787e6f-1d8c-45bf-b402-8879315037f9;/Condiviso/Cartella Archivio Contratti/Contratti e Convenzioni/2021;super;cmis:write
+5f787e6f-1d8c-45bf-b402-8879315037f9;/Condiviso/Cartella Archivio Contratti/Contratti e Convenzioni/2021;GROUP_EVERYONE;cmis:read
+5f787e6f-1d8c-45bf-b402-8879315037f9;/Condiviso/Cartella Archivio Contratti/Contratti e Convenzioni/2021;GROUP_CONSULENTI_ESTERNI;cmis:read
+5f787e6f-1d8c-45bf-b402-8879315037f9;/Condiviso/Cartella Archivio Contratti/Contratti e Convenzioni/2021;admin;cmis:read
+5f787e6f-1d8c-45bf-b402-8879315037f9;/Condiviso/Cartella Archivio Contratti/Contratti e Convenzioni/2021;admin;cmis:write
+5f787e6f-1d8c-45bf-b402-8879315037f9;/Condiviso/Cartella Archivio Contratti/Contratti e Convenzioni/2021;GROUP_UPLOAD_CONTRATTI;cmis:read
+5f787e6f-1d8c-45bf-b402-8879315037f9;/Condiviso/Cartella Archivio Contratti/Contratti e Convenzioni/2021;GROUP_Dipendenti_Consip;cmis:read
+de658c44-46cd-4572-b4a5-d0ef8a19b329;/Condiviso/BBB;super;cmis:all
+de658c44-46cd-4572-b4a5-d0ef8a19b329;/Condiviso/BBB;super;cmis:read
+de658c44-46cd-4572-b4a5-d0ef8a19b329;/Condiviso/BBB;super;cmis:write
+de658c44-46cd-4572-b4a5-d0ef8a19b329;/Condiviso/BBB;GROUP_EVERYONE;cmis:read
+7945e26d-be4d-4154-b767-7ce58460f64f;/Condiviso/BBB/prova_04042025;super;cmis:all
+7945e26d-be4d-4154-b767-7ce58460f64f;/Condiviso/BBB/prova_04042025;super;cmis:read
+7945e26d-be4d-4154-b767-7ce58460f64f;/Condiviso/BBB/prova_04042025;super;cmis:write
+7945e26d-be4d-4154-b767-7ce58460f64f;/Condiviso/BBB/prova_04042025;GROUP_EVERYONE;cmis:read
+a3458b01-df6a-400d-9cd6-01a201a1d13a;/Condiviso/Archivio Contratti;super;cmis:all
+a3458b01-df6a-400d-9cd6-01a201a1d13a;/Condiviso/Archivio Contratti;super;cmis:read
+a3458b01-df6a-400d-9cd6-01a201a1d13a;/Condiviso/Archivio Contratti;super;cmis:write
+a3458b01-df6a-400d-9cd6-01a201a1d13a;/Condiviso/Archivio Contratti;GROUP_EVERYONE;cmis:read
+a3458b01-df6a-400d-9cd6-01a201a1d13a;/Condiviso/Archivio Contratti;GROUP_Dipendenti_Consip;cmis:read
+82376a02-3fcc-450b-8568-7225a35e3e1a;/Condiviso/Archivio Contratti/Contratti e Convenzioni;super;cmis:all
+82376a02-3fcc-450b-8568-7225a35e3e1a;/Condiviso/Archivio Contratti/Contratti e Convenzioni;super;cmis:read
+82376a02-3fcc-450b-8568-7225a35e3e1a;/Condiviso/Archivio Contratti/Contratti e Convenzioni;super;cmis:write
+82376a02-3fcc-450b-8568-7225a35e3e1a;/Condiviso/Archivio Contratti/Contratti e Convenzioni;GROUP_EVERYONE;cmis:read
+82376a02-3fcc-450b-8568-7225a35e3e1a;/Condiviso/Archivio Contratti/Contratti e Convenzioni;admin;cmis:all
+82376a02-3fcc-450b-8568-7225a35e3e1a;/Condiviso/Archivio Contratti/Contratti e Convenzioni;admin;cmis:read
+82376a02-3fcc-450b-8568-7225a35e3e1a;/Condiviso/Archivio Contratti/Contratti e Convenzioni;admin;cmis:write
+82376a02-3fcc-450b-8568-7225a35e3e1a;/Condiviso/Archivio Contratti/Contratti e Convenzioni;GROUP_Dipendenti_Consip;cmis:read
+1b7b40b3-87f5-4d31-8cb3-37763b4ecc98;/Condiviso/Archivio Contratti/Contratti e Convenzioni/2022;super;cmis:all
+1b7b40b3-87f5-4d31-8cb3-37763b4ecc98;/Condiviso/Archivio Contratti/Contratti e Convenzioni/2022;super;cmis:read
+1b7b40b3-87f5-4d31-8cb3-37763b4ecc98;/Condiviso/Archivio Contratti/Contratti e Convenzioni/2022;super;cmis:write
+1b7b40b3-87f5-4d31-8cb3-37763b4ecc98;/Condiviso/Archivio Contratti/Contratti e Convenzioni/2022;GROUP_EVERYONE;cmis:read
+1b7b40b3-87f5-4d31-8cb3-37763b4ecc98;/Condiviso/Archivio Contratti/Contratti e Convenzioni/2022;admin;cmis:all
+1b7b40b3-87f5-4d31-8cb3-37763b4ecc98;/Condiviso/Archivio Contratti/Contratti e Convenzioni/2022;admin;cmis:read
+1b7b40b3-87f5-4d31-8cb3-37763b4ecc98;/Condiviso/Archivio Contratti/Contratti e Convenzioni/2022;admin;cmis:write
+1b7b40b3-87f5-4d31-8cb3-37763b4ecc98;/Condiviso/Archivio Contratti/Contratti e Convenzioni/2022;GROUP_Dipendenti_Consip;cmis:read
+e2bfeb3b-5eec-4b0a-ae62-297ef85ada60;/Condiviso/Archivio Contratti/Contratti e Convenzioni/2020;super;cmis:all
+e2bfeb3b-5eec-4b0a-ae62-297ef85ada60;/Condiviso/Archivio Contratti/Contratti e Convenzioni/2020;super;cmis:read
+e2bfeb3b-5eec-4b0a-ae62-297ef85ada60;/Condiviso/Archivio Contratti/Contratti e Convenzioni/2020;super;cmis:write
+e2bfeb3b-5eec-4b0a-ae62-297ef85ada60;/Condiviso/Archivio Contratti/Contratti e Convenzioni/2020;GROUP_EVERYONE;cmis:read
+e2bfeb3b-5eec-4b0a-ae62-297ef85ada60;/Condiviso/Archivio Contratti/Contratti e Convenzioni/2020;admin;cmis:all
+e2bfeb3b-5eec-4b0a-ae62-297ef85ada60;/Condiviso/Archivio Contratti/Contratti e Convenzioni/2020;admin;cmis:read
+e2bfeb3b-5eec-4b0a-ae62-297ef85ada60;/Condiviso/Archivio Contratti/Contratti e Convenzioni/2020;admin;cmis:write
+e2bfeb3b-5eec-4b0a-ae62-297ef85ada60;/Condiviso/Archivio Contratti/Contratti e Convenzioni/2020;GROUP_Dipendenti_Consip;cmis:read
+ff45d080-359e-4556-a66b-c640a8960037;/Condiviso/Archivio Contratti/Contratti e Convenzioni/2021;super;cmis:all
+ff45d080-359e-4556-a66b-c640a8960037;/Condiviso/Archivio Contratti/Contratti e Convenzioni/2021;super;cmis:read
+ff45d080-359e-4556-a66b-c640a8960037;/Condiviso/Archivio Contratti/Contratti e Convenzioni/2021;super;cmis:write
+ff45d080-359e-4556-a66b-c640a8960037;/Condiviso/Archivio Contratti/Contratti e Convenzioni/2021;GROUP_EVERYONE;cmis:read
+ff45d080-359e-4556-a66b-c640a8960037;/Condiviso/Archivio Contratti/Contratti e Convenzioni/2021;admin;cmis:all
+ff45d080-359e-4556-a66b-c640a8960037;/Condiviso/Archivio Contratti/Contratti e Convenzioni/2021;admin;cmis:read
+ff45d080-359e-4556-a66b-c640a8960037;/Condiviso/Archivio Contratti/Contratti e Convenzioni/2021;admin;cmis:write
+ff45d080-359e-4556-a66b-c640a8960037;/Condiviso/Archivio Contratti/Contratti e Convenzioni/2021;GROUP_Dipendenti_Consip;cmis:read
+3a7b80aa-54f6-42b1-8fb7-ebb32f5f3967;/Condiviso/Storico2022;super;cmis:all
+3a7b80aa-54f6-42b1-8fb7-ebb32f5f3967;/Condiviso/Storico2022;super;cmis:read
+3a7b80aa-54f6-42b1-8fb7-ebb32f5f3967;/Condiviso/Storico2022;super;cmis:write
+3a7b80aa-54f6-42b1-8fb7-ebb32f5f3967;/Condiviso/Storico2022;GROUP_EVERYONE;cmis:read
+422cc32f-b643-4ad5-aba4-880268cde3b0;/Condiviso/gialli_cartella;super;cmis:all
+422cc32f-b643-4ad5-aba4-880268cde3b0;/Condiviso/gialli_cartella;super;cmis:read
+422cc32f-b643-4ad5-aba4-880268cde3b0;/Condiviso/gialli_cartella;super;cmis:write
+422cc32f-b643-4ad5-aba4-880268cde3b0;/Condiviso/gialli_cartella;GROUP_EVERYONE;cmis:read
+422cc32f-b643-4ad5-aba4-880268cde3b0;/Condiviso/gialli_cartella;gialli;cmis:read
+422cc32f-b643-4ad5-aba4-880268cde3b0;/Condiviso/gialli_cartella;gialli;cmis:write
+48b6d8f8-e5d1-411f-b278-a1f7d2e6b413;/Condiviso/Procedure;super;cmis:all
+48b6d8f8-e5d1-411f-b278-a1f7d2e6b413;/Condiviso/Procedure;super;cmis:read
+48b6d8f8-e5d1-411f-b278-a1f7d2e6b413;/Condiviso/Procedure;super;cmis:write
+48b6d8f8-e5d1-411f-b278-a1f7d2e6b413;/Condiviso/Procedure;GROUP_EVERYONE;cmis:read
+ee57d48f-787f-44b7-baa7-5ed5e9a37adf;/Condiviso/PeP_20241701;super;cmis:all
+ee57d48f-787f-44b7-baa7-5ed5e9a37adf;/Condiviso/PeP_20241701;super;cmis:read
+ee57d48f-787f-44b7-baa7-5ed5e9a37adf;/Condiviso/PeP_20241701;super;cmis:write
+ee57d48f-787f-44b7-baa7-5ed5e9a37adf;/Condiviso/PeP_20241701;GROUP_EVERYONE;cmis:read
+24969c77-f3f8-433b-8880-3721dbcac964;/Condiviso/Test Consip;super;cmis:all
+24969c77-f3f8-433b-8880-3721dbcac964;/Condiviso/Test Consip;super;cmis:read
+24969c77-f3f8-433b-8880-3721dbcac964;/Condiviso/Test Consip;super;cmis:write
+24969c77-f3f8-433b-8880-3721dbcac964;/Condiviso/Test Consip;GROUP_EVERYONE;cmis:read
+23faec0c-9e36-42de-abf1-5234992b4b4c;/Condiviso/Storico;super;cmis:all
+23faec0c-9e36-42de-abf1-5234992b4b4c;/Condiviso/Storico;super;cmis:read
+23faec0c-9e36-42de-abf1-5234992b4b4c;/Condiviso/Storico;super;cmis:write
+23faec0c-9e36-42de-abf1-5234992b4b4c;/Condiviso/Storico;GROUP_EVERYONE;cmis:read
+d1481bc2-17a4-4e7b-9495-c2e3500c31b5;/Condiviso/AAA;super;cmis:all
+d1481bc2-17a4-4e7b-9495-c2e3500c31b5;/Condiviso/AAA;super;cmis:read
+d1481bc2-17a4-4e7b-9495-c2e3500c31b5;/Condiviso/AAA;super;cmis:write
+d1481bc2-17a4-4e7b-9495-c2e3500c31b5;/Condiviso/AAA;GROUP_EVERYONE;cmis:read
+96dbdfd6-cbf6-41d7-b830-adbdd993a8d0;/Condiviso/Processi;super;cmis:all
+96dbdfd6-cbf6-41d7-b830-adbdd993a8d0;/Condiviso/Processi;super;cmis:read
+96dbdfd6-cbf6-41d7-b830-adbdd993a8d0;/Condiviso/Processi;super;cmis:write
+96dbdfd6-cbf6-41d7-b830-adbdd993a8d0;/Condiviso/Processi;GROUP_EVERYONE;cmis:read
+7458e26f-f6f6-4bd1-b7c6-9271bf35ce56;/Home page IMAP;super;cmis:all
+7458e26f-f6f6-4bd1-b7c6-9271bf35ce56;/Home page IMAP;super;cmis:read
+7458e26f-f6f6-4bd1-b7c6-9271bf35ce56;/Home page IMAP;super;cmis:write
+7458e26f-f6f6-4bd1-b7c6-9271bf35ce56;/Home page IMAP;GROUP_EVERYONE;cmis:read
+a9c56859-29db-4bd1-8fc7-d71b5e5e99e9;/aa1;super;cmis:all
+a9c56859-29db-4bd1-8fc7-d71b5e5e99e9;/aa1;super;cmis:read
+a9c56859-29db-4bd1-8fc7-d71b5e5e99e9;/aa1;super;cmis:write
+a9c56859-29db-4bd1-8fc7-d71b5e5e99e9;/aa1;GROUP_EVERYONE;cmis:read
+f7007bf3-2359-49bc-9a83-4b1cf5ec5a09;/Allegato IMAP;super;cmis:all
+f7007bf3-2359-49bc-9a83-4b1cf5ec5a09;/Allegato IMAP;super;cmis:read
+f7007bf3-2359-49bc-9a83-4b1cf5ec5a09;/Allegato IMAP;super;cmis:write
+f7007bf3-2359-49bc-9a83-4b1cf5ec5a09;/Allegato IMAP;GROUP_EVERYONE;cmis:read
