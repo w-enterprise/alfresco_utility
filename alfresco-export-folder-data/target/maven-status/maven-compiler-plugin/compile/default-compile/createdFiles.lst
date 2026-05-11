@@ -2,7 +2,13 @@ it\welf\alfresco\export\model\ConfigManager$ConnectionConfig.class
 it\welf\alfresco\export\model\NodeInfo.class
 it\welf\alfresco\export\service\CmisService.class
 it\welf\alfresco\export\App$3.class
-it\welf\alfresco\export\App$1.class
+it\welf\alfresco\export\App$4.class
 it\welf\alfresco\export\model\ConfigManager.class
 it\welf\alfresco\export\App$2.class
 it\welf\alfresco\export\App.class
+it\welf\alfresco\export\ExportFileNameUtils.class
+it\welf\alfresco\export\App$6.class
+it\welf\alfresco\export\service\CmisService$RoleEntry.class
+it\welf\alfresco\export\App$1.class
+it\welf\alfresco\export\service\CmisService$1.class
+it\welf\alfresco\export\App$5.class
