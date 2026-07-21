@@ -1,9 +1,9 @@
-package it.welf.alfresco.export;
+package it.welf.alfresco.folderprops;
 
 import com.formdev.flatlaf.FlatLightLaf;
-import it.welf.alfresco.export.model.ConfigManager;
-import it.welf.alfresco.export.model.NodeInfo;
-import it.welf.alfresco.export.service.CmisService;
+import it.welf.alfresco.folderprops.model.ConfigManager;
+import it.welf.alfresco.folderprops.model.NodeInfo;
+import it.welf.alfresco.folderprops.service.AlfrescoService;
 import org.apache.chemistry.opencmis.client.api.Folder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -25,15 +25,11 @@ import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.io.File;
 import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicBoolean;
-import java.util.regex.Pattern;
 
 public class App extends JFrame {
     private static final Logger LOGGER = LoggerFactory.getLogger(App.class);
-
-    private static final Pattern INVALID_WINDOWS_CHARS = Pattern.compile("[\\\\/:*?\"<>|]");
 
     private JTextField addressField;
     private JTextField usernameField;
@@ -42,15 +38,14 @@ public class App extends JFrame {
     private JTree nodeTree;
     private DefaultTreeModel treeModel;
     private DefaultMutableTreeNode rootNode;
-    private CmisService cmisService;
+    private AlfrescoService alfrescoService;
     private ConfigManager configManager;
     private JLabel statusLabel;
     
-    // Nuovi campi per l'esportazione
     private JSpinner depthSpinner;
-    private JTextField csvNameField;
-    private JButton exportButton;
-    private JButton cancelExportButton;
+    private JTextField reportNameField;
+    private JButton generateButton;
+    private JButton cancelButton;
     private JTextArea logArea;
     private JLabel selectedFolderNameLabel;
     private JLabel selectedNodeIdLabel;
@@ -64,22 +59,22 @@ public class App extends JFrame {
     private JLabel selectionCounterLabel;
     private JProgressBar overallProgressBar;
 
-    private SwingWorker<Boolean, String> exportWorker;
-    private final AtomicBoolean exportCancelRequested = new AtomicBoolean(false);
+    private SwingWorker<Boolean, String> generateWorker;
+    private final AtomicBoolean cancelRequested = new AtomicBoolean(false);
 
-    private boolean csvNameDirty = false;
-    private boolean csvNameProgrammaticUpdate = false;
+    private boolean reportNameDirty = false;
+    private boolean reportNameProgrammaticUpdate = false;
 
     private static final String CMIS_PATH = "/alfresco/api/-default-/public/cmis/versions/1.1/atom";
     private static final int MAX_LOG_LINES = 1000;
 
     public App() {
-        setTitle("Alfresco Node Explorer & Permission Exporter");
-        setSize(1000, 800);
+        setTitle("Alfresco Proprieta Cartelle");
+        setSize(1100, 800);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
 
-        cmisService = new CmisService();
+        alfrescoService = new AlfrescoService();
         configManager = new ConfigManager();
 
         addWindowListener(new WindowAdapter() {
@@ -142,7 +137,6 @@ public class App extends JFrame {
         nodeTree.setCellRenderer(new CheckBoxTreeCellRenderer());
         nodeTree.getSelectionModel().setSelectionMode(TreeSelectionModel.SINGLE_TREE_SELECTION);
         
-        // Pannello controlli selezione
         JPanel treeControls = new JPanel(new BorderLayout(5, 5));
         JPanel selectionButtons = new JPanel(new FlowLayout(FlowLayout.LEFT, 5, 0));
         selectAllButton = new JButton("Seleziona Tutti");
@@ -156,8 +150,8 @@ public class App extends JFrame {
         JPanel treeContainer = new JPanel(new BorderLayout());
         treeContainer.add(treeControls, BorderLayout.NORTH);
         JScrollPane treeScroll = new JScrollPane(nodeTree);
+        treeScroll.setBorder(BorderFactory.createTitledBorder("Esplora e Seleziona Nodi"));
         treeContainer.add(treeScroll, BorderLayout.CENTER);
-        treeScroll.setBorder(BorderFactory.createTitledBorder("Esplora e Seleziona un Nodo"));
 
         logArea = new JTextArea();
         logArea.setEditable(false);
@@ -169,11 +163,11 @@ public class App extends JFrame {
         splitPane.setDividerLocation(400);
         mainPanel.add(splitPane, BorderLayout.CENTER);
 
-        // --- Pannello Destro: Configurazione Esportazione ---
+        // --- Pannello Destro: Configurazione Report ---
         JPanel rightPanel = new JPanel(new GridBagLayout());
-        rightPanel.setPreferredSize(new Dimension(300, 0));
+        rightPanel.setPreferredSize(new Dimension(320, 0));
         rightPanel.setBorder(BorderFactory.createCompoundBorder(
-                BorderFactory.createTitledBorder("Opzioni Esportazione"),
+                BorderFactory.createTitledBorder("Opzioni Report"),
                 new EmptyBorder(10, 10, 10, 10)));
 
         GridBagConstraints rGbc = new GridBagConstraints();
@@ -181,7 +175,6 @@ public class App extends JFrame {
         rGbc.fill = GridBagConstraints.HORIZONTAL;
         rGbc.gridx = 0; rGbc.gridy = 0;
 
-        // Info Nodo Selezionato
         rightPanel.add(new JLabel("Cartella Selezionata:"), rGbc);
         rGbc.gridy = 1;
         selectedFolderNameLabel = new JLabel("-");
@@ -233,44 +226,36 @@ public class App extends JFrame {
         rightPanel.add(depthSpinner, rGbc);
 
         rGbc.gridy = 10;
-        rightPanel.add(new JLabel("Nome File CSV:"), rGbc);
+        rightPanel.add(new JLabel("Nome File Report:"), rGbc);
         rGbc.gridy = 11;
-        String defaultFileName = "export_permissions_" + LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyyMMdd_HHmmss")) + ".csv";
-        csvNameField = new JTextField(defaultFileName);
-        rightPanel.add(csvNameField, rGbc);
-        csvNameField.getDocument().addDocumentListener(new DocumentListener() {
+        String defaultFileName = "report_analisi_alfresco_" + LocalDateTime.now().format(java.time.format.DateTimeFormatter.ofPattern("yyyyMMdd_HHmmss")) + ".txt";
+        reportNameField = new JTextField(defaultFileName);
+        rightPanel.add(reportNameField, rGbc);
+        reportNameField.getDocument().addDocumentListener(new DocumentListener() {
             @Override
-            public void insertUpdate(DocumentEvent e) {
-                onCsvNameFieldChanged();
-            }
-
+            public void insertUpdate(DocumentEvent e) { onReportNameChanged(); }
             @Override
-            public void removeUpdate(DocumentEvent e) {
-                onCsvNameFieldChanged();
-            }
-
+            public void removeUpdate(DocumentEvent e) { onReportNameChanged(); }
             @Override
-            public void changedUpdate(DocumentEvent e) {
-                onCsvNameFieldChanged();
-            }
+            public void changedUpdate(DocumentEvent e) { onReportNameChanged(); }
         });
 
         rGbc.gridy = 12;
         rGbc.weighty = 0.0;
         rGbc.anchor = GridBagConstraints.NORTH;
         rGbc.insets = new Insets(20, 5, 5, 5);
-        exportButton = new JButton("Avvia Esportazione");
-        exportButton.setEnabled(false);
-        exportButton.setFont(exportButton.getFont().deriveFont(Font.BOLD));
-        rightPanel.add(exportButton, rGbc);
+        generateButton = new JButton("Genera Report");
+        generateButton.setEnabled(false);
+        generateButton.setFont(generateButton.getFont().deriveFont(Font.BOLD));
+        rightPanel.add(generateButton, rGbc);
 
         rGbc.gridy = 13;
         rGbc.insets = new Insets(5, 5, 5, 5);
-        cancelExportButton = new JButton("Interrompi Esportazione");
-        cancelExportButton.setEnabled(false);
-        cancelExportButton.setBackground(new Color(220, 53, 69));
-        cancelExportButton.setForeground(Color.WHITE);
-        rightPanel.add(cancelExportButton, rGbc);
+        cancelButton = new JButton("Annulla Operazione");
+        cancelButton.setEnabled(false);
+        cancelButton.setBackground(new Color(220, 53, 69));
+        cancelButton.setForeground(Color.WHITE);
+        rightPanel.add(cancelButton, rGbc);
 
         rGbc.gridy = 14;
         overallProgressBar = new JProgressBar(0, 100);
@@ -302,11 +287,11 @@ public class App extends JFrame {
                     selectedFolderNameLabel.setText(ni.getName());
                     selectedNodeIdLabel.setText(ni.getId());
                     copyButton.setEnabled(true);
-                    exportButton.setEnabled(cmisService.getSession() != null);
+                    generateButton.setEnabled(alfrescoService.getSession() != null);
                     if (ni.getPath() != null && !ni.getPath().trim().isEmpty()) {
                         startNodePathField.setText(ni.getPath());
                     }
-                    updateCsvNameFieldAuto(ni.getName());
+                    updateReportNameFieldAuto(ni.getName());
                 } else {
                     resetSelectionLabels();
                 }
@@ -323,8 +308,8 @@ public class App extends JFrame {
             }
         });
 
-        exportButton.addActionListener(e -> startExport());
-        cancelExportButton.addActionListener(e -> requestCancelExport());
+        generateButton.addActionListener(e -> startReportGeneration());
+        cancelButton.addActionListener(e -> requestCancel());
         validatePathButton.addActionListener(e -> validateAndUseStartPath());
 
         selectAllButton.addActionListener(e -> toggleAllSelection(true));
@@ -340,7 +325,6 @@ public class App extends JFrame {
                     Object obj = node.getUserObject();
                     if (obj instanceof NodeInfo) {
                         NodeInfo ni = (NodeInfo) obj;
-                        // Se clicca vicino all'area della checkbox (circa primi 25-30 pixel)
                         if (e.getX() < nodeTree.getPathBounds(path).x + 20) {
                             ni.setSelected(!ni.isSelected());
                             treeModel.nodeChanged(node);
@@ -357,9 +341,8 @@ public class App extends JFrame {
     private void updateSelectionCounter() {
         int count = getSelectedNodes().size();
         selectionCounterLabel.setText("Selezionati: " + count);
-        // Abilita il tasto export solo se ci sono selezioni E non c'è già un'esportazione in corso
-        if (exportWorker == null) {
-            exportButton.setEnabled(count > 0 && cmisService.getSession() != null);
+        if (generateWorker == null) {
+            generateButton.setEnabled(count > 0 && alfrescoService.getSession() != null);
         }
     }
 
@@ -401,48 +384,38 @@ public class App extends JFrame {
     private void appendLog(String message) {
         logArea.append(message + "\n");
         
-        // Limita il numero di righe per non saturare la memoria
         if (logArea.getLineCount() > MAX_LOG_LINES) {
             try {
                 int end = logArea.getLineEndOffset(logArea.getLineCount() - MAX_LOG_LINES);
                 logArea.replaceRange("", 0, end);
             } catch (Exception e) {
-                // Ignora errori minori nel pruning dei log
             }
         }
         logArea.setCaretPosition(logArea.getDocument().getLength());
     }
 
-    private void onCsvNameFieldChanged() {
-        if (csvNameProgrammaticUpdate) {
-            return;
-        }
-        if (!csvNameDirty) {
-            csvNameDirty = true;
-            LOGGER.info("Campo nome CSV modificato manualmente dall'utente");
+    private void onReportNameChanged() {
+        if (reportNameProgrammaticUpdate) return;
+        if (!reportNameDirty) {
+            reportNameDirty = true;
+            LOGGER.info("Campo nome report modificato manualmente");
         }
     }
 
-    private void updateCsvNameFieldAuto(String folderName) {
-        if (csvNameDirty) {
-            return;
-        }
+    private void updateReportNameFieldAuto(String folderName) {
+        if (reportNameDirty) return;
         String nodeId = (manualStartNode != null) ? manualStartNode.getId() : selectedNodeIdLabel.getText();
         int depth = (Integer) depthSpinner.getValue();
-        String autoName = buildAutoCsvFileName(folderName, nodeId, depth);
-        setCsvNameFieldValue(autoName);
+        String autoName = FileNameUtils.buildReportFileName(folderName, LocalDateTime.now(), nodeId, depth);
+        setReportNameFieldValue(autoName);
     }
 
-    private String buildAutoCsvFileName(String folderName, String nodeId, int depth) {
-        return ExportFileNameUtils.buildExportFileName(folderName, LocalDateTime.now(), nodeId, depth);
-    }
-
-    private void setCsvNameFieldValue(String value) {
-        csvNameProgrammaticUpdate = true;
+    private void setReportNameFieldValue(String value) {
+        reportNameProgrammaticUpdate = true;
         try {
-            csvNameField.setText(value);
+            reportNameField.setText(value);
         } finally {
-            csvNameProgrammaticUpdate = false;
+            reportNameProgrammaticUpdate = false;
         }
     }
 
@@ -450,8 +423,8 @@ public class App extends JFrame {
         selectedFolderNameLabel.setText("-");
         selectedNodeIdLabel.setText("-");
         copyButton.setEnabled(false);
-        exportButton.setEnabled(false);
-        cancelExportButton.setEnabled(false);
+        generateButton.setEnabled(false);
+        cancelButton.setEnabled(false);
         manualStartNode = null;
     }
 
@@ -480,7 +453,7 @@ public class App extends JFrame {
         SwingWorker<Void, Void> worker = new SwingWorker<Void, Void>() {
             @Override
             protected Void doInBackground() throws Exception {
-                cmisService.connect(fullUrl, username, password);
+                alfrescoService.connect(fullUrl, username, password);
                 configManager.saveConfig(address, username, password);
                 return null;
             }
@@ -506,7 +479,7 @@ public class App extends JFrame {
     }
 
     private void validateAndUseStartPath() {
-        if (cmisService.getSession() == null) {
+        if (alfrescoService.getSession() == null) {
             JOptionPane.showMessageDialog(this, "Connettersi ad Alfresco prima di validare il nodo.", "Non connesso", JOptionPane.WARNING_MESSAGE);
             return;
         }
@@ -521,13 +494,13 @@ public class App extends JFrame {
         LOGGER.info("Validazione nodo da input: {}", input);
 
         validatePathButton.setEnabled(false);
-        exportButton.setEnabled(false);
+        generateButton.setEnabled(false);
 
         SwingWorker<NodeInfo, Void> worker = new SwingWorker<NodeInfo, Void>() {
             @Override
             protected NodeInfo doInBackground() {
                 String trimmed = input.trim();
-                Folder folder = trimmed.startsWith("/") ? cmisService.getFolderByPath(trimmed) : cmisService.getFolderById(trimmed);
+                Folder folder = trimmed.startsWith("/") ? alfrescoService.getFolderByPath(trimmed) : alfrescoService.getFolderById(trimmed);
                 String folderPath = "";
                 if (folder instanceof org.apache.chemistry.opencmis.client.api.FileableCmisObject) {
                     List<String> paths = ((org.apache.chemistry.opencmis.client.api.FileableCmisObject) folder).getPaths();
@@ -546,19 +519,19 @@ public class App extends JFrame {
                     selectedFolderNameLabel.setText(ni.getName());
                     selectedNodeIdLabel.setText(ni.getId());
                     copyButton.setEnabled(true);
-                    if (exportWorker == null) {
-                        exportButton.setEnabled(true);
+                    if (generateWorker == null) {
+                        generateButton.setEnabled(true);
                     }
                     statusLabel.setText("Nodo valido selezionato.");
                     if (ni.getPath() != null && !ni.getPath().trim().isEmpty()) {
                         startNodePathField.setText(ni.getPath());
                     }
-                    updateCsvNameFieldAuto(ni.getName());
+                    updateReportNameFieldAuto(ni.getName());
                     LOGGER.info("Nodo valido: id={}, name={}, path={}", ni.getId(), ni.getName(), ni.getPath());
                 } catch (Exception ex) {
                     manualStartNode = null;
-                    if (exportWorker == null) {
-                        exportButton.setEnabled(false);
+                    if (generateWorker == null) {
+                        generateButton.setEnabled(false);
                     }
                     statusLabel.setText("Nodo non valido/non accessibile.");
                     LOGGER.warn("Nodo non valido/non accessibile: {}", input, ex);
@@ -577,7 +550,7 @@ public class App extends JFrame {
         SwingWorker<DefaultMutableTreeNode, String> worker = new SwingWorker<DefaultMutableTreeNode, String>() {
             @Override
             protected DefaultMutableTreeNode doInBackground() throws Exception {
-                Folder rootFolder = cmisService.getSession().getRootFolder();
+                Folder rootFolder = alfrescoService.getSession().getRootFolder();
                 publish("Trovata radice: " + rootFolder.getName() + " [" + rootFolder.getId() + "]");
                 
                 DefaultMutableTreeNode root = new DefaultMutableTreeNode(new NodeInfo(
@@ -587,7 +560,7 @@ public class App extends JFrame {
                         rootFolder.getPath(),
                         true));
                 
-                List<NodeInfo> childrenL1 = cmisService.getChildren(rootFolder);
+                List<NodeInfo> childrenL1 = alfrescoService.getChildren(rootFolder);
                 for (NodeInfo child1 : childrenL1) {
                     if (child1.isFolder()) {
                         publish("  [+] INSERITO (L1): " + child1.getName() + " (" + child1.getType() + ")");
@@ -595,20 +568,16 @@ public class App extends JFrame {
                         root.add(nodeL1);
                         
                         try {
-                            List<NodeInfo> childrenL2 = cmisService.getChildren(child1.getId());
+                            List<NodeInfo> childrenL2 = alfrescoService.getChildren(child1.getId());
                             for (NodeInfo child2 : childrenL2) {
                                 if (child2.isFolder()) {
                                     publish("    [+] INSERITO (L2): " + child2.getName() + " (" + child2.getType() + ")");
                                     nodeL1.add(new DefaultMutableTreeNode(child2));
-                                } else {
-                                    publish("    [-] ESCLUSO (L2): " + child2.getName() + " (" + child2.getType() + ") - non è una cartella");
                                 }
                             }
                         } catch (Exception e) {
                             publish("    [!] ERRORE L2 per " + child1.getName() + ": " + e.getMessage());
                         }
-                    } else {
-                        publish("  [-] ESCLUSO (L1): " + child1.getName() + " (" + child1.getType() + ") - non è una cartella");
                     }
                 }
                 return root;
@@ -643,7 +612,7 @@ public class App extends JFrame {
         worker.execute();
     }
 
-    private void startExport() {
+    private void startReportGeneration() {
         List<NodeInfo> selectedNodes = getSelectedNodes();
         if (selectedNodes.isEmpty()) {
             JOptionPane.showMessageDialog(this, "Selezionare almeno una cartella tramite le checkbox.", "Nessuna selezione", JOptionPane.WARNING_MESSAGE);
@@ -653,27 +622,26 @@ public class App extends JFrame {
         int depth = (Integer) depthSpinner.getValue();
         File outputDir = new File(".");
 
-        // Controllo spazio disco approssimativo (molto conservativo)
         long freeSpace = outputDir.getFreeSpace();
-        if (freeSpace < 1024 * 1024 * 50) { // 50MB minimo
+        if (freeSpace < 1024 * 1024 * 50) {
             int choice = JOptionPane.showConfirmDialog(this, 
                 "Lo spazio su disco sembra scarso (" + (freeSpace / 1024 / 1024) + " MB). Continuare comunque?", 
                 "Spazio Disco", JOptionPane.YES_NO_OPTION, JOptionPane.WARNING_MESSAGE);
             if (choice != JOptionPane.YES_OPTION) return;
         }
 
-        exportCancelRequested.set(false);
-        exportButton.setEnabled(false);
-        cancelExportButton.setEnabled(true);
+        cancelRequested.set(false);
+        generateButton.setEnabled(false);
+        cancelButton.setEnabled(true);
         selectAllButton.setEnabled(false);
         deselectAllButton.setEnabled(false);
         overallProgressBar.setValue(0);
         overallProgressBar.setVisible(true);
         
-        appendLog("Avvio esportazione batch per " + selectedNodes.size() + " cartelle...");
-        statusLabel.setText("Esportazione batch in corso...");
+        appendLog("Avvio generazione report per " + selectedNodes.size() + " cartelle...");
+        statusLabel.setText("Generazione report in corso...");
 
-        exportWorker = new SwingWorker<Boolean, String>() {
+        generateWorker = new SwingWorker<Boolean, String>() {
             @Override
             protected Boolean doInBackground() throws Exception {
                 int total = selectedNodes.size();
@@ -681,15 +649,15 @@ public class App extends JFrame {
                 List<String> results = new java.util.ArrayList<>();
 
                 for (NodeInfo nodeInfo : selectedNodes) {
-                    if (exportCancelRequested.get()) break;
+                    if (cancelRequested.get()) break;
 
                     current++;
-                    String progressMsg = String.format("[%d/%d] Esportazione: %s", current, total, nodeInfo.getName());
+                    String progressMsg = String.format("[%d/%d] Elaborando: %s", current, total, nodeInfo.getName());
                     publish(progressMsg);
-                    LOGGER.info("Inizio esportazione batch: {} ({})", nodeInfo.getName(), nodeInfo.getId());
+                    LOGGER.info("Inizio elaborazione: {} ({})", nodeInfo.getName(), nodeInfo.getId());
 
-                    File csvFile = generateExportCsvFile(outputDir, nodeInfo.getName(), nodeInfo.getId(), depth);
-                    if (csvFile == null) {
+                    File reportFile = generateReportFile(outputDir, nodeInfo.getName(), nodeInfo.getId(), depth);
+                    if (reportFile == null) {
                         publish("ERRORE: Impossibile creare il file per " + nodeInfo.getName());
                         final int progress = (int) (((double) current / total) * 100);
                         SwingUtilities.invokeLater(() -> overallProgressBar.setValue(progress));
@@ -697,20 +665,20 @@ public class App extends JFrame {
                     }
 
                     try {
-                        boolean cancelled = cmisService.exportPermissionsRecursive(
+                        boolean cancelled = alfrescoService.exportReportRecursive(
                                 nodeInfo.getId(),
                                 depth,
-                                csvFile.getAbsolutePath(),
+                                reportFile.getAbsolutePath(),
                                 msg -> publish("  > " + msg),
-                                () -> exportCancelRequested.get()
+                                () -> cancelRequested.get()
                         );
 
                         if (cancelled) {
                             publish("Interrotto: " + nodeInfo.getName());
-                            results.add("INTERROTTO: " + nodeInfo.getName() + " -> " + csvFile.getName());
+                            results.add("INTERROTTO: " + nodeInfo.getName() + " -> " + reportFile.getName());
                             break;
                         } else {
-                            results.add("OK: " + nodeInfo.getName() + " -> " + csvFile.getName());
+                            results.add("OK: " + nodeInfo.getName() + " -> " + reportFile.getName());
                         }
                     } catch (Exception e) {
                         String errMsg = "ERRORE su " + nodeInfo.getName() + ": " + e.getMessage();
@@ -718,7 +686,6 @@ public class App extends JFrame {
                         LOGGER.error(errMsg, e);
                         results.add("FALLITO: " + nodeInfo.getName() + " (" + e.getMessage() + ")");
                     } finally {
-                        // Aggiorna la barra solo al termine dell'effettiva elaborazione della cartella
                         final int progress = (int) (((double) current / total) * 100);
                         SwingUtilities.invokeLater(() -> overallProgressBar.setValue(progress));
                     }
@@ -730,7 +697,7 @@ public class App extends JFrame {
                 }
                 publish("------------------------\n");
 
-                return exportCancelRequested.get();
+                return cancelRequested.get();
             }
 
             @Override
@@ -745,69 +712,29 @@ public class App extends JFrame {
                 try {
                     boolean cancelled = get();
                     if (cancelled) {
-                        statusLabel.setText("Esportazione batch interrotta.");
-                        JOptionPane.showMessageDialog(App.this, "Esportazione interrotta dall'utente.", "Interrotta", JOptionPane.WARNING_MESSAGE);
+                        statusLabel.setText("Generazione interrotta.");
+                        JOptionPane.showMessageDialog(App.this, "Generazione interrotta dall'utente.", "Interrotta", JOptionPane.WARNING_MESSAGE);
                     } else {
-                        statusLabel.setText("Esportazione batch completata.");
-                        JOptionPane.showMessageDialog(App.this, "Tutte le esportazioni sono state completate. Controlla il log per i dettagli.");
+                        statusLabel.setText("Generazione completata.");
+                        JOptionPane.showMessageDialog(App.this, "Tutti i report sono stati generati. Controlla il log per i dettagli.");
                     }
                 } catch (Exception ex) {
                     appendLog("ERRORE CRITICO: " + ex.getMessage());
-                    statusLabel.setText("Errore durante l'esportazione batch.");
+                    statusLabel.setText("Errore durante la generazione.");
                 } finally {
-                    exportWorker = null;
-                    exportButton.setEnabled(true);
-                    cancelExportButton.setEnabled(false);
+                    generateWorker = null;
+                    generateButton.setEnabled(true);
+                    cancelButton.setEnabled(false);
                     selectAllButton.setEnabled(true);
                     deselectAllButton.setEnabled(true);
                     overallProgressBar.setVisible(false);
                 }
             }
         };
-        exportWorker.execute();
+        generateWorker.execute();
     }
 
-    private File resolveManualCsvFile(String input) {
-        if (input == null || input.trim().isEmpty()) {
-            JOptionPane.showMessageDialog(this, "Inserire un nome per il file CSV.", "Validazione", JOptionPane.WARNING_MESSAGE);
-            return null;
-        }
-
-        File candidate = new File(input);
-        if (input.endsWith("\\") || input.endsWith("/") || candidate.isDirectory()) {
-            JOptionPane.showMessageDialog(this, "Inserire un nome file CSV, non solo una cartella.", "Validazione", JOptionPane.WARNING_MESSAGE);
-            return null;
-        }
-
-        String fileName = candidate.getName();
-        if (INVALID_WINDOWS_CHARS.matcher(fileName).find()) {
-            JOptionPane.showMessageDialog(this, "Il nome file contiene caratteri non validi per Windows.", "Validazione", JOptionPane.WARNING_MESSAGE);
-            return null;
-        }
-
-        if (!fileName.toLowerCase().endsWith(".csv")) {
-            File parentFile = candidate.getParentFile();
-            candidate = (parentFile == null) ? new File(fileName + ".csv") : new File(parentFile, fileName + ".csv");
-        }
-
-        File parent = candidate.getParentFile();
-        if (parent != null && !parent.exists()) {
-            try {
-                if (!parent.mkdirs()) {
-                    JOptionPane.showMessageDialog(this, "Impossibile creare la cartella di destinazione:\n" + parent.getAbsolutePath(), "Errore", JOptionPane.ERROR_MESSAGE);
-                    return null;
-                }
-            } catch (SecurityException e) {
-                JOptionPane.showMessageDialog(this, "Permessi insufficienti sulla cartella di destinazione:\n" + parent.getAbsolutePath(), "Errore", JOptionPane.ERROR_MESSAGE);
-                LOGGER.error("Permessi insufficienti per creare cartella output: {}", parent.getAbsolutePath(), e);
-                return null;
-            }
-        }
-
-        return candidate;
-    }
-
-    private File generateExportCsvFile(File dir, String sourceFolderName, String nodeId, int depth) {
+    private File generateReportFile(File dir, String sourceFolderName, String nodeId, int depth) {
         try {
             if (dir == null) {
                 dir = new File(".");
@@ -818,34 +745,28 @@ public class App extends JFrame {
                 return null;
             }
 
-            String baseName = ExportFileNameUtils.buildExportFileName(sourceFolderName, LocalDateTime.now(), nodeId, depth);
-            if (baseName.toLowerCase().endsWith(".csv")) {
-                baseName = baseName.substring(0, baseName.length() - 4);
-            }
-
-            File candidate = new File(dir, baseName + ".csv");
+            String baseName = FileNameUtils.buildReportFileName(sourceFolderName, LocalDateTime.now(), nodeId, depth);
+            File candidate = new File(dir, baseName);
             int suffix = 1;
             while (candidate.exists()) {
-                candidate = new File(dir, baseName + "_" + suffix + ".csv");
+                String nameWithoutExt = baseName.substring(0, baseName.lastIndexOf('.'));
+                String ext = baseName.substring(baseName.lastIndexOf('.'));
+                candidate = new File(dir, nameWithoutExt + "_" + suffix + ext);
                 suffix++;
             }
             return candidate;
-        } catch (SecurityException e) {
-            LOGGER.error("Permessi insufficienti per creare file in output", e);
+        } catch (Exception e) {
+            LOGGER.error("Errore creazione file report", e);
             return null;
         }
     }
 
-    private String sanitizeFileNamePart(String s) {
-        return ExportFileNameUtils.sanitizeFileNamePart(s);
-    }
-
-    private void requestCancelExport() {
-        if (exportWorker == null) {
+    private void requestCancel() {
+        if (generateWorker == null) {
             return;
         }
-        exportCancelRequested.set(true);
-        cancelExportButton.setEnabled(false);
+        cancelRequested.set(true);
+        cancelButton.setEnabled(false);
         statusLabel.setText("Interruzione richiesta... attendo chiusura.");
         appendLog("[STOP] Richiesta interruzione ricevuta. Interrompo l'elaborazione...");
     }

@@ -6,6 +6,7 @@ public class NodeInfo {
     private String type;
     private String path;
     private boolean isFolder;
+    private boolean selected = false;
 
     public NodeInfo(String id, String name, String type, String path, boolean isFolder) {
         this.id = id;
@@ -33,6 +34,14 @@ public class NodeInfo {
 
     public boolean isFolder() {
         return isFolder;
+    }
+
+    public boolean isSelected() {
+        return selected;
+    }
+
+    public void setSelected(boolean selected) {
+        this.selected = selected;
     }
 
     @Override

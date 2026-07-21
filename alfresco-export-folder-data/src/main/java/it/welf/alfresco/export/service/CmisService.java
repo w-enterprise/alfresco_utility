@@ -57,7 +57,9 @@ public class CmisService {
             throw new Exception("No repositories found at the specified URL.");
         }
         session = repositories.get(0).createSession();
-        LOGGER.info("Sessione CMIS creata correttamente");
+        // Disabilita la cache per risparmiare memoria su grandi volumi di dati
+        session.getDefaultContext().setCacheEnabled(false);
+        LOGGER.info("Sessione CMIS creata correttamente (cache disabilitata)");
     }
 
     public List<NodeInfo> getChildren(String folderId) {
@@ -125,6 +127,10 @@ public class CmisService {
             Consumer<String> logger,
             BooleanSupplier cancelRequested
     ) throws IOException {
+        // Pulisce la cache prima di iniziare
+        if (session != null) {
+            session.clear();
+        }
         try (PrintWriter writer = new PrintWriter(new FileWriter(csvFile))) {
             writer.println("nodeId;path;principalId;origine;ruolo;numeroFile;numeroCartelle");
             CmisObject rootObj = session.getObject(rootId);
@@ -222,6 +228,11 @@ public class CmisService {
                 if (cancelled) {
                     return true;
                 }
+            }
+            
+            // Suggerimento al GC e pulizia cache ogni volta che risaliamo da una cartella profonda
+            if (currentDepth % 5 == 0) {
+                session.clear();
             }
         }
 
